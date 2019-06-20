@@ -1,8 +1,4 @@
-The original GoogleSheet has different sheets.
-Each sheet represents one CSV file.
-Each row is identified by an ID which is also used for interlinking between
-the different CSV files, and thus is similar to normalized tables in
-a relational database.
+
 
 # Namespaces
     
@@ -12,10 +8,22 @@ a relational database.
 
 
 # CSV files
-In the following the different CSVs are defined;
 
-In general, name columns should mapped to an English language tagged string, with the predicate `rdfs:label`.
-Description columns should be mapped to an English language tagged string, with the predicate `dct:description`
+The original [GoogleSheet](https://docs.google.com/spreadsheets/d/1ttQ4Y_hsqVoOIU85oBNmL1p9WMPHQ_6-bqQoBoEWCsc/edit#gid=1859796660) has different sheets.
+Each sheet represents one CSV file.
+Each row is identified by an ID which is also used for interlinking between
+the different CSV files, and thus is similar to normalized tables in
+a relational database.
+
+
+In general,
+
+* name columns should mapped to an English language tagged string, with the predicate `rdfs:label`.
+* description columns should be mapped to an English language tagged string, with the predicate `dct:description`
+* input columns for processes, activities and tasks refer to `Information Items`
+* Output columns for processes, activities and tasks refer to `Information Items`
+* **There are special CSV files for example for NeOn processes, and activities, and tasks, input/output information items from these CSVs refer to the NeOn Information Items CSVs. Anyway, IDs are unique over all CSV files
+
 ## Procedures
 
 This CSV holds data about `eng:Procedure` instances, which represent a
