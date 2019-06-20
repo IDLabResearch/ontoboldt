@@ -1,4 +1,3 @@
-
 The original GoogleSheet has different sheets.
 Each sheet represents one CSV file.
 Each row is identified by an ID which is also used for interlinking between
@@ -7,9 +6,9 @@ a relational database.
 
 # Namespaces
     
-I make use of the FRBR conceptual model: `@prefix frbr: <http://purl.org/vocab/frbr/core#> .`
-The dataset (mapping result) should has this namespace: `@prefix obt: <https://w3id/ontoboldt/ns/ontoboldt#> .`
-The tiny vocabulary used to describe some concepts: `@prefix eng: <https://w3id/ontoboldt/ns/engineering-vocabulary#> .`
+* I make use of the FRBR conceptual model: `@prefix frbr: <http://purl.org/vocab/frbr/core#> .`
+* The dataset (mapping result) should has this namespace: `@prefix obt: <https://w3id/ontoboldt/ns/ontoboldt#> .`
+* The tiny vocabulary used to describe some concepts: `@prefix eng: <https://w3id/ontoboldt/ns/engineering-vocabulary#> .`
 
 
 # CSV files
