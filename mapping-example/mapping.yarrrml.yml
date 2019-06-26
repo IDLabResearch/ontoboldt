@@ -1,8 +1,20 @@
 prefixes:
   obt: "https://w3id.org/ontoboldt/ns/ontoboldt#"
   eng: "https://w3id.org/ontoboldt/ns/engineering-vocabulary#"
+  frbr: "http://purl.org/vocab/frbr/core#"
 
 mappings:
+  iie:
+    sources:
+      - ['Information%20Items%20Expression.csv~csv']
+    s: obt:InformationItemsExpression_$(Information Item ID)
+    po:
+      - [a, eng:InformationItemExpression]
+      - [rdfs:label, $(Name), en~lang]
+      - [dc:description, $(Description (characteristics)), en~lang]
+      - [frbr:realizationOf, obt:InformationItem_$(realization Of)~iri]
+      #- [ex:source, $(Source information item)]
+      #- [ex:sourceDefinition, $(Source definition)]
   glossary:
     sources:
       - ['Glossary.csv~csv']

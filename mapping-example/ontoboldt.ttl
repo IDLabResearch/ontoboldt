@@ -6,378 +6,378 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A1> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P9>;
   <http://purl.org/dc/terms/description> "the activity of finding the correspondences between two or more ontologies and storing/exploiting them. A synonym for this activity is Ontology Mapping."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P9>;
   rdfs:label "Ontology Mapping or Aligning Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A10> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P18>;
   <http://purl.org/dc/terms/description> "the collection of documents and explanatory comments generated during the entire ontology building process. Note: Examples of documents external to the implemented ontology include ontology specification documents, sources used for acquiring knowledge, ontology conceptualization document, design and decision criteria, ontological commitments, etc."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P18>;
   rdfs:label "Ontology Documentation Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A11> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P19>;
   <http://purl.org/dc/terms/description> "a knowledge acquisition activity in which conceptual structures (e.g. T-Box) and their instances (e.g. A-Box) are acquired from domain experts."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P19>;
   rdfs:label "Ontology Elicitation Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A12> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P20>;
   <http://purl.org/dc/terms/description> "the activity of extending an ontology wiht new conceptual structures (e.g., concepts, roles, axioms, etc.)."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P20>;
   rdfs:label "Ontology Enrichment Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A13> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P21>;
   <http://purl.org/dc/terms/description> "the activity of analyzing the environment in which the ontology is going to be developed."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P21>;
   rdfs:label "Ontology Environment Study Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A14> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P22>;
   <http://purl.org/dc/terms/description> "Ontology evaluation refers to the activity of checking the technical quality of an ontology against a frame of reference."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P22>;
   rdfs:label "Ontology Evaluation Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A15> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P23>;
   <http://purl.org/dc/terms/description> "the activity of facilitating the modification of an ontology by preserving its consistency."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P23>;
   rdfs:label "Ontology Evolution Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A16> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P24>;
   <http://purl.org/dc/terms/description> "an ontology enrichment activity for stretching the ontology in width."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P24>;
   rdfs:label "Ontology Extension Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A17> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P25>;
   <http://purl.org/dc/terms/description> "the activity of answering questions like: is it possible to build the ontology? is it suitable to build the ontology?, etc."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P25>;
   rdfs:label "Ontology Feasibility Study Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A18> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P26>;
   <http://purl.org/dc/terms/description> "the transformation of a conceptual model into a formal or semi-computable model according to a knowledge representation paradigm (e.g., description logics, frames, rules, etc.)."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P26>;
   rdfs:label "Ontology Formalization Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A19> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P27>;
   <http://purl.org/dc/terms/description> "the activity of outputting a new implementation of the ontology on the basis of the new conceptual model."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P27>;
   rdfs:label "Ontology Forward Engineering Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A2> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P10>;
   <http://purl.org/dc/terms/description> "the activity of enriching the ontology with additional information, e.g. metadata or comments."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P10>;
   rdfs:label "Ontology Annotation Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A20> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P28>;
   <http://purl.org/dc/terms/description> "the activity of generating computable models according to the syntax of a formal representation language (e.g. RDF(s), OWL, FLogic, etc.)."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P28>;
   rdfs:label "Ontology Implementation Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A21> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P29>;
   <http://purl.org/dc/terms/description> "the activity of including one ontology in another ontology."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P29>;
   rdfs:label "Ontology Integration Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A22> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P30>;
   <http://purl.org/dc/terms/description> "activities for capturing knowledge (e.g., T-Box and A-Box) from a variety of sources (e.g., documents, experts, data bases, etc.). We can distinguish between: Ontology Elicitation, Ontology Learning and Ontology Population."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P30>;
   rdfs:label "Knowledge Acquisition for Ontologies Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A23> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P31>;
   <http://purl.org/dc/terms/description> "Ontology Learning is a knowledge acquisition activity that relies on (semi-) automatic methods to transform unstructured (e.g. corpora), semi-structured (e.g. folksonomies, html pages, etc.) and structured data sources (e.g. data bases) into conceptual structures (e.g. T-Box)."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P31>;
   rdfs:label "Ontology Learning Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A24> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P32>;
   <http://purl.org/dc/terms/description> "the adaption of an ontology to a particular language and culsture."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P32>;
   rdfs:label "Ontology Localization Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A25> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P33>;
   <http://purl.org/dc/terms/description> " the activity of finding or discovering relationships or correspondences beetween entities of different ontologies or ontology modules. Note: Ontology matching can be seen as the first stage of Ontology Aligning."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P33>;
   rdfs:label "Ontology Matching Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A26> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P34>;
   <http://purl.org/dc/terms/description> "the activity of creating a new ontology or ontology module from two or more, possibly overlapping, source ontologies or ontology modules."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P34>;
   rdfs:label "Ontology Merging Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A27> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P35>;
   <http://purl.org/dc/terms/description> "the activity of changing the ontology, without considering the consistency."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P35>;
   rdfs:label "Ontology Modification Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A28> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P36>;
   <http://purl.org/dc/terms/description> "the activity of identifying one or more modules in an ontology with the purpose of supporting reuse or maintenance. Note: We can make distinctions between: Ontology Module Extraction and Ontology Partitioning."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P36>;
   rdfs:label "Ontology Modularization Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A29> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P37>;
   <http://purl.org/dc/terms/description> "the activity of obtaining from an ontology concrete modules to be used for a particular pupose (e.g. to contain a particular sub-vocabulary of the original ontology)."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P37>;
   rdfs:label "Ontology Module Extraction Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A3> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P11>;
   <http://purl.org/dc/terms/description> "the activity of checking an ontology against user requirements, such as usability, usefulness, abstraction, quality, etc."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P11>;
   rdfs:label "Ontology Assessment Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A30> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P38>;
   <http://purl.org/dc/terms/description> "the activity of dividing an ontology into a set of (not necessary disjoint) modules that together form an ontology and that can be treated separately."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P38>;
   rdfs:label "Ontology Partitioning Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A31> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P39>;
   <http://purl.org/dc/terms/description> "a knowledge acquisition activity that relies on (semi-) automatic methods to transform unstructured (e.g. corpora), semi-structured (e.g. folksonomies, html pages, etc.) and structured data sources (e.g. data bases) into instance data (e.g. A-Box)."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P39>;
   rdfs:label "Ontology Population Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A32> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P40>;
   <http://purl.org/dc/terms/description> " the activity of discarding conceptual structures (e.g., part of T-Box) of a given ontology that are not or no longer relevant. Note: Pruning is mostly used in combination with ontology learning methods to discard potentially irrelevant learned concepts/relations."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P40>;
   rdfs:label "Ontology Pruning Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A33> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P41>;
   <http://purl.org/dc/terms/description> "the activity of assuring that the quality of each and every process carried out and product built (ontology, software and documentation) is satisfactory."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P41>;
   rdfs:label "Ontology Quality Assurance Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A35> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P43>;
   <http://purl.org/dc/terms/description> "the activity of correcting and reorganizing the knowledge contained in an initial conceptual model, and detecting missing knowledge. Note: This process contains two phases: analysis and synthesis. The ''analysis phase goal'' is to evaluate the ontology technically, that is, to check that the hierarchy of the ontology and its classes, instances, relations and functions are complete (contain all the definitions required for the domain of chemical substances), consistent (there are no contradictions in the ontology and with respect to the knowledge sources used), concise (there are no explicit and implicit redundancies) and syntactically correct. The ''synthesis phase'' seeks to correct the ontology after the analysis phase and document any changes made."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P43>;
   rdfs:label "Ontology Restructuring Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A36> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P44>;
   <http://purl.org/dc/terms/description> " the activity of resolving errors (incompleteness, incorrecteness) in the ontology and it is triggered by ontology diagnosis."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P44>;
   rdfs:label "Ontology Repair Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A37> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P45>;
   <http://purl.org/dc/terms/description> "The activity of outputting a possible conceptual model on the basis of the code in which the ontology is implemented."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P45>;
   rdfs:label "Ontology Reverse Engineering Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A38> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P46>;
   <http://purl.org/dc/terms/description> "The activity of identifying the tasks to be performed during the ontology development, their arrangement, and the time and resources needed for their completion."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P46>;
   rdfs:label "Scheduling Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A39> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P47>;
   <http://purl.org/dc/terms/description> "The activity of finding candidate ontologies or ontology modules to be reused"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P47>;
   rdfs:label "Ontology Search Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A4> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P12>;
   <http://purl.org/dc/terms/description> "the activity of finding differences between two or more ontologies or between two or more ontology modules."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P12>;
   rdfs:label "Ontology Comparison Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A40> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P48>;
   <http://purl.org/dc/terms/description> "The activity of choosing the most suitable ontologies or among those available in an ontology repository or library, for a concrete domain of interest and associated tasks."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P48>;
   rdfs:label "Ontology Selection Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A41> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P49>;
   <http://purl.org/dc/terms/description> "an ontology enrichment activity for extending the ontology in depth."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P49>;
   rdfs:label "Ontology Specialization Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A42> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P50>;
   <http://purl.org/dc/terms/description> "The activity of collecting the requirements that the ontology should fulfill, e.g. reasons to build the ontology, target group, intended uses, possibly reached through a consensus process."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P50>;
   rdfs:label "Ontology Specification Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A43> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P51>;
   <http://purl.org/dc/terms/description> "the activity of providing an abstract or summary of the ontology content. Note: The summary can include, for example, a couple of top levels in the ontology class hierarchy (perhaps a graphical representation of these top-level concepts and links between them)."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P51>;
   rdfs:label "Ontology Summarization Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A44> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P52>;
   <http://purl.org/dc/terms/description> "the activity of changing the representation formalism or language of an ontology from one to another. Note: Ontology Translation can be part of an ontology reengineering process."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P52>;
   rdfs:label "Ontology Translation Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A45> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P53>;
   <http://purl.org/dc/terms/description> "minor changes carried out in an ontology that could not be considered an upgrade."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P53>;
   rdfs:label "Ontology Update Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A46> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P54>;
   <http://purl.org/dc/terms/description> "the activity of replacing an existing ontology with a new version."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P54>;
   rdfs:label "Ontology Upgrade Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A47> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P55>;
   <http://purl.org/dc/terms/description> "the ontology evaluation that compares the meaning of the ontology definitions against the intended model of the world aiming to conceptualize. Note: It answers the question: Are you producing the right ontology?."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P55>;
   rdfs:label "Ontology Validation Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A48> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P56>;
   <http://purl.org/dc/terms/description> "the ontology evaluation which compares the ontology against the ontology specification document (ontology requirements and competency questions), thus ensuring that the ontology is built correctly (in compliance with the ontology specification). Note: It answers the question: Are you producing the ontology right?."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P56>;
   rdfs:label "Ontology Verification Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A49> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P57>;
   <http://purl.org/dc/terms/description> "the activity of handling ontology changes by creating and managing different versions of the ontology [54]."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P57>;
   rdfs:label "Ontology Versioning Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A5> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P13>;
   <http://purl.org/dc/terms/description> "the activity of organizing and structuring the information (data, knowledge, etc.), obtained during the acquisition process, into meaningful models at the knowledge level according to the ontology specification document. This activity is independent of the way in which the ontology implementation will be carried out."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P13>;
   rdfs:label "Ontology Conceptualization Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A50> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P68>;
   <http://purl.org/dc/terms/description> "the activity of using ontology design patterns in the solution of different modelling problems during the development of new ontologies"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P68>;
   rdfs:label "Ontology Design Pattern Reuse Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A51> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P59>;
   <http://purl.org/dc/terms/description> "The goal of ontology module assessment is to find out which ontology modules, from the set of candidate ontology modules, are useful for the development of the ontology network."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P59>;
   rdfs:label "Ontology Module Assessment Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A52> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P60>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to find out which ontology modules are the most suitable for the development of the ontology network."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P60>;
   rdfs:label "Ontology Module Selection Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A53> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P61>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to integrate the ontology modules selected in the ontology network being developed."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P61>;
   rdfs:label "Ontology Module Integration Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A54> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P62>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to search in libraries, repositories and registries for candidate domain ontologies that could satisfy the needs of the ontology network being developed."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P62>;
   rdfs:label "Domain Ontology Search Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A55> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P63>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to find out if the set of candidate domain ontologies are useful for the development of the ontology network."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P63>;
   rdfs:label "Domain Ontology Assessment Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A56> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P64>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to find out which domain ontologies are the most suitable for the development of the ontology network."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P64>;
   rdfs:label "Domain Ontology Selection Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A57> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P65>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to integrate the selected domain ontologies in the ontology network being developed."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P65>;
   rdfs:label "Domain Ontology Integration Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A58> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P66>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to search the internet for candidate ontology statements that could satisfy the ontological needs in a particular case"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P66>;
   rdfs:label "Ontology Statement Search Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A59> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P67>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to decide if a concrete ontology statement is useful or not for the ontology network being developed."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P67>;
   rdfs:label "Ontology Statement Assessment Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A6> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P14>;
   <http://purl.org/dc/terms/description> "the activity of recording all the versions of the documentation, software and ontology code, and of controling the changes"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P14>;
   rdfs:label "Ontology Configuration Management Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A60> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P68>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to decide between the useful ontology statements which ones are the best or most convenient for the ontology network being developed."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P68>;
   rdfs:label "Ontology Statement Selection Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A61> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P69>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to decide how the selected ontology statements will be integrated in the ontology network being developed"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P69>;
   rdfs:label "Ontology Statement Integration Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A62> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P70>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to check for local inconsistencies in the ontology network."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P70>;
   rdfs:label "Check local inconsistencies Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A63> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P71>;
   <http://purl.org/dc/terms/description> "The most important definitions and axioms (e.g. transitivity of part of in mereology), and those that distinguish the different variants of the support theory should be identified."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P71>;
   rdfs:label "Common Ontology Selection Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A64> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P72>;
   <http://purl.org/dc/terms/description> "Customize the selected common ontology according to the needs of the host ontology."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P72>;
   rdfs:label "Common Ontology Customization Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A65> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P73>;
   <http://purl.org/dc/terms/description> "The customized common ontology is included in the destination ontology, and the global result is evaluated again, whereas the host ontology is the ontology network which is being developed."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P73>;
   rdfs:label "Common Ontology Integration Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A66> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P74>;
   <http://purl.org/dc/terms/description> "The ontology development team should study the theory (and its variants) that supports the type of common ontology to be reused"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P74>;
   rdfs:label "Carry out the Background Study on the Support Theory Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A67> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P75>;
   <http://purl.org/dc/terms/description> "The most important definitions and axioms (e.g. transitivity of part of in mereology), and those that distinguish the different variants of the support theory should be identified"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P75>;
   rdfs:label "Identify the most significant definitions and axioms of the support theory Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A68> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P76>;
   <http://purl.org/dc/terms/description> "The ontology development team should search for ontologies implemented in a computable language"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P76>;
   rdfs:label "Search for common ontologies supported by the theory Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A69> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P77>;
   <http://purl.org/dc/terms/description> "It is assumed that each row represents the set of definitions (or axioms) identified in activity 2, and each column, the ontologies found in activity 3"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P77>;
   rdfs:label "Build the comparative study Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A7> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P15>;
   <http://purl.org/dc/terms/description> "the activity of guaranteeing that scheduled activities in the ontology development process are completed in the manner intended to be performed."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P15>;
   rdfs:label "Control Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A70> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P78>;
   <http://purl.org/dc/terms/description> "The goal of the activity is to search non-ontological resources from highly reliable Web sites, domain-related sites and resources within organizations. Domain experts, software developers and ontology practitioners carry out this activity taking as input the ontology requirements specification document (ORSD). They use those terms that have a highest frequency in the ORSD to search for candidate non-ontological resources that cover the desired terminology. The activity output is a set of candidate non-ontological resources that might present any of the identified typologies described in D5.4.1 [80]."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P78>;
   rdfs:label "Non-ontological resource search"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A71> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P79>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to assess the set of candidate non-ontological resources. Domain experts, software developers and ontology practitioners carry out this activity taking as input the set of candidate non-ontological resources. We propose to take into account the following criteria: coverage and precision, which are measurable criteria; and consensus, which is a subjective criterion. The activity output is an assessment table that shows the evaluation criteria for every non-ontological resource. Within this activity we propose in this deliverable to include the quality of the non-ontological resource. Quality attributes include: ? Well documentation of the non-ontological resources. ? Lack of anomalies of the non-ontological resource, such redundancies or inconsistencies. ? Reliability of the non-ontological resource, it means analysing whether we can trust in the resource or not. "@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P79>;
   rdfs:label "Non-ontological resource assessment"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A72> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P86>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to select the most appropriate non ontological resources. Domain experts, software developers and ontology practitioners carry out this activity taking as input the non ontological resource assessment table. The selection is performed manually and looking for resources with: • Consensus. This criterion is taken into account in the first place, since if the resource to be reused contains terminology already consensuated by the community, the effort and time spent in finding out the right labels for the ontology terms will decrease considerably. • High value of coverage. This criterion is taken into account in the second place, because our second concern is to consider most of the identified terms of the ORSD. • High value of precision. This criterion is taken into account in the third place, because our third concern is the proportion of non ontological lexical entries over the identified terms of the ORSD. The activity output is a ranked list of non ontological resources that to some extend covers the expected domain."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P86>;
   rdfs:label "Non-ontological Resource Selection"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A73> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P87>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to analyze a NOR to identify its underlying components and create representations of the resource at the different levels of abstraction (design, requirements and conceptual). Since NORs can be implemented as XML files, databases or spreadsheets among others, we can consider them as software resources, and therefore, we use the software abstraction levels (implementation, design, requirements and conceptual). Here the requirements and the essential design, structure and content of the NOR must be recaptured."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P87>;
   rdfs:label "Non-ontological Resource Reverse Reengineering"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A74> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P91>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to generate a conceptual model from the NOR. We propose the use of Patterns for Re-engineering Non-Ontological Resources (PR-NOR) to guide the transformation process"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P91>;
   rdfs:label "Non-ontological Resource Transformation"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A75> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P50>;
   <http://purl.org/dc/terms/description> "Capturing requirements consists in specifying the semantic needs and user view of the knowledge to be encoded in the ontology. This activity requires an agreement between application modelers, KEs, and end users [3]."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P50>;
   rdfs:label "Requirements workflow UPON"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A76> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P30>;
   <http://purl.org/dc/terms/description> "The conceptual analysis concerns the refinement and structuring of the ontology requirements identified in the previous workflow."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P30>;
   rdfs:label "Analysis workflow UPON"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A77> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P13>;
   <http://purl.org/dc/terms/description> "The main goal of this workflow (Fig. 10) is to give an ontological structure to the set of glossary entries gathered in the reference glossary."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P13>;
   rdfs:label "Design workflow UPON"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A78> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P28>;
   <http://purl.org/dc/terms/description> "The purpose of this workflow (Fig. 13) is to encode the ontology in a rigorous, formal language. For this reason, the activities of this workflow are mainly performed by KEs as shown in the expert involvement schema of Fig. 13."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P28>;
   rdfs:label "Implementation workflow UPON"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A79> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
@@ -385,13 +385,13 @@
   rdfs:label "Test workflow UPON"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A8> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P16>;
   <http://purl.org/dc/terms/description> "the activity of adapting an ontology to a specific user's needs."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P16>;
   rdfs:label "Ontology Customization Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Activity_A9> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
-  <frbr:realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P17>;
   <http://purl.org/dc/terms/description> "the activity of identifying parts of the ontology directly responsible for incorrectness and incompleteness. Ontology diagnosis is triggered by ontology validation."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P17>;
   rdfs:label "Ontology Diagnosis Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#Glossary_Activity> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Glossary>;
@@ -460,3 +460,253 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#Glossary_Viewpoint> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Glossary>;
   <http://purl.org/dc/terms/description> "Specification of the conventions for constructing and using a view."@en;
   rdfs:label "Viewpoint"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeON_22> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF22>;
+  rdfs:label "Non-ontological resource quality criteria"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_1> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF1>;
+  rdfs:label "Ontology purpose"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_10> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF10>;
+  rdfs:label "Ontology CQs priorities"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_11> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF11>;
+  rdfs:label "Ontology CQs validity criteria"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_12> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF12>;
+  rdfs:label "Ontology Pre-glossary"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_13> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF13>;
+  rdfs:label "Ontological needs"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_14> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF14>;
+  rdfs:label "Ontology Requirements Specifications Document (ORSD) NeOn"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_15> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF15>;
+  rdfs:label "Set of relevant non-ontological resources"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_16> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF16>;
+  rdfs:label "Non-ontological resource reuse candidates"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_17> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF17>;
+  rdfs:label "Non-ontological resource lexical entries"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_18> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF18>;
+  rdfs:label "Non-ontological resource precision"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_19> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF19>;
+  rdfs:label "Non-ontological resource coverage"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_2> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF2>;
+  rdfs:label "Ontology scope"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_20> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF20>;
+  rdfs:label "Non-ontological resource consensus"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_21> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF21>;
+  rdfs:label "Non-ontological resource assessment table"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_23> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF23>;
+  rdfs:label "Ontology (implemented)"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_24> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF24>;
+  rdfs:label "Non-ontological resource documentation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_25> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF25>;
+  rdfs:label "Non-ontological resource schema"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_26> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF26>;
+  rdfs:label "Non-ontological resource data model"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_27> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF27>;
+  rdfs:label "Non-ontological reengineering pattern"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_28> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF28>;
+  rdfs:label "Conceptual model"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_29> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF29>;
+  rdfs:label "Ontology Requirements addressed by Ontology Design Patterns (candidates)"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_3> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF3>;
+  rdfs:label "Ontology level of formality"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_30> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF30>;
+  rdfs:label "Identified Ontology Design Pattern Types"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_4> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF4>;
+  rdfs:label "Ontology list with intended users"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_5> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF5>;
+  rdfs:label "Ontology use-cases"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_6> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF6>;
+  rdfs:label "Ontology CQs (natural language) NeOn"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_7> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF7>;
+  rdfs:label "Ontology CQs answers (natural language)"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_8> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF8>;
+  rdfs:label "Ontology Groups of CQs"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_NeOn_9> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF9>;
+  rdfs:label "Ontology CQs validity confirmation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_1> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF31>;
+  rdfs:label "Domain Experts interview outcome"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_10> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF35>;
+  rdfs:label "Storyboard"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_11> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF10>;
+  rdfs:label "Ontology Use-cases Priorities UPON"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_12> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF36>;
+  rdfs:label "Domain Lexicon"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_13> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF37>;
+  rdfs:label "Reference Lexicon"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_14> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF38>;
+  rdfs:label "Reference Glossary"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_15> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF53>;
+  rdfs:label "Ontological Resource reuse candidates"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_16> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF16>;
+  rdfs:label "Non-ontological resource reuse candidates"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_17> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF54>;
+  rdfs:label "UML class diagrams"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_18> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF55>;
+  rdfs:label "UML activity diagrams"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_19> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF56>;
+  rdfs:label "Semantic Network"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_2> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF32>;
+  rdfs:label "Application specific documents"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_20> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF23>;
+  rdfs:label "Ontology (implemented) UPON"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_3> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF33>;
+  rdfs:label "Application Lexicon"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_4> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF6>;
+  rdfs:label "Ontology CQs (natural language) UPON"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_5> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF5>;
+  rdfs:label "Ontology use-cases UPON"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_6> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF34>;
+  rdfs:label "Ontology Domain UPON"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_7> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF2>;
+  rdfs:label "Ontology Scope UPON"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_8> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF1>;
+  rdfs:label "Ontology Purpose UPON"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItemsExpression_INF_UPON_9> a
+    <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF4>;
+  rdfs:label "Ontology Intended users UPON"@en .
