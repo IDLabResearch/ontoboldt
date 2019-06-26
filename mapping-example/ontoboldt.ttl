@@ -878,3 +878,51 @@
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF9> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
   rdfs:label "Ontology CQs validity confirmation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Agreement%20Processes>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "define the activities necessary to establish an agreement between two organizations. These processes are the acquisition process and the supply process"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Development%20Activity%20Group>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "This group includes the activities performed during the development and enhancement of a software project. For example, Design activity has as main goal to develop a coherent, well-organized representation of the software system that meets the software requirements. This group is divided into three subgroups: Software Requirements, Design, and Implementation."@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Post-Development%20Activity%20Group>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "This group includes the activities that install, operate, support, maintain, and retire a software product. For example, the Installation activity consists of the transportation and installation of a software system from the development environment to the target environment(s); and the Operation and Support activities involve user operation of the system and ongoing support. Support includes providing technical assistance, consulting with the user, and recording user support requests by maintaining a Support Request Log. This group is divided into four subgroups: Installation, Operation and Support, Maintenance, and Retirement"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Pre-Development%20Activity%20Group>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "This group includes the activities that explore and allocate system requirements before the software development can begin. For example, the feasibility study is used to analyse the idea or need, the potential approaches, and all life cycle constraints and benefits. Justification for each recommendation shall be fully documented and formally approved by all concerned organizations (including the user and the developer). This group is divided into three activity subgroups: Concept Exploration, System Allocation, and Software Importation. "@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Project%20Management%20Activity%20Group>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "This group includes activities that initiate, monitor, and control a software project throughout its life cycle. For example, Project Monitoring and Control activities are used to track and manage the project. During these activities, actual project performance is tracked, reported, and managed against the planned performance. Special consideration is given to the management of risk. This group is divided into three subgroups: Project Initiation, Project Planning, and Project Monitoring and Control."@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Project%20Processes>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "There are two categories of Project Processes: project management processes and project support processes. The Project Management Processes are used to plan, execute assess and control the progress of a project. The Project Support Processes support specialized management objectives. "@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Project-enabling%20Processes>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "manage the organization’s capability to acquire and supply products or services through the initiation, support and control of projects."@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Software%20Implementation%20Processes>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "which include seven processes, are used to produce a specified system element (software item) implemented in software. Those processes transform specified behaviour, interfaces and implementation constraints into implementation actions resulting in a system element that satisfies the requirements derived from the system requirements."@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Software%20Reuse%20Processes>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "which includes three processes (domain engineering process, reuse program management process, and reuse asset management process), support an organization’s ability to reuse software items across project boundaries."@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Software%20Support%20Processes>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "which includes eight processes, provide a specific focused set of activities for performing a specialized software process. A supporting process assists the Software Implementation Process as an integral part with a distinct purpose, contributing to the success and quality of the software project."@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Support%20Activity%20Group>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "This group includes activities that are necessary to assure the successful completion of a project, but that are considered as supporting activities rather than as activities directly oriented to the development effort. In other words, the Support Activity Group includes the set of activities necessary to ensure that a system fulfils its original requirements and any subsequent modifications to those requirements. For example, the Documentation Development activity for software development and usage has as purpose to plan, design, implement, edit, produce, distribute, and maintain the documents that are needed by developers and users. This group is divided into four subgroups: Evaluation, Software Configuration Management, Documentation Development, and Training."@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Technical%20Processes>
+  a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
+  <http://purl.org/dc/terms/description> "which include eleven processes, are used to define the requirements for a system, to transform the requirements into an effective product, to permit consistent reproduction of the product where necessary, to use the product, to provide the required services, to sustain the provision of those services and to dispose of the product when it is retired from service."@en .

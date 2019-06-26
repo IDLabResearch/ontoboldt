@@ -4,7 +4,16 @@ prefixes:
   frbr: "http://purl.org/vocab/frbr/core#"
 
 mappings:
-  informationItemts:
+  lifecycle:
+    sources:
+      - ['Life%20Cycle%20Activity%20Groups.csv~csv']
+    s: obt:LifeCycleActivityGroups_$(Activity Group)
+    po:
+      - [a, eng:LifeCycleActivityGroup]
+      #- [ex:standard, $(Standard)]
+      - [dc:description, $(Definition), en~lang]
+      #- [ex:definitionSource, $(Definition Source)]
+  informationItems:
     sources:
       - ['Information%20Items.csv~csv']
     s: obt:InformationItems_$(Information Item ID)
