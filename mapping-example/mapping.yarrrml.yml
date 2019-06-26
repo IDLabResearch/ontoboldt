@@ -1,0 +1,34 @@
+prefixes:
+  obt: "https://w3id.org/ontoboldt/ns/ontoboldt#"
+  eng: "https://w3id.org/ontoboldt/ns/engineering-vocabulary#"
+
+mappings:
+  glossary:
+    sources:
+      - ['Glossary.csv~csv']
+    s: obt:Glossary_$(Term)
+    po:
+      - [a, eng:Glossary]
+      - [rdfs:label, $(Term), en~lang]
+      - [dc:description, $(Definition), en~lang]
+      #- [ex:source, $(Source)]
+      #- [ex:remarks, $(Remarks)]
+  activities:
+    sources:
+      - ['Activities.csv~csv']
+    s: obt:Activity_$(Activity ID)
+    po:
+      - [a, eng:Activity]
+      - [rdfs:label, $(Activity name), en~lang]
+      - [dc:description, $(Definition), en~lang]
+      - [frbr:realizationOf, obt:Procedure_$(realization Of)~iri]
+      #-[ex:required, TODO $(Required=yes?)]
+      #-[ex:source, TODO $(Source)]
+      #-[ex:goal, TODO $(Goal)]
+      #-[ex:who, TODO $(Who/split(,))]
+      #-[ex:input, TODO $(Input/split(, ))]
+      #-[ex:output, TODO $(Output/split(, ))]
+      #-[ex:specializations, TODO $(Specializations)]
+      #-[ex:related, TODO $(Related tasks/split(, ))]
+      #-[ex:comment, TODO $(Comment)]
+

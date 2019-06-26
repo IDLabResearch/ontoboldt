@@ -2,8 +2,8 @@
 # Namespaces
     
 * I make use of the FRBR conceptual model: `@prefix frbr: <http://purl.org/vocab/frbr/core#> .`
-* The dataset (mapping result) should has this namespace: `@prefix obt: <https://w3id/ontoboldt/ns/ontoboldt#> .`
-* The tiny vocabulary used to describe some concepts: `@prefix eng: <https://w3id/ontoboldt/ns/engineering-vocabulary#> .`
+* The dataset (mapping result) should has this namespace: `@prefix obt: <https://w3id.org/ontoboldt/ns/ontoboldt#> .`
+* The tiny vocabulary used to describe some concepts: `@prefix eng: <https://w3id.org/ontoboldt/ns/engineering-vocabulary#> .`
 * Also some dcterms: `@prefix dct: <http://purl.org/dc/terms/> .`
 
 
