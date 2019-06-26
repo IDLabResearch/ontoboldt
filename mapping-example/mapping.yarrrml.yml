@@ -4,6 +4,39 @@ prefixes:
   frbr: "http://purl.org/vocab/frbr/core#"
 
 mappings:
+  techniques:
+    sources:
+      - ['Techniques.csv~csv']
+    s: obt:Techniques_$(Technique ID)
+    po:
+      - [a, eng:Technique]
+      - [rdfs:label, $(Name), en~lang]
+  tasks:
+    sources:
+      - ['Tasks.csv~csv']
+    s: obt:Tasks_$(Task ID)
+    po:
+      - [a, eng:Task]
+      - [frbr:realizationOf, obt:Procedure_$(realization Of)~iri]
+      - [rdfs:label, $(Name), en~lang]
+      #- [ex:relatedTechnique, obt:Technique_$(Related Technique)~iri]
+      #- [ex:order, $(order)]
+      #- [ex:relatedActivity, obt:Activity_$(Related Activity)~iri]
+      - [dc:description, $(Description), en~lang]
+      #- [ex:source, TODO $(Source)]
+      #- [ex:who, TODO $(Who/split(,))]
+      #- [ex:input, TODO $(Input/split(, ))]
+      #- [ex:output, TODO $(Output/split(, ))]
+      #- [ex:tools, TODO $(Tools/split(, ))]
+  roles:
+    sources:
+      - ['Roles.csv~csv']
+    s: obt:Roles_$(ID)
+    po:
+      - [a, eng:Role]
+      - [rdfs:label, $(name), en~lang]
+      - [dc:description, $(description), en~lang]
+      #- [ex:source, TODO $(Source)]
   processes:
     sources:
       - ['Processes.csv~csv']
