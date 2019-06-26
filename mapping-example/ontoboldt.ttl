@@ -710,3 +710,171 @@
     <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_INF4>;
   rdfs:label "Ontology Intended users UPON"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF1> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology purpose"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF10> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology CQs priorities"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF11> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology CQs validity criteria"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF12> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology Pre-glossary"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF13> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontological needs"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF14> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology Requirements Specifications Document (ORSD)"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF15> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Set of relevant non-ontological resources"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF16> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource reuse candidates"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF17> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource lexical entries"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF18> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource precision"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF19> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource coverage"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF2> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology scope"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF20> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource consensus"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF21> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource assessment table"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF22> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource quality criteria"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF23> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology (implemented)"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF24> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource documentation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF25> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource schema"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF26> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource data model"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF27> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological reengineering pattern"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF28> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Conceptual model"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF29> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology Requirements addressed by Ontology Design Patterns (candidates)"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF3> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology level of formality"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF30> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Identified Ontology Design Pattern Types"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF31> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Domain Experts interview outcome"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF32> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Application specific documents"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF33> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Application Lexicon"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF34> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology Domain"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF35> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Storyboard"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF36> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Domain Lexicon"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF37> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Reference Lexicon"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF38> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Reference Glossary"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF39> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource type glossary"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF4> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology list with intended users"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF40> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource type dictionary"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF41> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource type lexicon"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF42> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource type classification scheme"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF43> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource type thesauri"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF44> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource type folksonomy"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF45> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource data model path enumeration"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF46> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource data model adjacency list"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF47> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource data model snowflake"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF48> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource data model flattened"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF49> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource implementation database"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF5> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology use-cases"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF50> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource implementation XML"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF51> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource implementation flat file"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF52> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Non-ontological resource implementation spreadsheet"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF53> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontological Resource reuse candidates"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF54> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "UML class diagrams"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF55> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "UML activity diagrams"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF56> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Semantic Network"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF6> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology CQs (natural language)"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF7> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology CQs answers (natural language)"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF8> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology Groups of CQs"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#InformationItems_INF9> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
+  rdfs:label "Ontology CQs validity confirmation"@en .

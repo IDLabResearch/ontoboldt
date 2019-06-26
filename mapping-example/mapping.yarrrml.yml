@@ -4,6 +4,17 @@ prefixes:
   frbr: "http://purl.org/vocab/frbr/core#"
 
 mappings:
+  informationItemts:
+    sources:
+      - ['Information%20Items.csv~csv']
+    s: obt:InformationItems_$(Information Item ID)
+    po:
+      - [a, eng:InformationItem]
+      - [rdfs:label, $(Name), en~lang]
+      - [dc:description, $(Description (characteristics)), en~lang]
+      #- [ex:source, $(Source)]
+      #- [ex:sourceDefinition, $(Source definition)]
+      #- [ex:consistsOf, $(consistsOf)]
   iie:
     sources:
       - ['Information%20Items%20Expression.csv~csv']
