@@ -4,6 +4,24 @@ prefixes:
   frbr: "http://purl.org/vocab/frbr/core#"
 
 mappings:
+  processes:
+    sources:
+      - ['Processes.csv~csv']
+    s: obt:Processes_$(Process ID)
+    po:
+      - [a, eng:Process]
+      - [frbr:realizationOf, obt:Procedure_$(realization Of)~iri]
+      - [rdfs:label, $(Activity name), en~lang]
+      #- [ex:required, TODO $(Required=yes?)]
+      - [dc:description, $(Definition), en~lang]
+      #- [ex:source, TODO $(Source)]
+      #- [ex:goal, TODO $(Goal)]
+      #- [ex:responsible, TODO $(Responsible/split(,))]
+      #- [ex:input, TODO $(Input/split(, ))]
+      #- [ex:output, TODO $(Output/split(, ))]
+      #- [ex:related, TODO $(Related activities/split(, ))]
+      #- [ex:specializations, TODO $(Specializations)]
+      #- [ex:comment, TODO $(Comment)]
   procedures:
     sources:
       - ['Procedures.csv~csv']

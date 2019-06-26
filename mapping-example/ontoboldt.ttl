@@ -1399,3 +1399,48 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P99> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
   <http://purl.org/dc/terms/description> "The goal of this task is to select a set of patterns to reuse based on the results of the matching done in the previous task"@en;
   rdfs:label "Ontology Design Patterns Selection"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Processes_Pr1> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
+  <http://purl.org/dc/terms/description> "refers to taking available non-ontological resources2 (e.g., databases, controlled vocabularies, etc.) for the development of ontologies. Non-Ontological Resource Reuse is defined in [80] as the process of choosing the most suitable non-ontological resources for the development of ontologies."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P1>;
+  rdfs:label "Non Ontologial Resource Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Processes_Pr2> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
+  <http://purl.org/dc/terms/description> "the process of retrieving and transforming an existing non ontological resource (data bases, controlled vocabularies, etc.) into an ontology."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P2>;
+  rdfs:label "Non Ontological Resource Reengineering"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Processes_Pr3> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
+  <http://purl.org/dc/terms/description> "is defined as the process of using available ontological resources (ontologies, modules, statements, or ontology design patterns) in the solution of different problems (e.g., the development of different ontology-based applications, the activity of ontology aligning (as background knowledge), etc.). We distinguish between: ontology reuse, ontology module reuse, ontology statement reuse, and ontology design pattern reuse"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P3>;
+  rdfs:label "Ontological Resource Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Processes_Pr4> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
+  <http://purl.org/dc/terms/description> "the process of using ontologies in the solution of different problems"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P4>;
+  rdfs:label "Ontology Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Processes_Pr5> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
+  <http://purl.org/dc/terms/description> "the process of using ontology modules in the solution of different problems"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P5>;
+  rdfs:label "Ontology Module Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Processes_Pr6> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
+  <http://purl.org/dc/terms/description> "the process of using ontology statements in the solution of different problems"@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P6>;
+  rdfs:label "Ontology Statement Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Processes_Pr7> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
+  <http://purl.org/dc/terms/description> "General or Common Ontology Reuse refers to the process of using general or common ontologies in the solution of different problems."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P7>;
+  rdfs:label "General or Common Ontology Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Processes_Pr8> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
+  <http://purl.org/dc/terms/description> "Domain Ontology Reuse refers to the process of using domain ontologies in the solution of different problems."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P8>;
+  rdfs:label "Domain Ontology Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Processes_Pr9> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
+  <http://purl.org/dc/terms/description> "the process of retrieving and transforming a conceptual model of an existing and implemented ontology into a new, more correct and more complete conceptual model which is reimlemented."@en;
+  <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#Procedure_P42>;
+  rdfs:label "Ontology Reengineering Process NeOn"@en .
