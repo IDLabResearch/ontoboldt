@@ -4,12 +4,25 @@ prefixes:
   frbr: "http://purl.org/vocab/frbr/core#"
 
 mappings:
+  procedures:
+    sources:
+      - ['Procedures.csv~csv']
+    s: obt:Procedures_$(Procedure ID)
+    po:
+      - [a, eng:Procedure]
+      - [rdfs:label, $(Name), en~lang]
+      - [dc:description, $(Description), en~lang]
+      #- [ex:source, $(Source)]
+      #- [ex:input, TODO $(Input/split(, ))]
+      #- [ex:output, TODO $(Output/split(, ))]
+      #- [ex:responsible, TODO $(Responsible/split(, ))]
   lifecycle:
     sources:
       - ['Life%20Cycle%20Activity%20Groups.csv~csv']
     s: obt:LifeCycleActivityGroups_$(Activity Group)
     po:
       - [a, eng:LifeCycleActivityGroup]
+      - [rdfs:label, $(Activity Group), en~lang]
       #- [ex:standard, $(Standard)]
       - [dc:description, $(Definition), en~lang]
       #- [ex:definitionSource, $(Definition Source)]

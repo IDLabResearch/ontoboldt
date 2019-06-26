@@ -881,48 +881,521 @@
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Agreement%20Processes>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "define the activities necessary to establish an agreement between two organizations. These processes are the acquisition process and the supply process"@en .
+  <http://purl.org/dc/terms/description> "define the activities necessary to establish an agreement between two organizations. These processes are the acquisition process and the supply process"@en;
+  rdfs:label "Agreement Processes"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Development%20Activity%20Group>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "This group includes the activities performed during the development and enhancement of a software project. For example, Design activity has as main goal to develop a coherent, well-organized representation of the software system that meets the software requirements. This group is divided into three subgroups: Software Requirements, Design, and Implementation."@en .
+  <http://purl.org/dc/terms/description> "This group includes the activities performed during the development and enhancement of a software project. For example, Design activity has as main goal to develop a coherent, well-organized representation of the software system that meets the software requirements. This group is divided into three subgroups: Software Requirements, Design, and Implementation."@en;
+  rdfs:label "Development Activity Group"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Post-Development%20Activity%20Group>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "This group includes the activities that install, operate, support, maintain, and retire a software product. For example, the Installation activity consists of the transportation and installation of a software system from the development environment to the target environment(s); and the Operation and Support activities involve user operation of the system and ongoing support. Support includes providing technical assistance, consulting with the user, and recording user support requests by maintaining a Support Request Log. This group is divided into four subgroups: Installation, Operation and Support, Maintenance, and Retirement"@en .
+  <http://purl.org/dc/terms/description> "This group includes the activities that install, operate, support, maintain, and retire a software product. For example, the Installation activity consists of the transportation and installation of a software system from the development environment to the target environment(s); and the Operation and Support activities involve user operation of the system and ongoing support. Support includes providing technical assistance, consulting with the user, and recording user support requests by maintaining a Support Request Log. This group is divided into four subgroups: Installation, Operation and Support, Maintenance, and Retirement"@en;
+  rdfs:label "Post-Development Activity Group"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Pre-Development%20Activity%20Group>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "This group includes the activities that explore and allocate system requirements before the software development can begin. For example, the feasibility study is used to analyse the idea or need, the potential approaches, and all life cycle constraints and benefits. Justification for each recommendation shall be fully documented and formally approved by all concerned organizations (including the user and the developer). This group is divided into three activity subgroups: Concept Exploration, System Allocation, and Software Importation. "@en .
+  <http://purl.org/dc/terms/description> "This group includes the activities that explore and allocate system requirements before the software development can begin. For example, the feasibility study is used to analyse the idea or need, the potential approaches, and all life cycle constraints and benefits. Justification for each recommendation shall be fully documented and formally approved by all concerned organizations (including the user and the developer). This group is divided into three activity subgroups: Concept Exploration, System Allocation, and Software Importation. "@en;
+  rdfs:label "Pre-Development Activity Group"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Project%20Management%20Activity%20Group>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "This group includes activities that initiate, monitor, and control a software project throughout its life cycle. For example, Project Monitoring and Control activities are used to track and manage the project. During these activities, actual project performance is tracked, reported, and managed against the planned performance. Special consideration is given to the management of risk. This group is divided into three subgroups: Project Initiation, Project Planning, and Project Monitoring and Control."@en .
+  <http://purl.org/dc/terms/description> "This group includes activities that initiate, monitor, and control a software project throughout its life cycle. For example, Project Monitoring and Control activities are used to track and manage the project. During these activities, actual project performance is tracked, reported, and managed against the planned performance. Special consideration is given to the management of risk. This group is divided into three subgroups: Project Initiation, Project Planning, and Project Monitoring and Control."@en;
+  rdfs:label "Project Management Activity Group"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Project%20Processes>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "There are two categories of Project Processes: project management processes and project support processes. The Project Management Processes are used to plan, execute assess and control the progress of a project. The Project Support Processes support specialized management objectives. "@en .
+  <http://purl.org/dc/terms/description> "There are two categories of Project Processes: project management processes and project support processes. The Project Management Processes are used to plan, execute assess and control the progress of a project. The Project Support Processes support specialized management objectives. "@en;
+  rdfs:label "Project Processes"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Project-enabling%20Processes>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "manage the organization’s capability to acquire and supply products or services through the initiation, support and control of projects."@en .
+  <http://purl.org/dc/terms/description> "manage the organization’s capability to acquire and supply products or services through the initiation, support and control of projects."@en;
+  rdfs:label "Project-enabling Processes"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Software%20Implementation%20Processes>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "which include seven processes, are used to produce a specified system element (software item) implemented in software. Those processes transform specified behaviour, interfaces and implementation constraints into implementation actions resulting in a system element that satisfies the requirements derived from the system requirements."@en .
+  <http://purl.org/dc/terms/description> "which include seven processes, are used to produce a specified system element (software item) implemented in software. Those processes transform specified behaviour, interfaces and implementation constraints into implementation actions resulting in a system element that satisfies the requirements derived from the system requirements."@en;
+  rdfs:label "Software Implementation Processes"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Software%20Reuse%20Processes>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "which includes three processes (domain engineering process, reuse program management process, and reuse asset management process), support an organization’s ability to reuse software items across project boundaries."@en .
+  <http://purl.org/dc/terms/description> "which includes three processes (domain engineering process, reuse program management process, and reuse asset management process), support an organization’s ability to reuse software items across project boundaries."@en;
+  rdfs:label "Software Reuse Processes"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Software%20Support%20Processes>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "which includes eight processes, provide a specific focused set of activities for performing a specialized software process. A supporting process assists the Software Implementation Process as an integral part with a distinct purpose, contributing to the success and quality of the software project."@en .
+  <http://purl.org/dc/terms/description> "which includes eight processes, provide a specific focused set of activities for performing a specialized software process. A supporting process assists the Software Implementation Process as an integral part with a distinct purpose, contributing to the success and quality of the software project."@en;
+  rdfs:label "Software Support Processes"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Support%20Activity%20Group>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "This group includes activities that are necessary to assure the successful completion of a project, but that are considered as supporting activities rather than as activities directly oriented to the development effort. In other words, the Support Activity Group includes the set of activities necessary to ensure that a system fulfils its original requirements and any subsequent modifications to those requirements. For example, the Documentation Development activity for software development and usage has as purpose to plan, design, implement, edit, produce, distribute, and maintain the documents that are needed by developers and users. This group is divided into four subgroups: Evaluation, Software Configuration Management, Documentation Development, and Training."@en .
+  <http://purl.org/dc/terms/description> "This group includes activities that are necessary to assure the successful completion of a project, but that are considered as supporting activities rather than as activities directly oriented to the development effort. In other words, the Support Activity Group includes the set of activities necessary to ensure that a system fulfils its original requirements and any subsequent modifications to those requirements. For example, the Documentation Development activity for software development and usage has as purpose to plan, design, implement, edit, produce, distribute, and maintain the documents that are needed by developers and users. This group is divided into four subgroups: Evaluation, Software Configuration Management, Documentation Development, and Training."@en;
+  rdfs:label "Support Activity Group"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#LifeCycleActivityGroups_Technical%20Processes>
   a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#LifeCycleActivityGroup>;
-  <http://purl.org/dc/terms/description> "which include eleven processes, are used to define the requirements for a system, to transform the requirements into an effective product, to permit consistent reproduction of the product where necessary, to use the product, to provide the required services, to sustain the provision of those services and to dispose of the product when it is retired from service."@en .
+  <http://purl.org/dc/terms/description> "which include eleven processes, are used to define the requirements for a system, to transform the requirements into an effective product, to permit consistent reproduction of the product where necessary, to use the product, to provide the required services, to sustain the provision of those services and to dispose of the product when it is retired from service."@en;
+  rdfs:label "Technical Processes"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P1> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "refers to taking available non-ontological resources2 (e.g., databases, controlled vocabularies, etc.) for the development of ontologies. Non-Ontological Resource Reuse is defined in [80] as the process of choosing the most suitable non-ontological resources for the development of ontologies."@en;
+  rdfs:label "Non Ontologial Resource Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P10> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of enriching the ontology with additional information, e.g. metadata or comments."@en;
+  rdfs:label "Ontology Annotation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P100> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to reuse the selected patterns and compose them."@en;
+  rdfs:label "Ontology Design Patterns Selection Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P101> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to test the solution with respect to the selected partial problem at hand and to ensure that it really solves this problem in a correct way"@en;
+  rdfs:label "Ontology Design Patterns Selection Evaluation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P102> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to integrate the solutions to the partial problems solved by the previous iterations, or by the parallel teams working on different sub-problems."@en;
+  rdfs:label "Ontology Design Patterns Integration"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P103> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Identify purpose"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P104> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Identify intended ontology users"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P105> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Identify intended uses"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P106> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Identify requirements"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P107> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Group requirements"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P108> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Validate the set of requirements"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P109> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Prioritize requirements"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P11> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of checking an ontology against user requirements, such as usability, usefulness, abstraction, quality, etc."@en;
+  rdfs:label "Ontology Assessment"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P110> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Extract terminology and its frequency"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P111> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Identify ontology scope"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P112> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Identify ontology level of formality"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P113> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Identify ontology domain"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P114> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Writing storyboards"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P115> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Create Application Lexicon"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P116> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> ""@en;
+  rdfs:label "Building Reference Lexicon"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P12> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of finding differences between two or more ontologies or between two or more ontology modules."@en;
+  rdfs:label "Ontology Comparison"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P13> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of organizing and structuring the information (data, knowledge, etc.), obtained during the acquisition process, into meaningful models at the knowledge level according to the ontology specification document. This activity is independent of the way in which the ontology implementation will be carried out."@en;
+  rdfs:label "Ontology Conceptualization"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P14> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of recording all the versions of the documentation, software and ontology code, and of controling the changes"@en;
+  rdfs:label "Ontology Configuration Management"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P15> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of guaranteeing that scheduled activities in the ontology development process are completed in the manner intended to be performed."@en;
+  rdfs:label "Control"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P16> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of adapting an ontology to a specific user's needs."@en;
+  rdfs:label "Ontology Customization"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P17> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of identifying parts of the ontology directly responsible for incorrectness and incompleteness. Ontology diagnosis is triggered by ontology validation."@en;
+  rdfs:label "Ontology Diagnosis"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P18> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the collection of documents and explanatory comments generated during the entire ontology building process. Note: Examples of documents external to the implemented ontology include ontology specification documents, sources used for acquiring knowledge, ontology conceptualization document, design and decision criteria, ontological commitments, etc."@en;
+  rdfs:label "Ontology Documentation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P19> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "a knowledge acquisition activity in which conceptual structures (e.g. T-Box) and their instances (e.g. A-Box) are acquired from domain experts."@en;
+  rdfs:label "Ontology Elicitation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P2> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the process of retrieving and transforming an existing non ontological resource (data bases, controlled vocabularies, etc.) into an ontology."@en;
+  rdfs:label "Non Ontological Resource Reengineering"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P20> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of extending an ontology with new conceptual structures (e.g., concepts, roles, axioms, etc.)."@en;
+  rdfs:label "Ontology Enrichment"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P21> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of analyzing the environment in which the ontology is going to be developed."@en;
+  rdfs:label "Ontology Environment Study"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P22> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "Ontology evaluation refers to the activity of checking the technical quality of an ontology against a frame of reference."@en;
+  rdfs:label "Ontology Evaluation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P23> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of facilitating the modification of an ontology by preserving its consistency."@en;
+  rdfs:label "Ontology Evolution"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P24> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "an ontology enrichment activity for stretching the ontology in width."@en;
+  rdfs:label "Ontology Extension"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P25> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of answering questions like: is it possible to build the ontology? is it suitable to build the ontology?, etc."@en;
+  rdfs:label "Ontology Feasibility Study"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P26> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the transformation of a conceptual model into a formal or semi-computable model according to a knowledge representation paradigm (e.g., description logics, frames, rules, etc.)."@en;
+  rdfs:label "Ontology Formalization"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P27> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of outputting a new implementation of the ontology on the basis of the new conceptual model."@en;
+  rdfs:label "Ontology Forward Engineering"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P28> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of generating computable models according to the syntax of a formal representation language (e.g. RDF(s), OWL, FLogic, etc.)."@en;
+  rdfs:label "Ontology Implementation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P29> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of including one ontology in another ontology."@en;
+  rdfs:label "Ontology Integration"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P3> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "is defined as the process of using available ontological resources (ontologies, modules, statements, or ontology design patterns) in the solution of different problems (e.g., the development of different ontology-based applications, the activity of ontology aligning (as background knowledge), etc.). We distinguish between: ontology reuse, ontology module reuse, ontology statement reuse, and ontology design pattern reuse"@en;
+  rdfs:label "Ontological Resource Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P30> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "activities for capturing knowledge (e.g., T-Box and A-Box) from a variety of sources (e.g., documents, experts, data bases, etc.). We can distinguish between: Ontology Elicitation, Ontology Learning and Ontology Population."@en;
+  rdfs:label "Knowledge Acquisition for Ontologies"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P31> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "Ontology Learning is a knowledge acquisition activity that relies on (semi-) automatic methods to transform unstructured (e.g. corpora), semi-structured (e.g. folksonomies, html pages, etc.) and structured data sources (e.g. data bases) into conceptual structures (e.g. T-Box)."@en;
+  rdfs:label "Ontology Learning"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P32> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the adaption of an ontology to a particular language and culsture."@en;
+  rdfs:label "Ontology Localization"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P33> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> " the activity of finding or discovering relationships or correspondences beetween entities of different ontologies or ontology modules. Note: Ontology matching can be seen as the first stage of Ontology Aligning."@en;
+  rdfs:label "Ontology Matching"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P34> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of creating a new ontology or ontology module from two or more, possibly overlapping, source ontologies or ontology modules."@en;
+  rdfs:label "Ontology Merging"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P35> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of changing the ontology, without considering the consistency."@en;
+  rdfs:label "Ontology Modification"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P36> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of identifying one or more modules in an ontology with the purpose of supporting reuse or maintenance. Note: We can make distinctions between: Ontology Module Extraction and Ontology Partitioning."@en;
+  rdfs:label "Ontology Modularization"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P37> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of obtaining from an ontology concrete modules to be used for a particular pupose (e.g. to contain a particular sub-vocabulary of the original ontology)."@en;
+  rdfs:label "Ontology Module Extraction"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P38> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of dividing an ontology into a set of (not necessary disjoint) modules that together form an ontology and that can be treated separately."@en;
+  rdfs:label "Ontology Partitioning"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P39> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "a knowledge acquisition activity that relies on (semi-) automatic methods to transform unstructured (e.g. corpora), semi-structured (e.g. folksonomies, html pages, etc.) and structured data sources (e.g. data bases) into instance data (e.g. A-Box)."@en;
+  rdfs:label "Ontology Population"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P4> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the process of using ontologies in the solution of different problems"@en;
+  rdfs:label "Ontology Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P40> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> " the activity of discarding conceptual structures (e.g., part of T-Box) of a given ontology that are not or no longer relevant. Note: Pruning is mostly used in combination with ontology learning methods to discard potentially irrelevant learned concepts/relations."@en;
+  rdfs:label "Ontology Pruning"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P41> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of assuring that the quality of each and every process carried out and product built (ontology, software and documentation) is satisfactory."@en;
+  rdfs:label "Ontology Quality Assurance"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P42> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the process of retrieving and transforming a conceptual model of an existing and implemented ontology into a new, more correct and more complete conceptual model which is reimlemented."@en;
+  rdfs:label "Ontology Reengineering"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P43> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of correcting and reorganizing the knowledge contained in an initial conceptual model, and detecting missing knowledge. Note: This process contains two phases: analysis and synthesis. The ''analysis phase goal'' is to evaluate the ontology technically, that is, to check that the hierarchy of the ontology and its classes, instances, relations and functions are complete (contain all the definitions required for the domain of chemical substances), consistent (there are no contradictions in the ontology and with respect to the knowledge sources used), concise (there are no explicit and implicit redundancies) and syntactically correct. The ''synthesis phase'' seeks to correct the ontology after the analysis phase and document any changes made."@en;
+  rdfs:label "Ontology Restructuring"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P44> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> " the activity of resolving errors (incompleteness, incorrecteness) in the ontology and it is triggered by ontology diagnosis."@en;
+  rdfs:label "Ontology Repair"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P45> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The activity of outputting a possible conceptual model on the basis of the code in which the ontology is implemented."@en;
+  rdfs:label "Ontology Reverse Engineering"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P46> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The activity of identifying the tasks to be performed during the ontology development, their arrangement, and the time and resources needed for their completion."@en;
+  rdfs:label "Scheduling"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P47> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The activity of finding candidate ontologies or ontology modules to be reused"@en;
+  rdfs:label "Ontology Search"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P48> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The activity of choosing the most suitable ontologies or among those available in an ontology repository or library, for a concrete domain of interest and associated tasks."@en;
+  rdfs:label "Ontology Selection"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P49> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "an ontology enrichment activity for extending the ontology in depth."@en;
+  rdfs:label "Ontology Specialization"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P5> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the process of using ontology modules in the solution of different problems"@en;
+  rdfs:label "Ontology Module Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P50> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The activity of collecting the requirements that the ontology should fulfill, e.g. reasons to build the ontology, target group, intended uses, possibly reached through a consensus process."@en;
+  rdfs:label "Ontology Specification"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P51> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of providing an abstract or summary of the ontology content. Note: The summary can include, for example, a couple of top levels in the ontology class hierarchy (perhaps a graphical representation of these top-level concepts and links between them)."@en;
+  rdfs:label "Ontology Summarization"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P52> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of changing the representation formalism or language of an ontology from one to another. Note: Ontology Translation can be part of an ontology reengineering process."@en;
+  rdfs:label "Ontology Translation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P53> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "minor changes carried out in an ontology that could not be considered an upgrade."@en;
+  rdfs:label "Ontology Update"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P54> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of replacing an existing ontology with a new version."@en;
+  rdfs:label "Ontology Upgrade"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P55> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the ontology evaluation that compares the meaning of the ontology definitions against the intended model of the world aiming to conceptualize. Note: It answers the question: Are you producing the right ontology?."@en;
+  rdfs:label "Ontology Validation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P56> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the ontology evaluation which compares the ontology against the ontology specification document (ontology requirements and competency questions), thus ensuring that the ontology is built correctly (in compliance with the ontology specification). Note: It answers the question: Are you producing the ontology right?."@en;
+  rdfs:label "Ontology Verification"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P57> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of handling ontology changes by creating and managing different versions of the ontology [54]."@en;
+  rdfs:label "Ontology Versioning"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P59> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of ontology module assessment is to find out which ontology modules, from the set of candidate ontology modules, are useful for the development of the ontology network."@en;
+  rdfs:label "Ontology Module Assessment"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P6> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the process of using ontology statements in the solution of different problems"@en;
+  rdfs:label "Ontology Statement Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P60> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The objective of this activity is to find out which ontology modules are the most suitable for the development of the ontology network."@en;
+  rdfs:label "Ontology Module Selection"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P61> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The objective of this activity is to integrate the ontology modules selected in the ontology network being developed."@en;
+  rdfs:label "Ontology Module Integration"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P62> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The objective of this activity is to search in libraries, repositories and registries for candidate domain ontologies that could satisfy the needs of the ontology network being developed."@en;
+  rdfs:label "Domain Ontology Search"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P63> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The objective of this activity is to find out if the set of candidate domain ontologies are useful for the development of the ontology network."@en;
+  rdfs:label "Domain Ontology Assessment"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P64> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The objective of this activity is to find out which domain ontologies are the most suitable for the development of the ontology network."@en;
+  rdfs:label "Domain Ontology Selection"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P65> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The objective of this activity is to integrate the selected domain ontologies in the ontology network being developed."@en;
+  rdfs:label "Domain Ontology Integration"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P66> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this activity is to search the internet for candidate ontology statements that could satisfy the ontological needs in a particular case"@en;
+  rdfs:label "Ontology Statement Search"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P67> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this activity is to decide if a concrete ontology statement is useful or not for the ontology network being developed."@en;
+  rdfs:label "Ontology Statement Assessment"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P68> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this activity is to decide between the useful ontology statements which ones are the best or most convenient for the ontology network being developed."@en,
+    "the activity of using ontology design patterns in the solution of different modelling problems during the development of new ontologies"@en;
+  rdfs:label "Ontology Design Pattern Reuse"@en, "Ontology Statement Selection"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P69> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this activity is to decide how the selected ontology statements will be integrated in the ontology network being developed"@en;
+  rdfs:label "Ontology Statement Integration"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P7> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "General or Common Ontology Reuse refers to the process of using general or common ontologies in the solution of different problems."@en;
+  rdfs:label "General or Common Ontology Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P70> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this activity is to check for local inconsistencies in the ontology network."@en;
+  rdfs:label "Check local inconsistencies"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P71> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The most important definitions and axioms (e.g. transitivity of part of in mereology), and those that distinguish the different variants of the support theory should be identified."@en;
+  rdfs:label "Common Ontology Selection"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P72> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "Customize the selected common ontology according to the needs of the host ontology."@en;
+  rdfs:label "Common Ontology Customization"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P73> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The customized common ontology is included in the destination ontology, and the global result is evaluated again, whereas the host ontology is the ontology network which is being developed."@en;
+  rdfs:label "Common Ontology Integration"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P74> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The ontology development team should study the theory (and its variants) that supports the type of common ontology to be reused"@en;
+  rdfs:label "Carry out the Background Study on the Support Theory"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P75> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The most important definitions and axioms (e.g. transitivity of part of in mereology), and those that distinguish the different variants of the support theory should be identified"@en;
+  rdfs:label "Identify the most significant definitions and axioms of the support theory"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P76> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The ontology development team should search for ontologies implemented in a computable language"@en;
+  rdfs:label "Search for common ontologies supported by the theory"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P77> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "It is assumed that each row represents the set of definitions (or axioms) identified in activity 2, and each column, the ontologies found in activity 3"@en;
+  rdfs:label "Build the comparative study"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P78> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of the activity is to search non-ontological resources from highly reliable Web sites, domain-related sites and resources within organizations. "@en;
+  rdfs:label "Non-ontological resource search"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P79> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this activity is to assess the set of candidate non-ontological resources"@en;
+  rdfs:label "Non-ontological resource assessment"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P8> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "Domain Ontology Reuse refers to the process of using domain ontologies in the solution of different problems."@en;
+  rdfs:label "Domain Ontology Reuse"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P80> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to extract the lexical entries of the non ontological resources."@en;
+  rdfs:label "Lexical Entries Extraction"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P81> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to calculate the precision of the non ontological resources."@en;
+  rdfs:label "Non-ontological Precision Calculation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P82> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to calculate the coverage of the non ontological resources"@en;
+  rdfs:label "Non-ontological Coverage Calculation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P83> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to evaluate the consensus of the non ontological resources."@en;
+  rdfs:label "Non-ontological Consensus Evaluation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P84> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to create an assessment table of the non ontological resources."@en;
+  rdfs:label "Non-ontological Assessment Table Creation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P85> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to extract quality-related criteria of the non ontological resources."@en;
+  rdfs:label "Non-ontological Quality Criteria Extraction"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P86> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this activity is to select the most appropriate non ontological resources"@en;
+  rdfs:label "Non-ontological Resource Selection"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P87> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this activity is to analyze a NOR to identify its underlying components and create representations of the resource at the different levels of abstraction (design, requirements and conceptual)"@en;
+  rdfs:label "Non-ontological Resource Reverse Reengineering"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P88> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to search and compile all the available documentation about the non ontological resource including purpose, components; data model and implementation details."@en;
+  rdfs:label "Non-ontological Resource Documentation Gathering"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P89> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to identify the non ontological resource schema including the conceptual components and their relationships."@en;
+  rdfs:label "Non-ontological Resource Schema Extraction"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P9> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "the activity of finding the correspondences between two or more ontologies and storing/exploiting them. A synonym for this activity is Ontology Mapping."@en;
+  rdfs:label "Ontology Mapping or Aligning"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P90> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to find out how the non ontological resource schema and its content are represented in the data model."@en;
+  rdfs:label "Non-ontological Resource Data Model Extraction"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P91> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this activity is to generate a conceptual model from the NOR"@en;
+  rdfs:label "Non-ontological Resource Transformation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P92> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to find out if there is any applicable pattern for reengineering non ontological resources useful to transform the non ontological resource into a conceptual model."@en;
+  rdfs:label "Non-ontological Resource Reengineering Pattern Search"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P93> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to apply the reengineering pattern obtained in task 4 to transform the non ontological resource into a conceptual model"@en;
+  rdfs:label "Non-ontological Resource Reengineering Pattern Transformation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P94> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to establish an ad-hoc procedure to map the non ontological resource into a conceptual model, just in case a suitable pattern for reengineering was not found"@en;
+  rdfs:label "Non-ontological Resource Reengineering Ad-hoc Transformation"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P95> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The objective of this task is to identify which requirement(s), from the ORSD, can be addressed by ontology design pattern reuse."@en;
+  rdfs:label "Ontology Design Patterns Requirements Identification"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P96> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to identify as many patterns, or rather pattern catalogues, as possible that could help in solving the modelling issues proposed by the requirements selected in the previous task."@en;
+  rdfs:label "Ontology Design Patterns Identification"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P97> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to prepare the set of modeling problems posed by the requirements for matching to the set of available patterns."@en;
+  rdfs:label "Ontology Design Patterns Requirements Problem Division"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P98> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to identify which patterns are able to solve which parts of the selected subproblem, if any."@en;
+  rdfs:label "Ontology Design Patterns Problem Matching"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#Procedures_P99> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure>;
+  <http://purl.org/dc/terms/description> "The goal of this task is to select a set of patterns to reuse based on the results of the matching done in the previous task"@en;
+  rdfs:label "Ontology Design Patterns Selection"@en .
