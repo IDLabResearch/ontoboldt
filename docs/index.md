@@ -10,6 +10,22 @@ containing descriptions of existing Ontology Engineering processes,
 activities and tasks to offer a one-stop shop for Ontology Engineering-related tasks.
 
 
+Ontoboldt contains descriptions for 9 Ontology Engineering processes, 
+83 activities and 58 tasks. 
+**Furthermore, we linked 40 related publications, 
+and 9 related resources to our Knowledge Graph**
+to indicate provenance and to provide further explanations.
+
+The following sources were used to populate Ontoboldt
+
+* [Project deliverables](http://neon-project.org/nw/Deliverables.html) from the [NeOn project](http://neon-project.org/nw/Welcome_to_the_NeOn_Project.html)
+  * They contributed 9 processes, 75 activities, and 58 tasks
+* [UPON methodology](https://www.sciencedirect.com/science/article/pii/S0306437908000628)
+  * It contributed 5 activities and 15 tasks
+* [SAMOD methodology](http://essepuntato.github.io/samod/)
+  * It contributed 3 activities and 15 tasks
+
+
 
 # Contact
 
