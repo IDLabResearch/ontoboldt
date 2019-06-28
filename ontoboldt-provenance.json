@@ -1,5 +1,6 @@
 {
   "knowledge-graph-name": "Ontoboldt",
+  "type": "void:Dataset",
   "preferredNamespacePrefix": "obt",
   "preferredNamespaceURI": "https://w3id/ontoboldt/ns/ontoboldt#",
   "description": "A Knowledge Graph containing descriptions of Ontology Engineering processes, activities and tasks.",
