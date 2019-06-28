@@ -18,12 +18,9 @@ to indicate provenance and to provide further explanations.
 
 The following sources were used to populate Ontoboldt
 
-* [Project deliverables](http://neon-project.org/nw/Deliverables.html) from the [NeOn project](http://neon-project.org/nw/Welcome_to_the_NeOn_Project.html)
-  * They contributed 9 processes, 75 activities, and 58 tasks
-* [UPON methodology](https://www.sciencedirect.com/science/article/pii/S0306437908000628)
-  * It contributed 5 activities and 15 tasks
-* [SAMOD methodology](http://essepuntato.github.io/samod/)
-  * It contributed 3 activities and 15 tasks
+* [Project deliverables](http://neon-project.org/nw/Deliverables.html) from the [NeOn project](http://neon-project.org/nw/Welcome_to_the_NeOn_Project.html) contributed 9 processes, 75 activities, and 58 tasks
+* The [UPON methodology](https://www.sciencedirect.com/science/article/pii/S0306437908000628) contributed 5 activities and 15 tasks
+* The [SAMOD methodology](http://essepuntato.github.io/samod/) contributed 3 activities and 15 tasks
 
 
 
