@@ -6,6 +6,18 @@
 * The tiny vocabulary used to describe some concepts: `@prefix eng: <https://w3id.org/ontoboldt/ns/engineering-vocabulary#> .`
 * Also some dcterms: `@prefix dct: <http://purl.org/dc/terms/> .`
 
+# Creating the Knowledge Graph
+
+## Requirements
+
+1. `./download-mapper.sh`
+1. `npm install -g graphy
+
+## Building the graph
+1. `./download-sheets.sh`
+1. `./map.sh`
+1. `./publish.sh`
+
 
 # CSV files
 

@@ -18,4 +18,6 @@ SHEETNAME[11]="Methods"
 for i in "${SHEETNAME[@]}"
 do
     curl "${SHEET}/gviz/tq?tqx=out:csv&sheet=${i}" > "${i}.csv"
+    perl -0777 -p -i -e "s/([^\"])([\r\n]+)/\1 /g" ${i}.csv
+    rm ${i}.csv.bak
 done
