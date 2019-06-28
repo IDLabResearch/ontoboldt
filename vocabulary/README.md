@@ -9,4 +9,4 @@ Therefore the vocabulary presented here introduces
 some classes to distinguish different concepts
 in the Knowledge Graph.
 
-
+The vocabulary is available in the `./docs/ns` folder.
