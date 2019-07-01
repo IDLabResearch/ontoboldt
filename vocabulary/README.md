@@ -14,6 +14,6 @@ Therefore the lightweight vocabulary presented here introduces
 some classes to distinguish different concepts
 in the Knowledge Graph.
 
-The vocabulary is available in the `../docs/ns` folder, or via https://w3id.org/ontoboldt
+The vocabulary is available in the `../docs/ns` folder, or via https://w3id.org/ontoboldt/ns/engineering-vocabulary
 
 todo: Add vocabulary to the current folder and configure continuous integration to deploy vocabulary to `./docs/ns`
