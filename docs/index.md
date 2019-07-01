@@ -1,14 +1,13 @@
 # Ontoboldt
 
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)
-[Ontoboldt Knowledge Graph](https://w3id.org/ontoboldt/ns/ontoboldt)
+![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)
 
 Despite extensive research, 
 the practical use of **Ontology Engineering** is still hampered
 because information regarding Ontology Engineering activities 
 and life cycle models is scattered in literature or is hard-wired in legacy tools.
 
-Therefore, we analyzed existing literature to create the Ontoboldt Knowledge Graph 
+Therefore, we analyzed existing literature to create the [Ontoboldt Knowledge Graph](https://w3id.org/ontoboldt/ns/ontoboldt) 
 containing descriptions of existing Ontology Engineering processes, 
 activities and tasks to offer a one-stop shop for Ontology Engineering-related tasks.
 
