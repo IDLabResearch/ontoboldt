@@ -1,0 +1,11 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obt: <https://w3id.org/ns/ontoboldt#>
+PREFIX eng: <https://w3id.org/ontoboldt/ns/engineering-vocabulary#>
+PREFIX p-plan: <http://purl.org/net/p-plan#>
+
+SELECT ?output ?stepName
+WHERE {
+    ?step p-plan:hasOutputVar ?output ;
+        ?rdfs:label ?stepName .
+}
+ORDER BY ?output
