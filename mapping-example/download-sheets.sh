@@ -10,10 +10,6 @@ SHEETNAME[4]="Tasks"
 SHEETNAME[5]="Roles"
 SHEETNAME[6]="Information%20Items%20Expression"
 SHEETNAME[7]="Publications"
-SHEETNAME[8]="Techniques"
-SHEETNAME[9]="Glossary"
-SHEETNAME[10]="Life%20Cycle%20Activity%20Groups"
-SHEETNAME[11]="Methods"
 
 for i in "${SHEETNAME[@]}"
 do

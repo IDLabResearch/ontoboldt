@@ -4,13 +4,6 @@ prefixes:
   frbr: "http://purl.org/vocab/frbr/core#"
 
 mappings:
-  techniques:
-    sources:
-      - ['Techniques.csv~csv']
-    s: obt:Techniques_$(Technique ID)
-    po:
-      - [a, eng:Technique]
-      - [rdfs:label, $(Name), en~lang]
   tasks:
     sources:
       - ['Tasks.csv~csv']
@@ -67,16 +60,6 @@ mappings:
       #- [ex:input, TODO $(Input/split(, ))]
       #- [ex:output, TODO $(Output/split(, ))]
       #- [ex:responsible, TODO $(Responsible/split(, ))]
-  lifecycle:
-    sources:
-      - ['Life%20Cycle%20Activity%20Groups.csv~csv']
-    s: obt:LifeCycleActivityGroups_$(Activity Group)
-    po:
-      - [a, eng:LifeCycleActivityGroup]
-      - [rdfs:label, $(Activity Group), en~lang]
-      #- [ex:standard, $(Standard)]
-      - [dc:description, $(Definition), en~lang]
-      #- [ex:definitionSource, $(Definition Source)]
   informationItems:
     sources:
       - ['Information%20Items.csv~csv']
@@ -99,16 +82,6 @@ mappings:
       - [frbr:realizationOf, obt:InformationItem_$(realization Of)~iri]
       #- [ex:source, $(Source information item)]
       #- [ex:sourceDefinition, $(Source definition)]
-  glossary:
-    sources:
-      - ['Glossary.csv~csv']
-    s: obt:Glossary_$(Term)
-    po:
-      - [a, eng:Glossary]
-      - [rdfs:label, $(Term), en~lang]
-      - [dc:description, $(Definition), en~lang]
-      #- [ex:source, $(Source)]
-      #- [ex:remarks, $(Remarks)]
   activities:
     sources:
       - ['Activities.csv~csv']
