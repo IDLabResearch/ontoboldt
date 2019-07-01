@@ -1,5 +1,8 @@
 # Ontoboldt
 
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)
+[Ontoboldt Knowledge Graph](https://w3id.org/ontoboldt/ns/ontoboldt)
+
 Despite extensive research, 
 the practical use of **Ontology Engineering** is still hampered
 because information regarding Ontology Engineering activities 
@@ -12,8 +15,8 @@ activities and tasks to offer a one-stop shop for Ontology Engineering-related t
 
 Ontoboldt contains descriptions for 9 Ontology Engineering processes, 
 83 activities and 58 tasks. 
-**Furthermore, we linked 40 related publications, 
-and 9 related resources to our Knowledge Graph**
+Furthermore, we linked 40 related publications, 
+and 9 related resources to our Knowledge Graph
 to indicate provenance and to provide further explanations.
 
 The following sources were used to populate Ontoboldt
@@ -22,7 +25,19 @@ The following sources were used to populate Ontoboldt
 * The [UPON methodology](https://www.sciencedirect.com/science/article/pii/S0306437908000628) contributed 5 activities and 15 tasks
 * The [SAMOD methodology](http://essepuntato.github.io/samod/) contributed 3 activities and 15 tasks
 
+# How to use it?
 
+```
+todo: example SPARQL query
+```
+
+# Data Model
+
+todo
+
+# How can I contribute?
+
+todo
 
 # Contact
 
@@ -31,3 +46,7 @@ The following sources were used to populate Ontoboldt
 * [Anastasia Dimou](mailto:anastasia.dimou@ugent.be)
 
 Copyright © Ghent University – imec – IDLab 2019
+
+
+The Ontoboldt Knowledge Graph aims to be a catalogue of Ontology Engineering Processes.
+The name Ontoboldt refers to Alexander von Humboldt, a German scientist who among other things, catalogued thousands of botanical samples.
