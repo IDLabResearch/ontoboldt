@@ -14,7 +14,7 @@ activities and tasks to offer a one-stop shop for Ontology Engineering-related t
 Ontoboldt contains descriptions for 9 Ontology Engineering processes, 
 83 activities and 58 tasks. 
 Furthermore, we linked 40 related publications, 
-and 9 related resources to our Knowledge Graph
+and 17 related resources to our Knowledge Graph
 to indicate provenance and to provide further explanations.
 
 The following sources were used to populate Ontoboldt
