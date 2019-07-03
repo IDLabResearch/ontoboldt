@@ -7,224 +7,354 @@
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A1> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of finding the correspondences between two or more ontologies and storing/exploiting them. A synonym for this activity is Ontology Mapping."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A1_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P9>;
   rdfs:label "Ontology Mapping or Aligning Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A10> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the collection of documents and explanatory comments generated during the entire ontology building process. Note: Examples of documents external to the implemented ontology include ontology specification documents, sources used for acquiring knowledge, ontology conceptualization document, design and decision criteria, ontological commitments, etc."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A10_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P18>;
   rdfs:label "Ontology Documentation Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A10_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A11> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "a knowledge acquisition activity in which conceptual structures (e.g. T-Box) and their instances (e.g. A-Box) are acquired from domain experts."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A11_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P19>;
   rdfs:label "Ontology Elicitation Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A11_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A12> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of extending an ontology wiht new conceptual structures (e.g., concepts, roles, axioms, etc.)."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A12_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P20>;
   rdfs:label "Ontology Enrichment Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A12_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A13> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of analyzing the environment in which the ontology is going to be developed."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A13_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P21>;
   rdfs:label "Ontology Environment Study Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A13_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A14> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "Ontology evaluation refers to the activity of checking the technical quality of an ontology against a frame of reference."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A14_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P22>;
   rdfs:label "Ontology Evaluation Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A14_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A15> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of facilitating the modification of an ontology by preserving its consistency."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A15_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P23>;
   rdfs:label "Ontology Evolution Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A15_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A16> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "an ontology enrichment activity for stretching the ontology in width."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A16_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P24>;
   rdfs:label "Ontology Extension Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A16_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A17> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of answering questions like: is it possible to build the ontology? is it suitable to build the ontology?, etc."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A17_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P25>;
   rdfs:label "Ontology Feasibility Study Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A17_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A18> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the transformation of a conceptual model into a formal or semi-computable model according to a knowledge representation paradigm (e.g., description logics, frames, rules, etc.)."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A18_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P26>;
   rdfs:label "Ontology Formalization Activity NeOn"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A18_Plan> a <http://purl.org/net/p-plan#Plan> .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A19> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "the activity of outputting a new implementation of the ontology on the basis of the new conceptual model."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A19_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P27>;
   rdfs:label "Ontology Forward Engineering Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A19_Plan> a <http://purl.org/net/p-plan#Plan> .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A1_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A2> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of enriching the ontology with additional information, e.g. metadata or comments."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A2_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P10>;
   rdfs:label "Ontology Annotation Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A20> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of generating computable models according to the syntax of a formal representation language (e.g. RDF(s), OWL, FLogic, etc.)."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A20_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P28>;
   rdfs:label "Ontology Implementation Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A20_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A21> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of including one ontology in another ontology."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A21_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P29>;
   rdfs:label "Ontology Integration Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A21_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A22> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "activities for capturing knowledge (e.g., T-Box and A-Box) from a variety of sources (e.g., documents, experts, data bases, etc.). We can distinguish between: Ontology Elicitation, Ontology Learning and Ontology Population."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A22_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P30>;
   rdfs:label "Knowledge Acquisition for Ontologies Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A22_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A23> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "Ontology Learning is a knowledge acquisition activity that relies on (semi-) automatic methods to transform unstructured (e.g. corpora), semi-structured (e.g. folksonomies, html pages, etc.) and structured data sources (e.g. data bases) into conceptual structures (e.g. T-Box)."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A23_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P31>;
   rdfs:label "Ontology Learning Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A23_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A24> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the adaption of an ontology to a particular language and culsture."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A24_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P32>;
   rdfs:label "Ontology Localization Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A24_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A25> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> " the activity of finding or discovering relationships or correspondences beetween entities of different ontologies or ontology modules. Note: Ontology matching can be seen as the first stage of Ontology Aligning."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A25_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P33>;
   rdfs:label "Ontology Matching Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A25_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A26> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of creating a new ontology or ontology module from two or more, possibly overlapping, source ontologies or ontology modules."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A26_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P34>;
   rdfs:label "Ontology Merging Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A26_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A27> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of changing the ontology, without considering the consistency."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A27_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P35>;
   rdfs:label "Ontology Modification Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A27_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A28> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of identifying one or more modules in an ontology with the purpose of supporting reuse or maintenance. Note: We can make distinctions between: Ontology Module Extraction and Ontology Partitioning."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A28_Plan>;
   <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr5_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P36>;
   rdfs:label "Ontology Modularization Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A28_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A29> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of obtaining from an ontology concrete modules to be used for a particular pupose (e.g. to contain a particular sub-vocabulary of the original ontology)."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A29_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P37>;
   rdfs:label "Ontology Module Extraction Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A29_Plan> a <http://purl.org/net/p-plan#Plan> .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A2_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A3> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of checking an ontology against user requirements, such as usability, usefulness, abstraction, quality, etc."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A3_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P11>;
   rdfs:label "Ontology Assessment Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A30> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of dividing an ontology into a set of (not necessary disjoint) modules that together form an ontology and that can be treated separately."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A30_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P38>;
   rdfs:label "Ontology Partitioning Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A30_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A31> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "a knowledge acquisition activity that relies on (semi-) automatic methods to transform unstructured (e.g. corpora), semi-structured (e.g. folksonomies, html pages, etc.) and structured data sources (e.g. data bases) into instance data (e.g. A-Box)."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A31_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P39>;
   rdfs:label "Ontology Population Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A31_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A32> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> " the activity of discarding conceptual structures (e.g., part of T-Box) of a given ontology that are not or no longer relevant. Note: Pruning is mostly used in combination with ontology learning methods to discard potentially irrelevant learned concepts/relations."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A32_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P40>;
   rdfs:label "Ontology Pruning Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A32_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A33> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of assuring that the quality of each and every process carried out and product built (ontology, software and documentation) is satisfactory."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A33_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P41>;
   rdfs:label "Ontology Quality Assurance Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A33_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A35> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of correcting and reorganizing the knowledge contained in an initial conceptual model, and detecting missing knowledge. Note: This process contains two phases: analysis and synthesis. The ''analysis phase goal'' is to evaluate the ontology technically, that is, to check that the hierarchy of the ontology and its classes, instances, relations and functions are complete (contain all the definitions required for the domain of chemical substances), consistent (there are no contradictions in the ontology and with respect to the knowledge sources used), concise (there are no explicit and implicit redundancies) and syntactically correct. The ''synthesis phase'' seeks to correct the ontology after the analysis phase and document any changes made."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A35_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P43>;
   rdfs:label "Ontology Restructuring Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A35_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A36> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> " the activity of resolving errors (incompleteness, incorrecteness) in the ontology and it is triggered by ontology diagnosis."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A36_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P44>;
   rdfs:label "Ontology Repair Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A36_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A37> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The activity of outputting a possible conceptual model on the basis of the code in which the ontology is implemented."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A37_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P45>;
   rdfs:label "Ontology Reverse Engineering Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A37_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A38> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The activity of identifying the tasks to be performed during the ontology development, their arrangement, and the time and resources needed for their completion."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A38_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P46>;
   rdfs:label "Scheduling Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A38_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A39> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The activity of finding candidate ontologies or ontology modules to be reused"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A39_Plan>;
   <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr5_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P47>;
   rdfs:label "Ontology Search Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A39_Plan> a <http://purl.org/net/p-plan#Plan> .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A3_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A4> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of finding differences between two or more ontologies or between two or more ontology modules."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A4_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P12>;
   rdfs:label "Ontology Comparison Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A40> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The activity of choosing the most suitable ontologies or among those available in an ontology repository or library, for a concrete domain of interest and associated tasks."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A40_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P48>;
   rdfs:label "Ontology Selection Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A40_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A41> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "an ontology enrichment activity for extending the ontology in depth."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A41_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P49>;
   rdfs:label "Ontology Specialization Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A41_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A42> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The activity of collecting the requirements that the ontology should fulfill, e.g. reasons to build the ontology, target group, intended uses, possibly reached through a consensus process."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A42_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P50>;
   rdfs:label "Ontology Specification Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A42_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A43> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of providing an abstract or summary of the ontology content. Note: The summary can include, for example, a couple of top levels in the ontology class hierarchy (perhaps a graphical representation of these top-level concepts and links between them)."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A43_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P51>;
   rdfs:label "Ontology Summarization Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A43_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A44> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of changing the representation formalism or language of an ontology from one to another. Note: Ontology Translation can be part of an ontology reengineering process."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A44_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P52>;
   rdfs:label "Ontology Translation Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A44_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A45> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "minor changes carried out in an ontology that could not be considered an upgrade."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A45_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P53>;
   rdfs:label "Ontology Update Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A45_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A46> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of replacing an existing ontology with a new version."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A46_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P54>;
   rdfs:label "Ontology Upgrade Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A46_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A47> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the ontology evaluation that compares the meaning of the ontology definitions against the intended model of the world aiming to conceptualize. Note: It answers the question: Are you producing the right ontology?."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A47_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P55>;
   rdfs:label "Ontology Validation Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A47_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A48> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the ontology evaluation which compares the ontology against the ontology specification document (ontology requirements and competency questions), thus ensuring that the ontology is built correctly (in compliance with the ontology specification). Note: It answers the question: Are you producing the ontology right?."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A48_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P56>;
   rdfs:label "Ontology Verification Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A48_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A49> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of handling ontology changes by creating and managing different versions of the ontology [1]. -- [1]  L. Stojanovic. Methods and Tools for Ontology Evolution. Dissertation. 2004. Referee: Rudi Studer, Christof Weinhardt, Asunción Gómez-Pérez. "@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A49_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P57>;
   rdfs:label "Ontology Versioning Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A49_Plan> a <http://purl.org/net/p-plan#Plan> .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A4_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A5> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of organizing and structuring the information (data, knowledge, etc.), obtained during the acquisition process, into meaningful models at the knowledge level according to the ontology specification document. This activity is independent of the way in which the ontology implementation will be carried out."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A5_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P13>;
   rdfs:label "Ontology Conceptualization Activity NeOn"@en .
 
@@ -235,114 +365,180 @@
     <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_26>, <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_27>,
     <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_28>;
   <http://purl.org/dc/terms/description> "the activity of using ontology design patterns in the solution of different modelling problems during the development of new ontologies"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A50_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P68>;
   rdfs:label "Ontology Design Pattern Reuse Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A50_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A51> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The goal of ontology module assessment is to find out which ontology modules, from the set of candidate ontology modules, are useful for the development of the ontology network."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A51_Plan>;
   <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr5_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P59>;
   rdfs:label "Ontology Module Assessment Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A51_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A52> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to find out which ontology modules are the most suitable for the development of the ontology network."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A52_Plan>;
   <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr5_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P60>;
   rdfs:label "Ontology Module Selection Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A52_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A53> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to integrate the ontology modules selected in the ontology network being developed."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A53_Plan>;
   <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr5_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P61>;
   rdfs:label "Ontology Module Integration Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A53_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A54> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to search in libraries, repositories and registries for candidate domain ontologies that could satisfy the needs of the ontology network being developed."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A54_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P62>;
   rdfs:label "Domain Ontology Search Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A54_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A55> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to find out if the set of candidate domain ontologies are useful for the development of the ontology network."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A55_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P63>;
   rdfs:label "Domain Ontology Assessment Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A55_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A56> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to find out which domain ontologies are the most suitable for the development of the ontology network."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A56_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P64>;
   rdfs:label "Domain Ontology Selection Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A56_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A57> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The objective of this activity is to integrate the selected domain ontologies in the ontology network being developed."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A57_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P65>;
   rdfs:label "Domain Ontology Integration Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A57_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A58> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to search the internet for candidate ontology statements that could satisfy the ontological needs in a particular case"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A58_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P66>;
   rdfs:label "Ontology Statement Search Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A58_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A59> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to decide if a concrete ontology statement is useful or not for the ontology network being developed."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A59_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P67>;
   rdfs:label "Ontology Statement Assessment Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A59_Plan> a <http://purl.org/net/p-plan#Plan> .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A5_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A6> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of recording all the versions of the documentation, software and ontology code, and of controling the changes"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A6_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P14>;
   rdfs:label "Ontology Configuration Management Activity NeOn"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A60> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to decide between the useful ontology statements which ones are the best or most convenient for the ontology network being developed."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A60_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P68>;
   rdfs:label "Ontology Statement Selection Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A60_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A61> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to decide how the selected ontology statements will be integrated in the ontology network being developed"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A61_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P69>;
   rdfs:label "Ontology Statement Integration Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A61_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A62> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to check for local inconsistencies in the ontology network."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A62_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P70>;
   rdfs:label "Check local inconsistencies Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A62_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A63> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The most important definitions and axioms (e.g. transitivity of part of in mereology), and those that distinguish the different variants of the support theory should be identified."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A63_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P71>;
   rdfs:label "Common Ontology Selection Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A63_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A64> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "Customize the selected common ontology according to the needs of the host ontology."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A64_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P72>;
   rdfs:label "Common Ontology Customization Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A64_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A65> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The customized common ontology is included in the destination ontology, and the global result is evaluated again, whereas the host ontology is the ontology network which is being developed."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A65_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P73>;
   rdfs:label "Common Ontology Integration Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A65_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A66> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The ontology development team should study the theory (and its variants) that supports the type of common ontology to be reused"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A66_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P74>;
   rdfs:label "Carry out the Background Study on the Support Theory Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A66_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A67> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The most important definitions and axioms (e.g. transitivity of part of in mereology), and those that distinguish the different variants of the support theory should be identified"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A67_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P75>;
   rdfs:label "Identify the most significant definitions and axioms of the support theory Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A67_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A68> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The ontology development team should search for ontologies implemented in a computable language"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A68_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P76>;
   rdfs:label "Search for common ontologies supported by the theory Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A68_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A69> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "It is assumed that each row represents the set of definitions (or axioms) identified in activity 2, and each column, the ontologies found in activity 3"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A69_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P77>;
   rdfs:label "Build the comparative study Activity NeOn"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A69_Plan> a <http://purl.org/net/p-plan#Plan> .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A6_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A7> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of guaranteeing that scheduled activities in the ontology development process are completed in the manner intended to be performed."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A7_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P15>;
   rdfs:label "Control Activity NeOn"@en .
 
@@ -350,8 +546,11 @@
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>,
     <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R3>;
   <http://purl.org/dc/terms/description> "The goal of the activity is to search non-ontological resources from highly reliable Web sites, domain-related sites and resources within organizations. Domain experts, software developers and ontology practitioners carry out this activity taking as input the ontology requirements specification document (ORSD). They use those terms that have a highest frequency in the ORSD to search for candidate non-ontological resources that cover the desired terminology. The activity output is a set of candidate non-ontological resources that might present any of the identified typologies described in D5.4.1 [1]. -- [1] D5.4.1. NeOn Methodology for Building Contextualized Ontology Networks"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A70_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P78>;
   rdfs:label "Non-ontological resource search"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A70_Plan> a <http://purl.org/net/p-plan#Plan> .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A71> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://example.com#related> <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_10>,
@@ -360,63 +559,93 @@
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>,
     <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R3>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to assess the set of candidate non-ontological resources. Domain experts, software developers and ontology practitioners carry out this activity taking as input the set of candidate non-ontological resources. We propose to take into account the following criteria: coverage and precision, which are measurable criteria; and consensus, which is a subjective criterion. The activity output is an assessment table that shows the evaluation criteria for every non-ontological resource. Within this activity we propose in this deliverable to include the quality of the non-ontological resource. Quality attributes include: ? Well documentation of the non-ontological resources. ? Lack of anomalies of the non-ontological resource, such redundancies or inconsistencies. ? Reliability of the non-ontological resource, it means analysing whether we can trust in the resource or not. "@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A71_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P79>;
   rdfs:label "Non-ontological resource assessment"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A71_Plan> a <http://purl.org/net/p-plan#Plan> .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A72> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>,
     <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R3>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to select the most appropriate non ontological resources. Domain experts, software developers and ontology practitioners carry out this activity taking as input the non ontological resource assessment table. The selection is performed manually and looking for resources with:  • Consensus. This criterion is taken into account in the first place, since if the resource to be reused contains terminology already consensuated by the community, the effort and time spent in finding out the right labels for the ontology terms will decrease considerably.  • High value of coverage. This criterion is taken into account in the second place, because our second concern is to consider most of the identified terms of the ORSD.  • High value of precision. This criterion is taken into account in the third place, because our third concern is the proportion of non ontological lexical entries over the identified terms of the ORSD. The activity output is a ranked list of non ontological resources that to some extend covers the expected domain."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A72_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P86>;
   rdfs:label "Non-ontological Resource Selection"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A72_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A73> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to analyze a NOR to identify its underlying components and create representations of the resource at the different levels of abstraction (design, requirements and conceptual). Since NORs can be implemented as XML files, databases or spreadsheets among others, we can consider them as software resources, and therefore, we use the software abstraction levels (implementation, design, requirements and conceptual). Here the requirements and the essential design, structure and content of the NOR must be recaptured."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A73_Plan>;
   <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr2_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P87>;
   rdfs:label "Non-ontological Resource Reverse Reengineering"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A73_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A74> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to generate a conceptual model from the NOR. We propose the use of Patterns for Re-engineering Non-Ontological Resources (PR-NOR) to guide the transformation process"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A74_Plan>;
   <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr2_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P91>;
   rdfs:label "Non-ontological Resource Transformation"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A74_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A75> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>;
   <http://purl.org/dc/terms/description> "Capturing requirements consists in specifying the semantic needs and user view of the knowledge to be encoded in the ontology. This activity requires an agreement between application modelers, KEs, and end users [1]. -- [1] I. Jacobson, G. Booch, J. Rumbaugh, The Unified Software Development Process, Addison Wesley, USA, 1999."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A75_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P50>;
   rdfs:label "Requirements workflow UPON"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A75_Plan> a <http://purl.org/net/p-plan#Plan> .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A76> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://example.com#related> <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_10>,
     <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_7>, <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_8>,
     <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_9>;
   <http://purl.org/dc/terms/description> "The conceptual analysis concerns the refinement and structuring of the ontology requirements identified in the previous workflow."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A76_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P30>;
   rdfs:label "Analysis workflow UPON"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A76_Plan> a <http://purl.org/net/p-plan#Plan> .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A77> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://example.com#related> <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_11>,
     <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_12>;
   <http://purl.org/dc/terms/description> "The main goal of this workflow (Fig. 10) is to give an ontological structure to the set of glossary entries gathered in the reference glossary."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A77_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P13>;
   rdfs:label "Design workflow UPON"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A77_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A78> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "The purpose of this workflow (Fig. 13) is to encode the ontology in a rigorous, formal language. For this reason, the activities of this workflow are mainly performed by KEs as shown in the expert involvement schema of Fig. 13."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A78_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P28>;
   rdfs:label "Implementation workflow UPON"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A78_Plan> a <http://purl.org/net/p-plan#Plan> .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A79> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://example.com#related> <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_13>,
     <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_14>, <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_15>;
   <http://purl.org/dc/terms/description> "According to [1], the quality of an ontology is a multidimensional feature. The test workflow (Fig. 15) is conceived to verify the semantic and pragmatic quality of the ontology, since syntactic quality is checked in the previous workflow and social quality can be checked only after its publication. -- [1] A. Burton-Jones, et al., A semiotic metrics suite for assessing the quality of ontologies, Data Knowl. Eng. 55 (2005)."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A79_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P55%2C%20%20P56>;
   rdfs:label "Test workflow UPON"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A79_Plan> a <http://purl.org/net/p-plan#Plan> .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A7_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A8> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of adapting an ontology to a specific user's needs."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A8_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P16>;
   rdfs:label "Ontology Customization Activity NeOn"@en .
 
@@ -428,25 +657,39 @@
     <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_SAMOD_8>, <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_SAMOD_9>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>;
   <http://purl.org/dc/terms/description> "OEs collect all the information about a specific domain, with the help of DEs, in order to build a modelet formalising the domain in consideration, following certain ontology development principles, and then create a new test case that includes the modelet. If everything works fine (i.e., all model, data and query test are passed) release a milestone and proceed;"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A80_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P129>;
   rdfs:label "Define a new Test-case SAMOD"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A80_Plan> a <http://purl.org/net/p-plan#Plan> .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A81> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "OEs merge the modelet of the new test case with the current model produced by the end of the last process iteration, and consequently update all the test cases in BoT specifying the new current model as TBox. If everything works fine (i.e., all model, data and query test are passed according to their formal requirements only) release a milestone and proceed;"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A81_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P130>;
   rdfs:label "Merge the current model with the modelet SAMOD"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A81_Plan> a <http://purl.org/net/p-plan#Plan> .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A82> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "OEs refactor the current model, in particular focussing on the last part added in the previous step, taking into account good practices for ontology development processes. If everything works fine (i.e., all model, data and query test are passed) release a milestone. In case there is another motivating scenario to be addressed, iterate the process, otherwise stop. In the last step, OEs work to refactor the current model, shared among all the test cases in BoT, and, accordingly, each ABox and SQ of each test case, if needed. In doing that task, OEs must strictly follow the following principles: – Reuse existing knowledge. Reusing concepts and relations defined in other models is encouraged and often labelled as a common good practice [1]. The reuse can result either in including external entities in the current model as they are or in providing an alignment (An alignment is set of correspondences between entities belonging to two models different models. ) or an harmonisation (harmonisation is the process of modifying a model (and also to align it, if necessary) to fully fit or include it into another model. ) with another model. – Document it. Adding annotations – i.e., labels (i.e., rdfs:label), comments (i.e., rdfs:comment), and provenance information (i.e., rdfs:isDefinedBy) – on ontological entities, so as to provide natural language descriptions of them, using at least one language (e.g., English). It is an important aspect to take into consideration, since there are several tools available, e.g., LODE [2], that are able to process an ontology in source format and to produce an HTML human-readable documentation of it starting from the annotations it has specified. – Take advantages from technologies. When possible, enriching the current model by using all the capabilities offered by the formal language in which it is developed – e.g., when using OWL 2 DL: keys, property characteristics (transitivity, symmetry, etc.), property chains, inverse properties and the like – in order to infer automatically as much information as possible starting from a (possible) small set of real data. In particular, it is important to avoid over-classifications, for instance by specifying assertions that may be automatically inferred by a reasoner – e.g., in creating an inverse property of a property P it is not needed to define explicitly its domain and range because they will be inferred from P itself. -- [1] Uschold, M., & King, M. (1995). Towards a Methodology for Building Ontologies. In Workshop on Basic Ontological Issues in Knowledge Sharing. http://www.aiai. ed.ac.uk/publications/documents/1995/95-ont-ijcai95-ont-method.pdf [2] Peroni, S., Shotton, D., Vitali, F. (2012). The Live OWL Documentation Environment: a tool for the automatic generation of ontology documentation. In Proceedings of the 18th International Conference on Knowledge Engineering and Knowledge Management (EKAW 2012): 398–412. http://dx.doi.org/10.1007/978-3-642-33876-2_35 "@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A82_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P131>;
   rdfs:label "Refactor the current model SAMOD"@en .
 
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A82_Plan> a <http://purl.org/net/p-plan#Plan> .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A8_Plan> a <http://purl.org/net/p-plan#Plan> .
+
 <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A9> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity>;
   <http://purl.org/dc/terms/description> "the activity of identifying parts of the ontology directly responsible for incorrectness and incompleteness. Ontology diagnosis is triggered by ontology validation."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A9_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P17>;
   rdfs:label "Ontology Diagnosis Activity NeOn"@en .
+
+<https://w3id.org/ontoboldt/ns/ontoboldt#activity_A9_Plan> a <http://purl.org/net/p-plan#Plan> .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#informationItem_INF1> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem>;
   rdfs:label "Ontology purpose"@en .
@@ -1476,6 +1719,7 @@
   <http://example.com#responsible> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>,
     <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R3>;
   <http://purl.org/dc/terms/description> "refers to taking available non-ontological resources (Non-Ontological Resources (NORs), which were defined in [1], are knowledge-aware resources whose semantics have not been formalized yet by an ontology. ), e.g., databases, controlled vocabularies, etc., for the development of ontologies. Non-Ontological Resource Reuse is defined in [1] as the process of choosing the most suitable non-ontological resources for the development of ontologies. -- [1] D5.4.1. NeOn Methodology for Building Contextualized Ontology Networks"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr1_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P1>;
   rdfs:label "Non Ontologial Resource Reuse"@en .
 
@@ -1486,6 +1730,7 @@
   <http://example.com#related> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A73>,
     <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A74>;
   <http://purl.org/dc/terms/description> "the process of retrieving and transforming an existing non ontological resource (data bases, controlled vocabularies, etc.) into an ontology."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr2_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P2>;
   rdfs:label "Non Ontological Resource Reengineering"@en .
 
@@ -1494,6 +1739,7 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr3> a <http://purl.org/net/p-plan#Multistep>,
     <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
   <http://purl.org/dc/terms/description> "is defined as the process of using available ontological resources (ontologies, modules, statements, or ontology design patterns) in the solution of different problems (e.g., the development of different ontology-based applications, the activity of ontology aligning (as background knowledge), etc.). We distinguish between: ontology reuse, ontology module reuse, ontology statement reuse, and ontology design pattern reuse"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr3_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P3>;
   rdfs:label "Ontological Resource Reuse"@en .
 
@@ -1502,6 +1748,7 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr4> a <http://purl.org/net/p-plan#Multistep>,
     <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
   <http://purl.org/dc/terms/description> "the process of using ontologies in the solution of different problems"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr4_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P4>;
   rdfs:label "Ontology Reuse"@en .
 
@@ -1513,6 +1760,7 @@
     <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A39>, <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A51>,
     <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A52>, <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A53>;
   <http://purl.org/dc/terms/description> "the process of using ontology modules in the solution of different problems"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr5_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P5>;
   rdfs:label "Ontology Module Reuse"@en .
 
@@ -1521,6 +1769,7 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr6> a <http://purl.org/net/p-plan#Multistep>,
     <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
   <http://purl.org/dc/terms/description> "the process of using ontology statements in the solution of different problems"@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr6_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P6>;
   rdfs:label "Ontology Statement Reuse"@en .
 
@@ -1529,6 +1778,7 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr7> a <http://purl.org/net/p-plan#Multistep>,
     <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
   <http://purl.org/dc/terms/description> "General or Common Ontology Reuse refers to the process of using general or common ontologies in the solution of different problems."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr7_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P7>;
   rdfs:label "General or Common Ontology Reuse"@en .
 
@@ -1537,6 +1787,7 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr8> a <http://purl.org/net/p-plan#Multistep>,
     <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
   <http://purl.org/dc/terms/description> "Domain Ontology Reuse refers to the process of using domain ontologies in the solution of different problems."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr8_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P8>;
   rdfs:label "Domain Ontology Reuse"@en .
 
@@ -1545,6 +1796,7 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr9> a <http://purl.org/net/p-plan#Multistep>,
     <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process>;
   <http://purl.org/dc/terms/description> "the process of retrieving and transforming a conceptual model of an existing and implemented ontology into a new, more correct and more complete conceptual model which is reimlemented."@en;
+  <http://purl.org/net/p-plan#decomposedAsPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#process_Pr9_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P42>;
   rdfs:label "Ontology Reengineering Process NeOn"@en .
 
@@ -1577,24 +1829,28 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_10> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R3>;
   <http://purl.org/dc/terms/description> "The goal of this task is to calculate the precision of the non ontological resources. Software developers and ontology practitioners carry out this task, taking as input the lexical entries extracted for the non ontological resources and the Ontology Requirements Specification Document (ORSD) for compute the precision of the non ontological resources. Precision is a measure widely used in information retrieval [1]. It is defined as the proportion of retrieved material that is actually relevant. To adapt this measure into our context we need to define: {NORLexicalEntries} is the set of lexical entries extracted from the non ontological resource. {ORSDTerminology} is the set of identified terms included in the Ontology Requirements Specification Document (ORSD). Now we can define the precision, in our context, as the proportion of the lexical entries of the non ontological resource that are included in the identified terms of the ORSD over the lexical entries of the non ontological resource. This is expressed as follows: Precision = ({NORLexicalEntries} intersection {ORSDTerminology}/{NORLexicalEntries}) -- [1] R. Baeza-Yates, B. Ribeiro-Neto. Modern Information Retrieval. Addison Wesley. 1999. ISBN 0-201-39829."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A71_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P81>;
   rdfs:label "Non-ontological Precision Calculation"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_11> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R3>;
   <http://purl.org/dc/terms/description> "The goal of this task is to calculate the coverage of the non ontological resources. Software developers and ontology practitioners carry out this task, taking as input the lexical entries extracted from the non ontological resources and the Ontology Requirements Specification Document (ORSD) for computing the coverage of the non ontological resources. Coverage is based on recall measure used information retrieval [1]. Recall is defined as the proportion of relevant material actually retrieved in answer to a search request. To adapt this measure into our context, we use the aforementioned definition of {NORLexicalEntries} and {ORSDTerminology}. In this context, coverage is the proportion of the identified terms of the ORSD that are included in the lexical entries of the non ontological resource over the identified terms of the ORSD. This is expressed as follows: Coverage = ({NORLexicalEntries} intersection {ORSDTerminology}/{ORSDTerminology}) -- [1] R. Baeza-Yates, B. Ribeiro-Neto. Modern Information Retrieval. Addison Wesley. 1999. ISBN 0-201-39829."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A71_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P82>;
   rdfs:label "Non-ontological Coverage Calculation"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_12> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>;
   <http://purl.org/dc/terms/description> "The goal of this task is to evaluate the consensus of the non ontological resources. Consensus is a subjective and not quantifiable criterion. Domain experts carry out this task taking as input the non ontological resources for stating whether the non ontological resources contain already consensuated terminology by the community or not."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A71_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P83>;
   rdfs:label "Non-ontological Consensus Evaluation"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_13> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R3>;
   <http://purl.org/dc/terms/description> "The goal of this task is to create an assessment table of the non ontological resources. Software developers and ontology practitioners carry out this task, taking as input the non ontological resources with their respective values for precision, coverage and consensus criteria, for the construction of the assessment table. This table is shown in Table 12. In the first column we include the non ontological resources found. In the precision column we include the calculated precision value for each non ontological resource. In the coverage column we include the calculated coverage value for each non ontological resource. Finally, in the consensus column we include the domain experts’ judgment whether the non ontological resource has consensus by the community or not (Yes/No). "@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A71_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P84>;
   rdfs:label "Non-ontological Assessment Table Creation"@en .
 
@@ -1642,48 +1898,56 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_21> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "The objective of this task is to identify which requirement(s), from the ORSD, can be addressed by ontology design pattern reuse. In many cases different methods will be used for realizing different parts of the requirements, and not all requirements may have suitable patterns available. The first task is to decide what specific requirements to include in the following steps. This task may be integrated with, or done iteratively together with, the next task, which is to select available pattern catalogues. In case no patterns are available to solve a specific type of problem, then those requirements are probably not likely to be amenable by design patterns; instead they should be realized using alternative activities within the NeOn methodology. The selection of requirements may be based on the following (non-exhaustive) list of criteria: ? What requirements are not addressed within other activities yet? ? What requirements do not have trivial solutions?  ? What requirements can be associated with existing pattern types? The first question addresses the organizational aspects of the works, which requirements are not treated yet and require a solution to be developed. The second question addresses the fact that patterns do not usually provide solutions to trivial problems, but represent best practices for solving some commonly occurring, repetitive problems. For example creating a single OWL class is quite trivial, and although there may exist a logical pattern solving this issue it is commonly supported as a basic functionality in ontology design environment and tools, therefore applying a pattern-based methodology would in this case introduce overhead and give no added benefit (over using any graphical ontology editing tool). “Trivial” is a relative concept here, in addition to indicating very small problems, it can also be related to the experience and skills of the developer. If a person is highly experienced and skilled in a certain area, then he might find a problem trivial, i.e. he immediately knows the correct solution to the problem. In this case using patterns again introduces an unnecessary overhead. Requirements where it is not immediately obvious (subjectively) how to represent those in a “good” way are generally ideal candidates for design pattern reuse. For example, how to model an n-ary relation might not be trivial to an inexperienced ontology engineer, in this case a content pattern could help. Finally, in order for the requirement to be solvable but design pattern reuse there must at least be pattern types that solve the kind of problems posed by the requirements (the presence of actual suitable patterns is discussed in the next task). Requirements are included within the ORSD expressed as competency questions (CQs). Different aspects of a CQ may be realized by different kinds of patterns. Below is a list of the available types of OPs and the kinds of problems they are intended to solve (for details see D2.5.1 [1]): ? Correspondence OP – used for either re-engineering or mapping between ontologies. ? Presentation OP – used for naming of elements or for annotating ontologies. ? Reasoning OP – used for introducing certain reasoning capabilities. ? Lexico-syntactic OP – used for linking natural language and ontological elements. ? Structural OP – used for designing the logical structure of ontologies. ? Content OP – used for designing the content of ontologies. Structural and content OPs are generally useful for most kinds of modeling problems, since they address the realization of the CQs into ontology elements and axioms. Lexico-syntactic patterns may additionally be useful if the ontology design team includes novice users (see method in D5.4.1 [2]) or if a text corpus is used as the basis for building the ontology. Presentation OPs are useful if usability aspects of the ontology are deemed important, and correspondence OPs are relevant when building ontology networks by creating mapping between ontologies or when re-engineering other kinds of resources. Reasoning patterns define the kind of reasoning services needed to provide certain types of information. When choosing the requirements to address with ontology design pattern reuse, these available pattern types should be considered, and requirements covered by one or more of these types may be selected.  -- [1] D2.5.1: A Library of Ontology Design Patterns: reusable solutions for collaborative design of networked ontologies. NeOn Project. Available at: http://www.neonproject.org. February 2008. [2] D5.4.1. NeOn Methodology for Building Contextualized Ontology Networks"@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A50_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P95>;
   rdfs:label "Ontology Design Patterns Requirements Identification"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_22> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "The goal of this task is to identify as many patterns, or rather pattern catalogues, as possible that could help in solving the modelling issues proposed by the requirements selected in the previous task. Catalogues of OPs may be found both in the form of written documents, like D5.1.1 [1] and D2.5.1 [2], and online catalogues like the ontology design pattern portal5. The relevant pattern types of the chosen requirements, identified in the previous task, should guide the search of available pattern catalogues. Aspects to consider when collecting patterns are for example the following: ? Relevant pattern types.  ? Relevant problem domain. ? Pattern provenance and reliability. An example illustrating the criteria above could be the problem of realising a CQ exposing an n-ary relation in the fisheries domain, such as connecting an aquatic resource observation to the observed resource, the time of the observation, and the measured parameters. Both logical and content pattern may be relevant, as well as presentation patterns for increasing usability aspects. The domain is fishery, whereas only general domain independent patterns and pattern for this specific domain should be considered (not for example patterns from the financial domain). If this ontology is to be part of a safety critical system, then only well-known patterns and proven bestpractices would be considered, while in a less safety critical case even pattern candidates (not yet approved by the community) could be considered for inspiration.  -- [1] D5.1.1 NeOn Modelling Components. NeOn Project. Available at: http://www.neon-project.org. March 2007 [2] D2.5.1: A Library of Ontology Design Patterns: reusable solutions for collaborative design of networked ontologies. NeOn Project. Available at: http://www.neonproject.org. February 2008."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A50_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P96>;
   rdfs:label "Ontology Design Patterns Identification"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_23> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "The goal of this task is to prepare the set of modeling problems posed by the requirements for matching to the set of available patterns. Pattern-based design is inherently a divide-and-conquer approach, since patterns are restricted and solve a specific problem. In order to match the problem to such small partial solutions and reuse them, the problem needs to be divided into manageable pieces. In addition the problem could be divided in order to let different groups or individuals solve different sub-problems, not all the design team may be working on the same parts of the problem throughout the development. This task could include transformations like writing CQs to represent requirements stated only in example scenario sentences if not already present in the ORSD, and grouping of similar CQs that may be solved together by one or more pattern types if not already present in the ORSD, etc. It is recommended that pattern types that may affect the overall organization of the ontology are treated first, while detailed patterns are treated later. For example, presentation patterns such as naming conventions should be treated at the beginning since this will minimize the refactoring needed when applying the pattern to the solution. Similarly, reasoning patterns and structural patterns in the form of architecture patterns are recommended at an early stage, also in this case to minimize later refactoring. Finally, when the problem has been transformed and divided, one such “manageable piece” (for example, a set of CQs treating a coherent part of the intended ontology and envisioned to be solvable by logical or content patterns) is selected as a starting point. The rest of the tasks may be carried our iteratively, so that each sub-problem is solved before the next one is addressed, or in parallel, so that the sub-problems are divided between groups of designers and all groups solve their specific sub-problems in parallel (all using the tasks specified)."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A50_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P97>;
   rdfs:label "Ontology Design Patterns Requirements Problem Division"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_24> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "The goal of this task is to identify which patterns are able to solve which parts of the selected subproblem, if any. How this task is solved is, of course, highly dependent on the type of patterns that are used. The matching procedure will differ a lot between, for example, matching naming pattern or reasoning pattern compared to matching content patterns. This task is identified as one of the hardest tasks of the process, and it is also a key task for the success of the complete process. This makes it the primary candidate for future tool support, but at the moment very little tool support is available. The ontology design pattern portal provides some search functions for finding patterns in the catalogues, but no support for the actual matching. Forthcoming versions of the planned XD plug-in (supporting a specific method for reuse of in the first version mainly content OPs described further lather in this chapter) for the NeOn toolkit will provide more support for pattern-based design and also the matching task. Some simple guidelines may be provided for specific types of OPs (see typology in D2.5.1 [1]). In the previous deliverable, D5.4.1 [2], the support for selecting structural and logical patterns based on natural language and lexico-syntactic patterns was described. For matching naming and annotation patterns usually a manual reading of the guidelines accompanying the patterns is enough, since these patterns are more like guidelines and propose for example naming conventions (in these cases the selection and reuse of the patterns is the more challenging part). For matching correspondence OPs, support is being developed in the field of ontology matching (see for example [3]), but so far no general guidelines exist. Finally, also in the field of matching of content patterns only a few supporting tools may be found, one being the OntoCase approach as presented in [4], where suggestions for suitable content patterns are proposed base on ontology matching, ranking and learning algorithms. To summarize, there are no detailed general guidelines for matching a problem to a pattern at present, even though this is a crucial task within the overall process. More specific guidelines have to be tailored to each of the pattern types (as we shall do later in this chapter, for content patterns), we can only propose two brief general suggestions for performing this task in order to assist the matching: ? Identify the type of patterns that may be suitable for solving the problem (if not already done in previous tasks) and match problem primarily to these kinds of patterns. ? Depending on the type of pattern, use the description of the intent of the pattern to match it to the problem (for content patterns this would mean to match the competency questions it intends to solve to the competency questions of the problem).  -- [1] D2.5.1: A Library of Ontology Design Patterns: reusable solutions for collaborative design of networked ontologies. NeOn Project. Available at: http://www.neonproject.org. February 2008. [2] D5.4.1. NeOn Methodology for Building Contextualized Ontology Networks [3] F. Scharffe, Y. Ding, D. Fensel. Towards correspondence patterns for ontology mediation. In: Proceedings of The Second International Workshop on Ontology Matching, 2007. [4] E. Blomqvist. Pattern Ranking for Semi-automatic Ontology Construction. In: Proccedings of SAC'08: Track on Semantic Web and Applications (SWA), Fortaleza, Brazil, March 16-20, 2008."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A50_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P98>;
   rdfs:label "Ontology Design Patterns Problem Matching"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_25> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "The goal of this task is to select a set of patterns to reuse based on the results of the matching done in the previous task. These results may be of varying kind, if a formal method or tool was used then the matching results may be in the form of ranking values of a set of patterns. In that case the selection may be done by setting a threshold value. Still, other things than the individual matching results may be useful to take into account, since there may be overlapping or alternative patterns so that it is perhaps not suitable to select all of them. If manual matching was performed this is a decision-making process, where the usefulness of the pattern is weighted against the overhead of reusing it (instead of for example constructing a new solution). In many cases however it will be sufficient to simply study which patterns cover some part of the problem area and decide to reuse all of them, then applying a manual conflict resolution method in case there are overlaps or other conflicts that arise later."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A50_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P99>;
   rdfs:label "Ontology Design Patterns Selection"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_26> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "The goal of this task is to reuse the selected patterns and compose them. How a pattern can be reused is of course again highly dependent on the pattern type. For example to reuse a reasoning pattern may involve to adapt the complete ontology for supporting this particular way of reasoning, as well as selecting a reasoning engine to perform the actual reasoning task. While reusing a content pattern may be to import it into an ontology file and specialise its elements and axioms. Also partial reuse of a pattern is possible, if not the complete pattern is needed or even appropriate. An important part of this task is the composition of patterns. It is rare that a single pattern can solve the complete problem we are trying to address, even if it is very small. In many cases two or more patterns will have to be combined, and this combination task is called pattern composition. Composition of content patterns would involve adding the union of the elements and axioms from the patterns to the resulting ontology, but additionally to connect the elements from different patterns using additional elements and axioms in order to ensure that the pattern really solves the problem (in case of content patterns this is to be able to answer the CQs posed). A certain amount of conflict resolution may be needed if patterns involve contradicting parts, but as stated above partial pattern reuse is also possible. At this stage however the focus is still on the partial selected problem intended to be solved, not on the complete solution for all the selected requirements. Integration of the complete solution is performed later in the process."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A50_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P100>;
   rdfs:label "Ontology Design Patterns Selection Reuse"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_27> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "The goal of this task is to test the solution with respect to the selected partial problem at hand and to ensure that it really solves this problem in a correct way. As stated at the beginning a patternbased approach is inherently a divide-and-conquer approach, and this also leads to the possibility to test small and manageable pieces of the solution before finally integrating them into the complete solution. It does not replace the evaluations and revision of the complete solution, but these small “unit tests” are an important part of the process. If the result of the last step is a small ontology then the ontology may be evaluated and tested for example through adding instances and running unit tests and queries corresponding to the CQs of the problem. If the evaluation identifies some problems of the solution then these problems should be addressed in this task, before proceeding to the next. When the solution passed all tests, the iteration continues, by performing tasks 3-7 again on the next partial problem until all problems have been covered, or if the problems were solved in parallel by immediately integrating all solutions."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A50_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P101>;
   rdfs:label "Ontology Design Patterns Selection Evaluation"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_28> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "The goal of this task is to integrate the solutions to the partial problems solved by the previous iterations, or by the parallel teams working on different sub-problems. If the division of the problem resulted in a large number of partial tasks the number of partial solutions will also be large and this process may be quite challenging. In practice this integration may be performed after each solution of a small partial problem, instead of at the end of the complete process. The choice of method may depend on the team organisation. If arger design teams work on sub-problems in parallel and integrate their solutions as soon as they finish, the task needs to be performed in a collaborative fashion (supported by collaboration tools like chats, message boards or argumentation tools like Cicero [1]). On the other hand, if only one team is working in an iterative fashion, this task is less collaborative and simply contains the task of integrating one more “piece” into the complete solution. Either way, integration of the solutions is a challenging problem, and may involve refactoring of the whole solution. So far, detailed guidelines of this process are still future work, although technical guidelines for integrating ontologies are of course present. -- [1] K. Dellschaft, H. Engelbrecht, J. MonteBarreto, S. Rutenbeck, S. Staab. (2008). Cicero: Tracking Design Rationale in Collaborative Ontology Engineering. Proceedings of the ESWC 2008 Demo Session"@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A50_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P102>;
   rdfs:label "Ontology Design Patterns Integration"@en .
 
@@ -1720,6 +1984,7 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_NeOn_9> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R3>;
   <http://purl.org/dc/terms/description> "The goal of this task is to extract the lexical entries of the non ontological resources. Software developers and ontology practitioners carry out this task taking as input the non ontological resources for extracting their lexical entries using terminology extraction tools."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A71_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P80>;
   rdfs:label "Lexical Entries Extraction"@en .
 
@@ -1731,6 +1996,7 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_SAMOD_1> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>;
   <http://purl.org/dc/terms/description> "OEs and DEs work together to write down a motivating scenario MSn, being as close as possible to the language DEs commonly use for talking about the domain. An example of motivating scenario is illustrated in Table 1."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A80_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P114>;
   rdfs:label "Write a Motivation Scenario (MS) SAMOD"@en .
 
@@ -1762,43 +2028,51 @@
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_SAMOD_2> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>;
   <http://purl.org/dc/terms/description> "Given a motivating scenario, OEs and DEs should produce a set of informal competency questions CQn, each of them identified appropriately. An example of an informal competency question, formulated starting from the motivating scenario in Table 1, is illustrated in Table 2."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A80_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P106>;
   rdfs:label "Produce a set of informal competency questions SAMOD"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_SAMOD_3> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>;
   <http://purl.org/dc/terms/description> "Now, having both a motivating scenario and a list of informal competency questions, KEs and DEs write down a glossary of terms GoTn. An example of glossary of terms is illustrated in Table 3."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A80_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P18>;
   rdfs:label "Write a Glossary of Terms SAMOD"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_SAMOD_4> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "The remaining part of this step is led by OEs only, who are responsible of developing a modelet according to the motivating scenario, the informal competency questions and the glossary of terms. Note that it is possible that multiple entities (i.e. classes, properties, individuals) are actually hidden behind one single definition in the glossary of terms. In doing that work, they must strictly follow the following principles:         * Keep it small. Keeping the number of developed ontology entities small is essential when developing an ontology. In fact, by making  small changes (and retesting frequently, as our framework prescribes), one always has a good idea of what change has caused an error in the model  [2]. Moreover, according to Miller [9], averagely OEm cannot hold in working memory more than a small number of object. Thus,  OEm should define at most N classes, Nindividuals, Nattributes (i.e., data properties) and Nrelations (i.e., object properties), where N  is the Miller’s magic number “7 ± 2”.         * Use patterns. In thinking what is the best way to model a particular aspect of the domain, OEm should take into consideration  existing knowledge. In particular, we strongly encourage to look at documented patterns – the Semantic Web Best Practices and  Deployment Working Group page (http://www.w3.org/2001/sw/BestPractices/OEP/) and the Ontology Design Patterns portal (http://www.ontologydesignpatterns.org/ are both valuable examples – and at widely-adopted Semantic Web vocabularies – such as FOAF (http://xmlns.com/foaf/spec) for people, SIOC (http://rdfs.org/sioc/spec) for social communities, and so on.         * Middle-out development. Defining firstly the most relevant concepts (the basic concepts) and latterly adding the most abstract and  most concrete ones, the middle-out approach [14] allows one to avoid unnecessary effort during the development because detail  arises only as necessary, by adding sub- and super-classes to the basic concepts. Moreover, this approach, if used properly, tends to  produce much more stable ontologies, as stated in [13].         * Keep it simple. The modelet must be designed according to the information obtained previously (motivating scenario, informal  competency questions, glossary of terms) in an as quick as possible way, spending the minimum effort and without adding any  unnecessary semantic structure. In particular, do not think about inference at this stage, while think about describing the motivating  scenario fully.         * Self-explanatory entities. The aim of each ontological entity must be understandable by humans simply looking at its local name  (i.e., the last part of the entity IRI). Therefore, no labels and comments have to be added at this stage and all the entity IRIs must not  be opaque. In particular, class local names has to be capitalised (e.g., Justification) and in camel-case notation if composed by more  than one word (e.g., DescriptionOfVagueness). Property local names has to be non-capitalised and in camel-case notation if  composed by more than one word; moreover, each property local name must start with a verb (http://www.jenitennison.com/2009/09/13/naming-properties-and-relations.html) (e.g., wasAttributedTo) and, in case  of data properties, it has to be followed by the name of the object referred (e.g., hasNaturalLanguageText). Individual local names  must be non-capitalised (e.g., ceo) and dash-separated if composed by more than one word (quantitative-vagueness). The goal of OEm is to develop a modeletn, eventually starting from a graphical representation written in a proper visual language, such as UML [3], E/R model [4] and Graffoo [5], so as to convert it automatically in OWL by means of appropriate tools, e.g., DiTTO [7]. Starting from the OWL version modeletn, OEs proceed in four phases: -- [2] Beck, K. (2003). Test-driven development by example. Addison-Wesley. ISBN: 978-0321146533 [3[ Brockmans, S., Volz, R., Eberhart, A., Löffler, P. (2004). Visual Modeling of OWL DL Ontologies Using UML. In Proceedings of the 3rd International Semantic Web Conference (ISWC 2004): 7–11. http://dx.doi.org/10.1007/978-3-540-30475-3_15 [4] Chen, P. P. (1974). The Entity-Relationship Model: Toward a Unified View of Data. ACM Transactions on Database Systems, 1 (1): 9–36. http://dx.doi.org/ 10.1145/320434.320440 [5] Falco, R., Gangemi, A., Peroni, S., Vitali, F. (2014). Modelling OWL ontologies with Graffoo. In The Semantic Web: ESWC 2014 Satellite Events: 320–325. http: //dx.doi.org/10.1007/978-3-319-11955-7_42 [7] Gangemi, A., Peroni, S. (2013). DiTTO: Diagrams Transformation inTo OWL. In Proceedings of the ISWC 2013 Posters & Demonstrations Track. http://ceurws.org/Vol-1035/iswc2013_demo_2.pdf [9] Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. Psychological Review, 63 (2): 81–97. http://dx.doi.org/10.1037/h0043158 [13] M. Uschold, M. Gruninger, Ontologies: principles, methods and applications, Knowl. Eng. Rev. 11 (2) (1996). [14] Towards a Methodology for Building Ontologies. In Workshop on Basic Ontological Issues in Knowledge Sharing. http://www.aiai. ed.ac.uk/publications/documents/1995/95-ont-ijcai95-ont-method.pdf "@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A80_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P117>;
   rdfs:label "Developing a modelet SAMOD"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_SAMOD_5> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://purl.org/dc/terms/description> "Given as input a motivating scenario, the model formalising it and the related glossary of terms – a model test aims at checking the validity of the model against formal and rhetorical requirements, where: – checking for formal requirements means understanding whether the model is consistent and, if needed, whether it also complies with appropriate unit tests [1]; – checking for rhetorical requirements means understanding whether the model covers the related motivating scenario and whether the vocabulary used by the model is appropriate. -- [1] Vrandecic, D., & Gangemi, A. (2006). Unit Tests for Ontologies. In On the Move to Meaningful Internet Systems 2006: OTM 2006 Workshops: 1012-1020. http: //dx.doi.org/10.1007/11915072_2"@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A80_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P118>;
   rdfs:label "Model test modelet_n formal and rhetorical SAMOD"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_SAMOD_6> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://purl.org/dc/terms/description> "create an exemplar dataset ABox_n that formalises all the examples introduced in the motivating scenario according to modelet_n."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A80_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P119>;
   rdfs:label "Create ABox example"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_SAMOD_7> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://purl.org/dc/terms/description> "Given as input a motivating scenario, the model (TBox) formalising it and a dataset (ABox) built according to the model, and considering the examples described in the motivating scenario, a data test aims at checking the validity of the model and the dataset and against formal and rhetorical requirements, where: – checking for formal requirements means understanding whether the model (TBox) is still consistent when considering the exemplar dataset (ABox); – checking for rhetorical requirements means understanding whether the dataset completely describes all the examples accompanying the motivating scenario, and whether the model is enough self-explanatory to be used quickly by humans for building datasets without spending a lot of effort in understanding it."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A80_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P120>;
   rdfs:label "Data test modelet_n formal and rhetorical SAMOD"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_SAMOD_8> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://purl.org/dc/terms/description> "write formal queries SQn as many informal competency questions related to the motivating scenario."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A80_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P121>;
   rdfs:label "Write formal queries SAMOD"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_SAMOD_9> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://purl.org/dc/terms/description> "Given as input a model (TBox), a related dataset (ABox), a set of informal competency questions, and a set formal queries written in SPARQL, each mapping a particular informal competency question, a query test aims at checking the validity of the model, the dataset and each SPARQL query against formal and rhetorical requirements, where: – checking for formal requirements means understanding whether each SPARQL query is well-formed and can correctly run on the TBox+ABox; – checking for rhetorical requirements means understanding whether each informal competency question is mapped into an appropriate SPARQL query and whether, running each of them upon the TBox+ABox, the result conforms to the expected outcome of each informal competency question and in the ABox."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A80_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P122>;
   rdfs:label "Query test modelet_n formal and rhetorical SAMOD"@en .
 
@@ -1809,34 +2083,40 @@
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_10> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://purl.org/dc/terms/description> "A first version of a glossary is built by using the RL and by adding informal definitions (i.e., natural language sentences) to the terms. In essence, the RL evolves into a reference glossary (Fig. 9) by associating one or more definitions to each term. The definitions should be selected from knowledgeable sources and agreed among DEs and users. An excerpt from the reference glossary for the AIDIMA eProcurement domain is reported in Table 4. In this application the reference glossary contains 139 glossary entries."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A76_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P18>;
   rdfs:label "Building the reference glossary (RG)"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_11> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://purl.org/dc/terms/description> "Modeling concepts. Each concept is categorized by associating a ‘‘kind’’ to it. Here we adopt the categories proposed by OPAL. These  include the major ontological categories, according to proposals of top ontologies, such as [1], or meta-ontologies [2,3,4], and  they are deeply inspired by the primary modeling constructs of UML. OPAL organizes concepts in three primary and some  complementary categories. The primary categories are:         * business actor: gathering active elements of a business domain, able to activate, perform, or monitor a business process. DEs, in  analyzing the reality, are asked to identify relevant actors that operate producing, updating or consuming business objects (BOs). In  the eProcurement example, 15 business actors have been identified (Table 5).         * business object: an entity on which a business process operates. A business object document (BOD) is a further refinement of a BO  that represents a category of documents in the business domain. In the AIDIMA scenario 14 BODs, belonging to the client and the  supplier, have been identified (Table 6).         * business process: a business activity or operation aimed at the satisfaction of a business goal, operating on a set of BOs (e.g.,  purchase order issuing, requesting quotation). It can be rather simple, with a limited duration in time, or complex, with parallel branches and phases3 that last for a long time span. In the eProcurement example 19  business processes have been identified (Table 7). Having presented the primary concept categories of OPAL, we now introduce the complementary categories, necessary to complete  a rich ontological representation of the observed reality.         * Message: A message represents the information exchanged during an interaction (e.g., request, response) between processes  (someone prefers to say ‘‘among actors’’, but we prefer to focus on the processes that need to exchange info). A message is  characterized by a content that is typically a BOD (e.g., a RFQ-message, carrying a request for quotation). In OPAL we adopted the FIPA [WR8] approach,  based on 23 message types, related to different kinds of communicative acts. Specifically, we selected 8 message kinds for which the  payload matches a BOD in the eProcurement ontology. Table 8 shows the 8 selected message kinds matched with their  corresponding BODs in the eProcurement application.         * Attribute: Attributes characterize the information structure of a concept. In OPAL there are atomic attributes, modeling elementary  information (e.g., street name), and complex attributes, modeling structured information (e.g., address). Essentially, a complex  attribute is defined as an aggregation of lower level complex and/or atomic attributes. Table 9 reports the list of 83 attributes  identified in the eProcurement example. -- [1] J. Sowa, Knowledge Representation: Logical, Philosophical and Computational Foundations, Brooks/Cole, USA, 1999. [2] Towards a Methodology for Building Ontologies. In Workshop on Basic Ontological Issues in Knowledge Sharing. http://www.aiai. ed.ac.uk/publications/documents/1995/95-ont-ijcai95-ont-method.pdf [3] M. Missikoff, F. Taglino, An ontology-based platform for semantic interoperability, in: S. Staab, R. Studer (Eds.), Handbook on Ontologies, Springer, 2004, pp. 617–633. [4] M. Missikoff, F. Taglino, Business and enterprise management with SymOntoX, in: First International Semantic Web Conference, Sardinia, Italy, 2002."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A77_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P13>;
   rdfs:label "Modeling concepts"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_12> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://purl.org/dc/terms/description> "At this stage, concepts are hierarchically organized and formal relations are introduced. A first step consists in organizing the  concepts in a taxonomic hierarchy according to the generalization (i.e., IsA) relation. To this end, three main approaches are known in the literature [1]:  top-down (from general to particular),  bottom-up (from particular to general) and  middle-out (or combined).  The combined approach  consists in finding first the salient concepts (typically placed in a middle area) and then generalizing and specializing them. This  approach is considered to be the most effective because concepts ‘‘in the middle’’ tend to be more informative about the domain. The resulting taxonomy can be extended with other relations, i.e., part-of and domain-specific relationships. The outcome of this  step is a SN,4 that is represented according to UML class diagram, in particular using generalization (IsA), aggregation (part-of) and  association. Therefore the SN can be represented in a diagrammatic format (see Figs. 11 and 12 for examples). Finally, this workflow  eventually provides a diagrammatic representation of the ontology in the form of a set of UML class diagrams. -- [1] M. Uschold, M. Gruninger, Ontologies: principles, methods and applications, Knowl. Eng. Rev. 11 (2) (1996). "@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A77_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P13>;
   rdfs:label "Modeling concepts hierarchies and domain specific relationships"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_13> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>;
   <http://purl.org/dc/terms/description> "Semantic Quality can be mainly verified by checking the consistency of the ontology, achieved by using a reasoner, such as Racer [1] or Pellet [http://www.mindswap.org/2003/pellet].  Consistency, besides absence of contradiction, requires also that the modeling constructs are correctly used (e.g., absence of cycles in the specialization hierarchy or the fact that classes and properties are disjoint  [2]). The activity concerning consistency checking is mainly performed by KEs, as shown in the expert involvement schema of Fig.  15, since the use of a reasoner requires technical skills. -- [1] V. Haarslev, R. Möller, Description of the RACER system and its applications, in: Proceedings of the International Workshop on Description Logics (DL-2001), Stanford, USA, 2001. [2] N. Ide, J. Ve´ ronis, Extracting Knowledge Bases from Machine-Readable Dictionaries: Have We Wasted Our Time?, KB&KS ‘93 Workshop, Tokyo, 1993, pp. 257–266. "@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A79_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P55>;
   rdfs:label "Consistency checking UPON"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_14> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>;
   <http://purl.org/dc/terms/description> "Pragmatic quality is related to three features: (i) fidelity, (ii) relevance, and (iii) completeness. Relevance is checked in conjunction with completeness, verifying the correct implementation of ontology’s requirements, gathered  in the first workflow. This can be achieved, for instance, by performing the following two kinds of test. The first concerns the  coverage of the ontology over the application domain. For instance, a DE is asked to semantically annotate the UML diagrams,  modeling a software application, with the ontology concepts. The second test concerns the CQs and the possibility to answer them  by using the ontology content. For instance, in the eProcurement application such a test gives a positive result, since it is possible to  answer all the CQs listed in the example. For instance, CQ1: ‘‘what are the documents that a company receives before a purchase  order?’’ is elaborated using the ontology concepts ‘‘Request For Quotation’’, ‘‘Processing RFQ’’, ‘‘Sending RFQ’’. This test is  particularly useful for ontologies supporting the semantic search and discovery of web resources."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A79_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P55>;
   rdfs:label "Verifying Coverage UPON"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_15> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://example.com#who> <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R1>, <https://w3id.org/ontoboldt/ns/ontoboldt#roles_R2>;
   <http://purl.org/dc/terms/description> "Pragmatic quality is related to three features: (i) fidelity, (ii) relevance, and (iii) completeness. Completeness: according to [1] a design artefact, like an ontology, is complete and effective when it satisfies the requirements and  the constraints of the problem it was meant to solve. For this reason, the completeness of an ontology can be assessed by using the  domain goals and again the coverage and CQs. Consequently an ontology is complete if the objectives, defined in the requirements  workflow, are reached (e.g., semantic search and retrieval, reconciliations of data messages and processes in the eProcurement  application). -- [1] A. Hevner, S. March, J. Park, S. Ram, Design science in information systems research, MIS Q. 28 (1) (2004)."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A79_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P56>;
   rdfs:label "Answering Competency Questions UPON"@en .
 
@@ -1868,15 +2148,18 @@
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_7> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://purl.org/dc/terms/description> "The DL is built by gathering the terminology used in the domain of interest, mainly extracted by analyzing existing documental resources, such as reports, technical manuals, standards, glossaries, thesauri, legacy computational lexicons, and available ontologies. This step, like in the case of the AL, can be supported by automatic tools for text mining. This activity inherently adheres to the view of a linguistic ontology [1] in which concepts are anchored to textual descriptions, i.e. they have a counterpart in natural language. In our project, to build the eBusiness DL, an important role has been played by standards. The DEs considered the following eBusiness standards: ebXML [http://www.ebxml.org], RosettaNET [http://www.rosettanet.org], and OAGIS [http://www.openapplications.org]. The analysis of these standards allowed 2613 elements to be extracted (140 from ebXML, 1873 from RosettaNET, 600 from OAGIS, The analysis was manually performed by the domain experts.); then a consistent filtering has been necessary. In fact, since many elements from these standards pertain to specific industry sectors (e.g., elements coming from RosettaNet mainly refer to the high-tech electronic industry), a first manual pruning was performed. Then terminological analysis was done against the corpus of documents of reference, to identify specific (frequently used in eProcurement) terms to be included in the DL. Furthermore, DEs decided to include in the DL, all the terms present in at least two standards. Other terms were included only after approval from a wider panel of experts. After this activity, the DL contained 114 terms (not considering synonyms). (An excerpt of the DL is reported in Table 3.) In a simplified vision, useful for our example, these 114 terms represent the core of the initial 2613 terms. Fig. 6 sketchily reports the composition of the DL, with respect to the originating resources. -- [1] A. Go´ mez-Pe´ rez, M. Ferna´ ndez-Lopez, O. Corcho, Ontological Engineering, Springer, London, 2004. "@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A76_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P30>;
   rdfs:label "Acquiring domain resources and building Domain Lexicon (DL)"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_8> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://purl.org/dc/terms/description> "The RL is built by selectively merging the AL (from application DEs) and the DL (from existing external resources). During the merge of the two lexicons, the terms are grouped into three major areas: one intersection area and two disjoint areas, application specific and domain specific (see Fig. 7). To build the RL the following ‘‘inclusion policy’’ is used: the RL should include all the terms coming from the intersection area and, after the users and DEs approval, some terms belonging to the disjoint areas. Therefore the intersection area will be extended, on the one hand, with domain terms, considered useful for a better specification of the application at hand, and, on the other hand, with a part of the remaining application terms that are considered relevant, even if not extensively used by other applications. The output is a RL. In the eProcurement application, it contains 139 terms."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A76_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P116>;
   rdfs:label "Building Reference Lexicon"@en .
 
 <https://w3id.org/ontoboldt/ns/ontoboldt#task_TA_UPON_9> a <https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task>;
   <http://purl.org/dc/terms/description> "The goal of this activity is to model the application scenario, adding to the use-case diagrams, drawn in the Requirements Workflow, the activity and class diagrams. UML diagrams represent a model of the application and will be used for the validation of the ontology. All classes, actors, and activities modeled in UML must have a corresponding concept in the ontology. In Fig. 8, three representative UML diagrams, drawn for the eProcurement application, are reported. Please note, in the Class Diagram (Fig. 8c), the use of the 5Objectb profile. UML profiles are used to properly categorize the terms, according to the OPAL ontology representation methodology [1] (see below). -- [1] F. D’Antonio, M. Missikoff, F. Taglino, Formalizing the OPAL eBusiness ontology design patterns with OWL, in: Third International Conference on Interoperability for Enterprise Applications and Software, I-ESA 2007."@en;
+  <http://purl.org/net/p-plan#isStepOfPlan> <https://w3id.org/ontoboldt/ns/ontoboldt#activity_A76_Plan>;
   <http://purl.org/vocab/frbr/core#realizationOf> <https://w3id.org/ontoboldt/ns/ontoboldt#procedure_P18>;
   rdfs:label "Modeling application scenario using UML"@en .

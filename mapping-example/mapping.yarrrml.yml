@@ -34,6 +34,15 @@ mappings:
       #- [ex:input, TODO $(Input/split(, ))]
       #- [ex:output, TODO $(Output/split(, ))]
       #- [ex:tools, TODO $(Tools/split(, ))]
+      - p: p-plan:isStepOfPlan
+        o:
+          - mapping: activity_plans
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters:
+                - [idlab-fn:otherStr, $(Task ID), s]
+                - [idlab-fn:str, $(Related tasks), o]
+                - [idlab-fn:delimiter, ",\s*"]
   roles:
     sources:
       - ['Roles.csv~csv']
@@ -78,14 +87,7 @@ mappings:
                 - [idlab-fn:delimiter, ",\s*"]
       #- [ex:specializations, TODO $(Specializations)]
       #- [ex:comment, TODO $(Comment)]
-      - p: frbr:realizationOf
-        o:
-          - mapping: process_plans
-            condition:
-              function: equal
-              parameters:
-                - [str1, $(Process ID), s]
-                - [str2, $(Process ID), o]
+      - [p-plan:decomposedAsPlan, obt:process_$(Process ID)_Plan~iri]
   process_plans:
     sources:
       - ['Processes.csv~csv']
@@ -93,8 +95,6 @@ mappings:
       - obt:process_$(Process ID)_Plan
     po:
       - [a, p-plan:Plan]
-
-
   procedures:
     sources:
       - ['Procedures.csv~csv']
@@ -149,6 +149,7 @@ mappings:
       #-[ex:required, TODO $(Required=yes?)]
       #-[ex:source, TODO $(Source)]
       #-[ex:goal, TODO $(Goal)]
+      - [p-plan:decomposedAsPlan, obt:activity_$(Activity ID)_Plan~iri]
       - p: ex:who
         o:
           - mapping: roles
@@ -180,4 +181,10 @@ mappings:
                 - [idlab-fn:otherStr, $(Activity ID), s]
                 - [idlab-fn:str, $(Related activities), o]
                 - [idlab-fn:delimiter, ",\s*"]
-
+  activity_plans:
+    sources:
+      - ['Activities.csv~csv']
+    s:
+      - obt:activity_$(Activity ID)_Plan
+    po:
+      - [a, p-plan:Plan]
