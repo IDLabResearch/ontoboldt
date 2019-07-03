@@ -14,6 +14,7 @@
 @prefix cc: <http://creativecommons.org/ns#>.
 @prefix frbr: <http://purl.org/vocab/frbr/core#>.
 @prefix obtenv: <https://w3id.org/ontoboldt/ns/engineering-vocabulary#>.
+@prefix p-plan: <http://purl.org/net/p-plan#>.
 
 <http://idlab.technology/#organization> a org:OrganizationalUnit, foaf:Organization, foaf:Group, org:Organization, foaf:Agent, dc:Agent;
     dc:title "IDLab"@en;

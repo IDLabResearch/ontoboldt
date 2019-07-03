@@ -14,6 +14,7 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix frbr: <http://purl.org/vocab/frbr/core#> .
 @prefix obtenv: <https://w3id.org/ontoboldt/ns/engineering-vocabulary#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
 
 <http://idlab.technology/#organization> rdf:type org:OrganizationalUnit, foaf:Organization, foaf:Group, org:Organization, foaf:Agent, dcterms:Agent ;
 	dcterms:title "IDLab"@en ;
@@ -186,6 +187,7 @@ obt:activity_A27 rdf:type obtenv:Activity ;
 
 obt:activity_A28 rdf:type obtenv:Activity ;
 	dcterms:description "the activity of identifying one or more modules in an ontology with the purpose of supporting reuse or maintenance. Note: We can make distinctions between: Ontology Module Extraction and Ontology Partitioning."@en ;
+	p-plan:isStepOfPlan obt:process_Pr5_Plan ;
 	frbr:realizationOf obt:procedure_P36 ;
 	rdfs:label "Ontology Modularization Activity NeOn"@en .
 
@@ -241,6 +243,7 @@ obt:activity_A38 rdf:type obtenv:Activity ;
 
 obt:activity_A39 rdf:type obtenv:Activity ;
 	dcterms:description "The activity of finding candidate ontologies or ontology modules to be reused"@en ;
+	p-plan:isStepOfPlan obt:process_Pr5_Plan ;
 	frbr:realizationOf obt:procedure_P47 ;
 	rdfs:label "Ontology Search Activity NeOn"@en .
 
@@ -312,16 +315,19 @@ obt:activity_A50 rdf:type obtenv:Activity ;
 
 obt:activity_A51 rdf:type obtenv:Activity ;
 	dcterms:description "The goal of ontology module assessment is to find out which ontology modules, from the set of candidate ontology modules, are useful for the development of the ontology network."@en ;
+	p-plan:isStepOfPlan obt:process_Pr5_Plan ;
 	frbr:realizationOf obt:procedure_P59 ;
 	rdfs:label "Ontology Module Assessment Activity NeOn"@en .
 
 obt:activity_A52 rdf:type obtenv:Activity ;
 	dcterms:description "The objective of this activity is to find out which ontology modules are the most suitable for the development of the ontology network."@en ;
+	p-plan:isStepOfPlan obt:process_Pr5_Plan ;
 	frbr:realizationOf obt:procedure_P60 ;
 	rdfs:label "Ontology Module Selection Activity NeOn"@en .
 
 obt:activity_A53 rdf:type obtenv:Activity ;
 	dcterms:description "The objective of this activity is to integrate the ontology modules selected in the ontology network being developed."@en ;
+	p-plan:isStepOfPlan obt:process_Pr5_Plan ;
 	frbr:realizationOf obt:procedure_P61 ;
 	rdfs:label "Ontology Module Integration Activity NeOn"@en .
 
@@ -436,11 +442,13 @@ obt:activity_A72 rdf:type obtenv:Activity ;
 
 obt:activity_A73 rdf:type obtenv:Activity ;
 	dcterms:description "The goal of this activity is to analyze a NOR to identify its underlying components and create representations of the resource at the different levels of abstraction (design, requirements and conceptual). Since NORs can be implemented as XML files, databases or spreadsheets among others, we can consider them as software resources, and therefore, we use the software abstraction levels (implementation, design, requirements and conceptual). Here the requirements and the essential design, structure and content of the NOR must be recaptured."@en ;
+	p-plan:isStepOfPlan obt:process_Pr2_Plan ;
 	frbr:realizationOf obt:procedure_P87 ;
 	rdfs:label "Non-ontological Resource Reverse Reengineering"@en .
 
 obt:activity_A74 rdf:type obtenv:Activity ;
 	dcterms:description "The goal of this activity is to generate a conceptual model from the NOR. We propose the use of Patterns for Re-engineering Non-Ontological Resources (PR-NOR) to guide the transformation process"@en ;
+	p-plan:isStepOfPlan obt:process_Pr2_Plan ;
 	frbr:realizationOf obt:procedure_P91 ;
 	rdfs:label "Non-ontological Resource Transformation"@en .
 
@@ -1462,53 +1470,71 @@ obt:procedure_P99 rdf:type obtenv:Procedure ;
 	dcterms:description "The goal of this task is to select a set of patterns to reuse based on the results of the matching done in the previous task"@en ;
 	rdfs:label "Ontology Design Patterns Selection"@en .
 
-obt:process_Pr1 rdf:type obtenv:Process ;
+obt:process_Pr1 rdf:type p-plan:Multistep, obtenv:Process ;
 	<http://example.com/#responsible> obt:roles_R1, obt:roles_R2, obt:roles_R3 ;
 	dcterms:description "refers to taking available non-ontological resources (Non-Ontological Resources (NORs), which were defined in [1], are knowledge-aware resources whose semantics have not been formalized yet by an ontology. ), e.g., databases, controlled vocabularies, etc., for the development of ontologies. Non-Ontological Resource Reuse is defined in [1] as the process of choosing the most suitable non-ontological resources for the development of ontologies. -- [1] D5.4.1. NeOn Methodology for Building Contextualized Ontology Networks"@en ;
 	frbr:realizationOf obt:procedure_P1 ;
 	rdfs:label "Non Ontologial Resource Reuse"@en .
 
-obt:process_Pr2 rdf:type obtenv:Process ;
+obt:process_Pr1_Plan rdf:type p-plan:Plan .
+
+obt:process_Pr2 rdf:type p-plan:Multistep, obtenv:Process ;
 	<http://example.com/#related> obt:activity_A73, obt:activity_A74 ;
 	dcterms:description "the process of retrieving and transforming an existing non ontological resource (data bases, controlled vocabularies, etc.) into an ontology."@en ;
 	frbr:realizationOf obt:procedure_P2 ;
 	rdfs:label "Non Ontological Resource Reengineering"@en .
 
-obt:process_Pr3 rdf:type obtenv:Process ;
+obt:process_Pr2_Plan rdf:type p-plan:Plan .
+
+obt:process_Pr3 rdf:type p-plan:Multistep, obtenv:Process ;
 	dcterms:description "is defined as the process of using available ontological resources (ontologies, modules, statements, or ontology design patterns) in the solution of different problems (e.g., the development of different ontology-based applications, the activity of ontology aligning (as background knowledge), etc.). We distinguish between: ontology reuse, ontology module reuse, ontology statement reuse, and ontology design pattern reuse"@en ;
 	frbr:realizationOf obt:procedure_P3 ;
 	rdfs:label "Ontological Resource Reuse"@en .
 
-obt:process_Pr4 rdf:type obtenv:Process ;
+obt:process_Pr3_Plan rdf:type p-plan:Plan .
+
+obt:process_Pr4 rdf:type p-plan:Multistep, obtenv:Process ;
 	dcterms:description "the process of using ontologies in the solution of different problems"@en ;
 	frbr:realizationOf obt:procedure_P4 ;
 	rdfs:label "Ontology Reuse"@en .
 
-obt:process_Pr5 rdf:type obtenv:Process ;
+obt:process_Pr4_Plan rdf:type p-plan:Plan .
+
+obt:process_Pr5 rdf:type p-plan:Multistep, obtenv:Process ;
 	<http://example.com/#related> obt:activity_A28, obt:activity_A39, obt:activity_A51, obt:activity_A52, obt:activity_A53 ;
 	dcterms:description "the process of using ontology modules in the solution of different problems"@en ;
 	frbr:realizationOf obt:procedure_P5 ;
 	rdfs:label "Ontology Module Reuse"@en .
 
-obt:process_Pr6 rdf:type obtenv:Process ;
+obt:process_Pr5_Plan rdf:type p-plan:Plan .
+
+obt:process_Pr6 rdf:type p-plan:Multistep, obtenv:Process ;
 	dcterms:description "the process of using ontology statements in the solution of different problems"@en ;
 	frbr:realizationOf obt:procedure_P6 ;
 	rdfs:label "Ontology Statement Reuse"@en .
 
-obt:process_Pr7 rdf:type obtenv:Process ;
+obt:process_Pr6_Plan rdf:type p-plan:Plan .
+
+obt:process_Pr7 rdf:type p-plan:Multistep, obtenv:Process ;
 	dcterms:description "General or Common Ontology Reuse refers to the process of using general or common ontologies in the solution of different problems."@en ;
 	frbr:realizationOf obt:procedure_P7 ;
 	rdfs:label "General or Common Ontology Reuse"@en .
 
-obt:process_Pr8 rdf:type obtenv:Process ;
+obt:process_Pr7_Plan rdf:type p-plan:Plan .
+
+obt:process_Pr8 rdf:type p-plan:Multistep, obtenv:Process ;
 	dcterms:description "Domain Ontology Reuse refers to the process of using domain ontologies in the solution of different problems."@en ;
 	frbr:realizationOf obt:procedure_P8 ;
 	rdfs:label "Domain Ontology Reuse"@en .
 
-obt:process_Pr9 rdf:type obtenv:Process ;
+obt:process_Pr8_Plan rdf:type p-plan:Plan .
+
+obt:process_Pr9 rdf:type p-plan:Multistep, obtenv:Process ;
 	dcterms:description "the process of retrieving and transforming a conceptual model of an existing and implemented ontology into a new, more correct and more complete conceptual model which is reimlemented."@en ;
 	frbr:realizationOf obt:procedure_P42 ;
 	rdfs:label "Ontology Reengineering Process NeOn"@en .
+
+obt:process_Pr9_Plan rdf:type p-plan:Plan .
 
 obt:roles_R1 rdf:type obtenv:Role ;
 	dcterms:description ""@en ;
