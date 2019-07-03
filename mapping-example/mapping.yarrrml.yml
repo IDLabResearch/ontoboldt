@@ -2,29 +2,51 @@ prefixes:
   obt: "https://w3id.org/ontoboldt/ns/ontoboldt#"
   eng: "https://w3id.org/ontoboldt/ns/engineering-vocabulary#"
   frbr: "http://purl.org/vocab/frbr/core#"
+  grel: "http://users.ugent.be/~bjdmeest/function/grel2.ttl#"
+  idlab-fn: http://example.com/idlab/function/
+  ex: "http://example.com#"
+  p-plan: http://purl.org/net/p-plan#
+
 
 mappings:
   tasks:
     sources:
       - ['Tasks.csv~csv']
-    s: obt:Tasks_$(Task ID)
+    s: obt:task_$(Task ID)
     po:
       - [a, eng:Task]
-      - [frbr:realizationOf, obt:Procedure_$(realization Of)~iri]
+      - [frbr:realizationOf, obt:procedure_$(realization Of)~iri]
       - [rdfs:label, $(Name), en~lang]
       #- [ex:relatedTechnique, obt:Technique_$(Related Technique)~iri]
       #- [ex:order, $(order)]
       #- [ex:relatedActivity, obt:Activity_$(Related Activity)~iri]
       - [dc:description, $(Description), en~lang]
       #- [ex:source, TODO $(Source)]
-      #- [ex:who, TODO $(Who/split(,))]
+      - p: ex:who
+        o:
+          - mapping: roles
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters:
+                - [idlab-fn:str, $(Who), s]
+                - [idlab-fn:otherStr, $(ID), o]
+                - [idlab-fn:delimiter, ",\s*"]
       #- [ex:input, TODO $(Input/split(, ))]
       #- [ex:output, TODO $(Output/split(, ))]
       #- [ex:tools, TODO $(Tools/split(, ))]
+      - p: p-plan:isStepOfPlan
+        o:
+          - mapping: activity_plans
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters:
+                - [idlab-fn:otherStr, $(Task ID), s]
+                - [idlab-fn:str, $(Related tasks), o]
+                - [idlab-fn:delimiter, ",\s*"]
   roles:
     sources:
       - ['Roles.csv~csv']
-    s: obt:Roles_$(ID)
+    s: obt:roles_$(ID)
     po:
       - [a, eng:Role]
       - [rdfs:label, $(name), en~lang]
@@ -33,25 +55,50 @@ mappings:
   processes:
     sources:
       - ['Processes.csv~csv']
-    s: obt:Processes_$(Process ID)
+    s: obt:process_$(Process ID)
     po:
       - [a, eng:Process]
-      - [frbr:realizationOf, obt:Procedure_$(realization Of)~iri]
+      - [a, p-plan:Multistep]
+      - [frbr:realizationOf, obt:procedure_$(realization Of)~iri]
       - [rdfs:label, $(Activity name), en~lang]
       #- [ex:required, TODO $(Required=yes?)]
       - [dc:description, $(Definition), en~lang]
       #- [ex:source, TODO $(Source)]
       #- [ex:goal, TODO $(Goal)]
-      #- [ex:responsible, TODO $(Responsible/split(,))]
+      - p: ex:responsible
+        o:
+          - mapping: roles
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters:
+                - [idlab-fn:str, $(Responsible), s]
+                - [idlab-fn:otherStr, $(ID), o]
+                - [idlab-fn:delimiter, ",\s*"]
       #- [ex:input, TODO $(Input/split(, ))]
       #- [ex:output, TODO $(Output/split(, ))]
-      #- [ex:related, TODO $(Related activities/split(, ))]
+      - p: ex:related
+        o:
+          - mapping: activities
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters:
+                - [idlab-fn:str, $(Related activities), s]
+                - [idlab-fn:otherStr, $(Activity ID), o]
+                - [idlab-fn:delimiter, ",\s*"]
       #- [ex:specializations, TODO $(Specializations)]
       #- [ex:comment, TODO $(Comment)]
+      - [p-plan:decomposedAsPlan, obt:process_$(Process ID)_Plan~iri]
+  process_plans:
+    sources:
+      - ['Processes.csv~csv']
+    s:
+      - obt:process_$(Process ID)_Plan
+    po:
+      - [a, p-plan:Plan]
   procedures:
     sources:
       - ['Procedures.csv~csv']
-    s: obt:Procedures_$(Procedure ID)
+    s: obt:procedure_$(Procedure ID)
     po:
       - [a, eng:Procedure]
       - [rdfs:label, $(Name), en~lang]
@@ -59,11 +106,19 @@ mappings:
       #- [ex:source, $(Source)]
       #- [ex:input, TODO $(Input/split(, ))]
       #- [ex:output, TODO $(Output/split(, ))]
-      #- [ex:responsible, TODO $(Responsible/split(, ))]
+      - p: ex:responsible
+        o:
+          - mapping: roles
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters:
+                - [idlab-fn:str, $(Responsible), s]
+                - [idlab-fn:otherStr, $(ID), o]
+                - [idlab-fn:delimiter, ",\s*"]
   informationItems:
     sources:
       - ['Information%20Items.csv~csv']
-    s: obt:InformationItems_$(Information Item ID)
+    s: obt:informationItem_$(Information Item ID)
     po:
       - [a, eng:InformationItem]
       - [rdfs:label, $(Name), en~lang]
@@ -74,7 +129,7 @@ mappings:
   iie:
     sources:
       - ['Information%20Items%20Expression.csv~csv']
-    s: obt:InformationItemsExpression_$(Information Item ID)
+    s: obt:informationItemsExpression_$(Information Item ID)
     po:
       - [a, eng:InformationItemExpression]
       - [rdfs:label, $(Name), en~lang]
@@ -85,19 +140,51 @@ mappings:
   activities:
     sources:
       - ['Activities.csv~csv']
-    s: obt:Activity_$(Activity ID)
+    s: obt:activity_$(Activity ID)
     po:
       - [a, eng:Activity]
       - [rdfs:label, $(Activity name), en~lang]
       - [dc:description, $(Definition), en~lang]
-      - [frbr:realizationOf, obt:Procedure_$(realization Of)~iri]
+      - [frbr:realizationOf, obt:procedure_$(realization Of)~iri]
       #-[ex:required, TODO $(Required=yes?)]
       #-[ex:source, TODO $(Source)]
       #-[ex:goal, TODO $(Goal)]
-      #-[ex:who, TODO $(Who/split(,))]
+      - [p-plan:decomposedAsPlan, obt:activity_$(Activity ID)_Plan~iri]
+      - p: ex:who
+        o:
+          - mapping: roles
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters:
+                - [idlab-fn:str, $(Who), s]
+                - [idlab-fn:otherStr, $(ID), o]
+                - [idlab-fn:delimiter, ",\s*"]
       #-[ex:input, TODO $(Input/split(, ))]
       #-[ex:output, TODO $(Output/split(, ))]
       #-[ex:specializations, TODO $(Specializations)]
-      #-[ex:related, TODO $(Related tasks/split(, ))]
+      - p: ex:related
+        o:
+          - mapping: tasks
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters:
+                - [idlab-fn:str, $(Related tasks), s]
+                - [idlab-fn:otherStr, $(Task ID), o]
+                - [idlab-fn:delimiter, ",\s*"]
       #-[ex:comment, TODO $(Comment)]
-
+      - p: p-plan:isStepOfPlan
+        o:
+          - mapping: process_plans
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters:
+                - [idlab-fn:otherStr, $(Activity ID), s]
+                - [idlab-fn:str, $(Related activities), o]
+                - [idlab-fn:delimiter, ",\s*"]
+  activity_plans:
+    sources:
+      - ['Activities.csv~csv']
+    s:
+      - obt:activity_$(Activity ID)_Plan
+    po:
+      - [a, p-plan:Plan]

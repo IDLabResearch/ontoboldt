@@ -1,7 +1,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix obt: <https://w3id/ontoboldt/ns/ontoboldt#>.
+@prefix obt: <https://w3id.org/ontoboldt/ns/ontoboldt#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix org: <http://www.w3.org/ns/org#>.
@@ -12,6 +12,9 @@
 @prefix schema: <http://schema.org/>.
 @prefix void: <http://rdfs.org/ns/void#>.
 @prefix cc: <http://creativecommons.org/ns#>.
+@prefix frbr: <http://purl.org/vocab/frbr/core#>.
+@prefix obtenv: <https://w3id.org/ontoboldt/ns/engineering-vocabulary#>.
+@prefix p-plan: <http://purl.org/net/p-plan#>.
 
 <http://idlab.technology/#organization> a org:OrganizationalUnit, foaf:Organization, foaf:Group, org:Organization, foaf:Agent, dc:Agent;
     dc:title "IDLab"@en;
