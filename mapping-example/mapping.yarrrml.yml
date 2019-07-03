@@ -1,4 +1,6 @@
 prefixes:
+  dc: "http://purl.org/dc/terms/"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
   obt: "https://w3id.org/ontoboldt/ns/ontoboldt#"
   eng: "https://w3id.org/ontoboldt/ns/engineering-vocabulary#"
   frbr: "http://purl.org/vocab/frbr/core#"
@@ -9,6 +11,16 @@ prefixes:
 
 
 mappings:
+  publications:
+    sources:
+      - ['Publications.csv~csv']
+    s: obt:publication_$(publication ID)
+    po:
+      - [a, eng:Publication]
+      - [eng:hasPublicationDate, $(publication date), xsd:date]
+      - [rdfs:label, $(name)]
+      - [dc:description, $(description)]
+      - [eng:authors, $(authors)]
   tasks:
     sources:
       - ['Tasks.csv~csv']
@@ -21,7 +33,7 @@ mappings:
       #- [ex:order, $(order)]
       #- [ex:relatedActivity, obt:Activity_$(Related Activity)~iri]
       - [dc:description, $(Description), en~lang]
-      #- [ex:source, TODO $(Source)]
+      - [rdfs:seeAlso, obt:publication_$(Source)~iri]
       - p: ex:who
         o:
           - mapping: roles
@@ -63,7 +75,7 @@ mappings:
       - [rdfs:label, $(Activity name), en~lang]
       #- [ex:required, TODO $(Required=yes?)]
       - [dc:description, $(Definition), en~lang]
-      #- [ex:source, TODO $(Source)]
+      - [rdfs:seeAlso, obt:publication_$(Source)~iri]
       #- [ex:goal, TODO $(Goal)]
       - p: ex:responsible
         o:
@@ -103,7 +115,7 @@ mappings:
       - [a, eng:Procedure]
       - [rdfs:label, $(Name), en~lang]
       - [dc:description, $(Description), en~lang]
-      #- [ex:source, $(Source)]
+      - [rdfs:seeAlso, obt:publication_$(Source)~iri]
       #- [ex:input, TODO $(Input/split(, ))]
       #- [ex:output, TODO $(Output/split(, ))]
       - p: ex:responsible
@@ -123,7 +135,7 @@ mappings:
       - [a, eng:InformationItem]
       - [rdfs:label, $(Name), en~lang]
       - [dc:description, $(Description (characteristics)), en~lang]
-      #- [ex:source, $(Source)]
+      - [rdfs:seeAlso, obt:publication_$(Source)~iri]
       #- [ex:sourceDefinition, $(Source definition)]
       #- [ex:consistsOf, $(consistsOf)]
   iie:
@@ -135,7 +147,7 @@ mappings:
       - [rdfs:label, $(Name), en~lang]
       - [dc:description, $(Description (characteristics)), en~lang]
       - [frbr:realizationOf, obt:InformationItem_$(realization Of)~iri]
-      #- [ex:source, $(Source information item)]
+      - [rdfs:seeAlso, obt:publication_$(Source)~iri]
       #- [ex:sourceDefinition, $(Source definition)]
   activities:
     sources:
@@ -147,7 +159,7 @@ mappings:
       - [dc:description, $(Definition), en~lang]
       - [frbr:realizationOf, obt:procedure_$(realization Of)~iri]
       #-[ex:required, TODO $(Required=yes?)]
-      #-[ex:source, TODO $(Source)]
+      - [rdfs:seeAlso, obt:publication_$(Source)~iri]
       #-[ex:goal, TODO $(Goal)]
       - [p-plan:decomposedAsPlan, obt:activity_$(Activity ID)_Plan~iri]
       - p: ex:who
