@@ -26,8 +26,21 @@ The following sources were used to populate Ontoboldt
 
 # How to use it?
 
+The following SPARQL query returns all processes, activities or tasks which produce something and what it produces.
+
 ```
-todo: example SPARQL query
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obt: <https://w3id.org/ontoboldt/ns/ontoboldt#>
+PREFIX eng: <https://w3id.org/ontoboldt/ns/engineering-vocabulary#>
+
+SELECT ?outputName ?stepName
+WHERE {
+    ?step p-plan:hasOutputVar ?output ;
+        rdfs:label ?stepName .
+
+    ?output rdfs:label ?outputName .
+}
+ORDER BY ?outputName
 ```
 
 # Data Model

@@ -4,24 +4,27 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.
 @prefix map: <http://mapping.example.com/>.
-@prefix obt: <https://w3id.org/ontoboldt/ns/ontoboldt#>.
-@prefix p-plan: <http://purl.org/net/p-plan#>.
-@prefix frbr: <http://purl.org/vocab/frbr/core#>.
-@prefix dc: <http://purl.org/dc/terms/>.
-@prefix eng: <https://w3id.org/ontoboldt/ns/engineering-vocabulary#>.
 
-map:fn_0 rr:predicateObjectMap map:pomexec_0, map:pom_49, map:pom_50, map:pom_51.
-map:fn_1 rr:predicateObjectMap map:pomexec_1, map:pom_52, map:pom_53, map:pom_54.
-map:fn_2 rr:predicateObjectMap map:pomexec_2, map:pom_55, map:pom_56, map:pom_57.
-map:fn_3 rr:predicateObjectMap map:pomexec_3, map:pom_58, map:pom_59, map:pom_60.
-map:fn_4 rr:predicateObjectMap map:pomexec_4, map:pom_61, map:pom_62, map:pom_63.
-map:fn_5 rr:predicateObjectMap map:pomexec_5, map:pom_64, map:pom_65, map:pom_66.
-map:fn_6 rr:predicateObjectMap map:pomexec_6, map:pom_67, map:pom_68, map:pom_69.
-map:fn_7 rr:predicateObjectMap map:pomexec_7, map:pom_70, map:pom_71, map:pom_72.
+map:fn_0 rr:predicateObjectMap map:pomexec_0, map:pom_59, map:pom_60, map:pom_61.
+map:fn_1 rr:predicateObjectMap map:pomexec_1, map:pom_62, map:pom_63, map:pom_64.
+map:fn_10 rr:predicateObjectMap map:pomexec_10, map:pom_89, map:pom_90, map:pom_91.
+map:fn_11 rr:predicateObjectMap map:pomexec_11, map:pom_92, map:pom_93, map:pom_94.
+map:fn_2 rr:predicateObjectMap map:pomexec_2, map:pom_65, map:pom_66, map:pom_67.
+map:fn_3 rr:predicateObjectMap map:pomexec_3, map:pom_68, map:pom_69, map:pom_70.
+map:fn_4 rr:predicateObjectMap map:pomexec_4, map:pom_71, map:pom_72, map:pom_73.
+map:fn_5 rr:predicateObjectMap map:pomexec_5, map:pom_74, map:pom_75, map:pom_76.
+map:fn_6 rr:predicateObjectMap map:pomexec_6, map:pom_77, map:pom_78, map:pom_79.
+map:fn_7 rr:predicateObjectMap map:pomexec_7, map:pom_80, map:pom_81, map:pom_82.
+map:fn_8 rr:predicateObjectMap map:pomexec_8, map:pom_83, map:pom_84, map:pom_85.
+map:fn_9 rr:predicateObjectMap map:pomexec_9, map:pom_86, map:pom_87, map:pom_88.
 map:jc_0 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
     <http://semweb.mmlab.be/ns/fnml#functionValue> map:fn_0.
 map:jc_1 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
     <http://semweb.mmlab.be/ns/fnml#functionValue> map:fn_1.
+map:jc_10 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
+    <http://semweb.mmlab.be/ns/fnml#functionValue> map:fn_10.
+map:jc_11 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
+    <http://semweb.mmlab.be/ns/fnml#functionValue> map:fn_11.
 map:jc_2 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
     <http://semweb.mmlab.be/ns/fnml#functionValue> map:fn_2.
 map:jc_3 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
@@ -34,56 +37,65 @@ map:jc_6 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
     <http://semweb.mmlab.be/ns/fnml#functionValue> map:fn_6.
 map:jc_7 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
     <http://semweb.mmlab.be/ns/fnml#functionValue> map:fn_7.
-map:map_activities_0 rml:logicalSource map:source_8;
+map:jc_8 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
+    <http://semweb.mmlab.be/ns/fnml#functionValue> map:fn_8.
+map:jc_9 a <http://semweb.mmlab.be/ns/fnml#FunctionTermMap>;
+    <http://semweb.mmlab.be/ns/fnml#functionValue> map:fn_9.
+map:map_activities_0 rml:logicalSource map:source_9;
     a rr:TriplesMap;
     rdfs:label "activities";
-    rr:subjectMap map:s_8;
-    rr:predicateObjectMap map:pom_39, map:pom_40, map:pom_41, map:pom_42, map:pom_43, map:pom_44, map:pom_45, map:pom_46, map:pom_47.
-map:map_activity_plans_0 rml:logicalSource map:source_9;
+    rr:subjectMap map:s_9;
+    rr:predicateObjectMap map:pom_49, map:pom_50, map:pom_51, map:pom_52, map:pom_53, map:pom_54, map:pom_55, map:pom_56, map:pom_57.
+map:map_activity_plans_0 rml:logicalSource map:source_10;
     a rr:TriplesMap;
     rdfs:label "activity_plans";
-    rr:subjectMap map:s_9;
-    rr:predicateObjectMap map:pom_48.
-map:map_iie_0 rml:logicalSource map:source_7;
+    rr:subjectMap map:s_10;
+    rr:predicateObjectMap map:pom_58.
+map:map_iie_0 rml:logicalSource map:source_8;
     a rr:TriplesMap;
     rdfs:label "iie";
-    rr:subjectMap map:s_7;
-    rr:predicateObjectMap map:pom_34, map:pom_35, map:pom_36, map:pom_37, map:pom_38.
-map:map_informationItems_0 rml:logicalSource map:source_6;
+    rr:subjectMap map:s_8;
+    rr:predicateObjectMap map:pom_44, map:pom_45, map:pom_46, map:pom_47, map:pom_48.
+map:map_informationItems_0 rml:logicalSource map:source_7;
     a rr:TriplesMap;
     rdfs:label "informationItems";
-    rr:subjectMap map:s_6;
-    rr:predicateObjectMap map:pom_30, map:pom_31, map:pom_32, map:pom_33.
-map:map_procedures_0 rml:logicalSource map:source_5;
+    rr:subjectMap map:s_7;
+    rr:predicateObjectMap map:pom_40, map:pom_41, map:pom_42, map:pom_43.
+map:map_procedures_0 rml:logicalSource map:source_6;
     a rr:TriplesMap;
     rdfs:label "procedures";
-    rr:subjectMap map:s_5;
-    rr:predicateObjectMap map:pom_25, map:pom_26, map:pom_27, map:pom_28, map:pom_29.
-map:map_process_plans_0 rml:logicalSource map:source_4;
+    rr:subjectMap map:s_6;
+    rr:predicateObjectMap map:pom_35, map:pom_36, map:pom_37, map:pom_38, map:pom_39.
+map:map_process_plans_0 rml:logicalSource map:source_5;
     a rr:TriplesMap;
     rdfs:label "process_plans";
-    rr:subjectMap map:s_4;
-    rr:predicateObjectMap map:pom_24.
-map:map_processes_0 rml:logicalSource map:source_3;
+    rr:subjectMap map:s_5;
+    rr:predicateObjectMap map:pom_34.
+map:map_processes_0 rml:logicalSource map:source_4;
     a rr:TriplesMap;
     rdfs:label "processes";
-    rr:subjectMap map:s_3;
-    rr:predicateObjectMap map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21, map:pom_22, map:pom_23.
+    rr:subjectMap map:s_4;
+    rr:predicateObjectMap map:pom_25, map:pom_26, map:pom_27, map:pom_28, map:pom_29, map:pom_30, map:pom_31, map:pom_32, map:pom_33.
 map:map_publications_0 rml:logicalSource map:source_0;
     a rr:TriplesMap;
     rdfs:label "publications";
     rr:subjectMap map:s_0;
     rr:predicateObjectMap map:pom_0, map:pom_1, map:pom_2, map:pom_3, map:pom_4.
-map:map_roles_0 rml:logicalSource map:source_2;
+map:map_resources_0 rml:logicalSource map:source_1;
+    a rr:TriplesMap;
+    rdfs:label "resources";
+    rr:subjectMap map:s_1;
+    rr:predicateObjectMap map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10.
+map:map_roles_0 rml:logicalSource map:source_3;
     a rr:TriplesMap;
     rdfs:label "roles";
-    rr:subjectMap map:s_2;
-    rr:predicateObjectMap map:pom_12, map:pom_13, map:pom_14.
-map:map_tasks_0 rml:logicalSource map:source_1;
+    rr:subjectMap map:s_3;
+    rr:predicateObjectMap map:pom_22, map:pom_23, map:pom_24.
+map:map_tasks_0 rml:logicalSource map:source_2;
     a rr:TriplesMap;
     rdfs:label "tasks";
-    rr:subjectMap map:s_1;
-    rr:predicateObjectMap map:pom_5, map:pom_6, map:pom_7, map:pom_8, map:pom_9, map:pom_10, map:pom_11.
+    rr:subjectMap map:s_2;
+    rr:predicateObjectMap map:pom_11, map:pom_12, map:pom_13, map:pom_14, map:pom_15, map:pom_16, map:pom_17, map:pom_18, map:pom_19, map:pom_20, map:pom_21.
 map:om_0 a rr:ObjectMap;
     rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Publication";
     rr:termType rr:IRI.
@@ -92,227 +104,295 @@ map:om_1 a rr:ObjectMap;
     rr:termType rr:Literal;
     rr:datatype <http://www.w3.org/2001/XMLSchema#date>.
 map:om_10 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_roles_0;
-    rml:joinCondition map:jc_0.
+    rml:reference "URL";
+    rr:termType rr:Literal.
 map:om_11 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_activity_plans_0;
-    rml:joinCondition map:jc_1.
+    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task";
+    rr:termType rr:IRI.
 map:om_12 a rr:ObjectMap;
-    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Role";
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#procedure_{realization Of}";
     rr:termType rr:IRI.
 map:om_13 a rr:ObjectMap;
-    rml:reference "name";
+    rml:reference "Name";
     rr:termType rr:Literal;
     rr:language "en".
 map:om_14 a rr:ObjectMap;
-    rml:reference "description";
+    rml:reference "Description";
     rr:termType rr:Literal;
     rr:language "en".
 map:om_15 a rr:ObjectMap;
-    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process";
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#publication_{Source}";
     rr:termType rr:IRI.
 map:om_16 a rr:ObjectMap;
-    rr:constant "http://purl.org/net/p-plan#Multistep";
-    rr:termType rr:IRI.
+    rr:parentTriplesMap map:map_roles_0;
+    rml:joinCondition map:jc_0.
 map:om_17 a rr:ObjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#procedure_{realization Of}";
-    rr:termType rr:IRI.
+    rr:parentTriplesMap map:map_iie_0;
+    rml:joinCondition map:jc_1.
 map:om_18 a rr:ObjectMap;
-    rml:reference "Activity name";
-    rr:termType rr:Literal;
-    rr:language "en".
+    rr:parentTriplesMap map:map_iie_0;
+    rml:joinCondition map:jc_2.
 map:om_19 a rr:ObjectMap;
-    rml:reference "Definition";
-    rr:termType rr:Literal;
-    rr:language "en".
+    rr:parentTriplesMap map:map_publications_0;
+    rml:joinCondition map:jc_3.
 map:om_2 a rr:ObjectMap;
     rml:reference "name";
     rr:termType rr:Literal.
 map:om_20 a rr:ObjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#publication_{Source}";
-    rr:termType rr:IRI.
+    rr:parentTriplesMap map:map_resources_0;
+    rml:joinCondition map:jc_4.
 map:om_21 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_roles_0;
-    rml:joinCondition map:jc_2.
+    rr:parentTriplesMap map:map_activity_plans_0;
+    rml:joinCondition map:jc_5.
 map:om_22 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_activities_0;
-    rml:joinCondition map:jc_3.
+    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Role";
+    rr:termType rr:IRI.
 map:om_23 a rr:ObjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#process_{Process ID}_Plan";
-    rr:termType rr:IRI.
+    rml:reference "name";
+    rr:termType rr:Literal;
+    rr:language "en".
 map:om_24 a rr:ObjectMap;
-    rr:constant "http://purl.org/net/p-plan#Plan";
-    rr:termType rr:IRI.
+    rml:reference "description";
+    rr:termType rr:Literal;
+    rr:language "en".
 map:om_25 a rr:ObjectMap;
-    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure";
+    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Process";
     rr:termType rr:IRI.
 map:om_26 a rr:ObjectMap;
-    rml:reference "Name";
-    rr:termType rr:Literal;
-    rr:language "en".
-map:om_27 a rr:ObjectMap;
-    rml:reference "Description";
-    rr:termType rr:Literal;
-    rr:language "en".
-map:om_28 a rr:ObjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#publication_{Source}";
+    rr:constant "http://purl.org/net/p-plan#Multistep";
     rr:termType rr:IRI.
+map:om_27 a rr:ObjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#procedure_{realization Of}";
+    rr:termType rr:IRI.
+map:om_28 a rr:ObjectMap;
+    rml:reference "Activity name";
+    rr:termType rr:Literal;
+    rr:language "en".
 map:om_29 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_roles_0;
-    rml:joinCondition map:jc_4.
+    rml:reference "Definition";
+    rr:termType rr:Literal;
+    rr:language "en".
 map:om_3 a rr:ObjectMap;
     rml:reference "description";
     rr:termType rr:Literal.
 map:om_30 a rr:ObjectMap;
-    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem";
-    rr:termType rr:IRI.
-map:om_31 a rr:ObjectMap;
-    rml:reference "Name";
-    rr:termType rr:Literal;
-    rr:language "en".
-map:om_32 a rr:ObjectMap;
-    rr:template "{Description (characteristics})";
-    rr:termType rr:Literal;
-    rr:language "en".
-map:om_33 a rr:ObjectMap;
     rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#publication_{Source}";
     rr:termType rr:IRI.
+map:om_31 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_roles_0;
+    rml:joinCondition map:jc_6.
+map:om_32 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_activities_0;
+    rml:joinCondition map:jc_7.
+map:om_33 a rr:ObjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#process_{Process ID}_Plan";
+    rr:termType rr:IRI.
 map:om_34 a rr:ObjectMap;
-    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression";
+    rr:constant "http://purl.org/net/p-plan#Plan";
     rr:termType rr:IRI.
 map:om_35 a rr:ObjectMap;
-    rml:reference "Name";
-    rr:termType rr:Literal;
-    rr:language "en".
+    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Procedure";
+    rr:termType rr:IRI.
 map:om_36 a rr:ObjectMap;
-    rr:template "{Description (characteristics})";
+    rml:reference "Name";
     rr:termType rr:Literal;
     rr:language "en".
 map:om_37 a rr:ObjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_{realization Of}";
-    rr:termType rr:IRI.
+    rml:reference "Description";
+    rr:termType rr:Literal;
+    rr:language "en".
 map:om_38 a rr:ObjectMap;
     rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#publication_{Source}";
     rr:termType rr:IRI.
 map:om_39 a rr:ObjectMap;
-    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity";
-    rr:termType rr:IRI.
+    rr:parentTriplesMap map:map_roles_0;
+    rml:joinCondition map:jc_8.
 map:om_4 a rr:ObjectMap;
     rml:reference "authors";
     rr:termType rr:Literal.
 map:om_40 a rr:ObjectMap;
-    rml:reference "Activity name";
-    rr:termType rr:Literal;
-    rr:language "en".
+    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItem";
+    rr:termType rr:IRI.
 map:om_41 a rr:ObjectMap;
-    rml:reference "Definition";
+    rml:reference "Name";
     rr:termType rr:Literal;
     rr:language "en".
 map:om_42 a rr:ObjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#procedure_{realization Of}";
-    rr:termType rr:IRI.
+    rr:template "{Description (characteristics})";
+    rr:termType rr:Literal;
+    rr:language "en".
 map:om_43 a rr:ObjectMap;
     rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#publication_{Source}";
     rr:termType rr:IRI.
 map:om_44 a rr:ObjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#activity_{Activity ID}_Plan";
+    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#InformationItemExpression";
     rr:termType rr:IRI.
 map:om_45 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_roles_0;
-    rml:joinCondition map:jc_5.
-map:om_46 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_tasks_0;
-    rml:joinCondition map:jc_6.
-map:om_47 a rr:ObjectMap;
-    rr:parentTriplesMap map:map_process_plans_0;
-    rml:joinCondition map:jc_7.
-map:om_48 a rr:ObjectMap;
-    rr:constant "http://purl.org/net/p-plan#Plan";
-    rr:termType rr:IRI.
-map:om_49 a rr:ObjectMap;
-    rml:reference "Who";
-    rr:termType rr:Literal.
-map:om_5 a rr:ObjectMap;
-    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Task";
-    rr:termType rr:IRI.
-map:om_50 a rr:ObjectMap;
-    rml:parentTermMap map:ptm_0.
-map:om_51 a rr:ObjectMap;
-    rr:constant ",\\s*";
-    rr:termType rr:Literal.
-map:om_52 a rr:ObjectMap;
-    rml:reference "Task ID";
-    rr:termType rr:Literal.
-map:om_53 a rr:ObjectMap;
-    rml:parentTermMap map:ptm_1.
-map:om_54 a rr:ObjectMap;
-    rr:constant ",\\s*";
-    rr:termType rr:Literal.
-map:om_55 a rr:ObjectMap;
-    rml:reference "Responsible";
-    rr:termType rr:Literal.
-map:om_56 a rr:ObjectMap;
-    rml:parentTermMap map:ptm_2.
-map:om_57 a rr:ObjectMap;
-    rr:constant ",\\s*";
-    rr:termType rr:Literal.
-map:om_58 a rr:ObjectMap;
-    rml:reference "Related activities";
-    rr:termType rr:Literal.
-map:om_59 a rr:ObjectMap;
-    rml:parentTermMap map:ptm_3.
-map:om_6 a rr:ObjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#procedure_{realization Of}";
-    rr:termType rr:IRI.
-map:om_60 a rr:ObjectMap;
-    rr:constant ",\\s*";
-    rr:termType rr:Literal.
-map:om_61 a rr:ObjectMap;
-    rml:reference "Responsible";
-    rr:termType rr:Literal.
-map:om_62 a rr:ObjectMap;
-    rml:parentTermMap map:ptm_4.
-map:om_63 a rr:ObjectMap;
-    rr:constant ",\\s*";
-    rr:termType rr:Literal.
-map:om_64 a rr:ObjectMap;
-    rml:reference "Who";
-    rr:termType rr:Literal.
-map:om_65 a rr:ObjectMap;
-    rml:parentTermMap map:ptm_5.
-map:om_66 a rr:ObjectMap;
-    rr:constant ",\\s*";
-    rr:termType rr:Literal.
-map:om_67 a rr:ObjectMap;
-    rml:reference "Related tasks";
-    rr:termType rr:Literal.
-map:om_68 a rr:ObjectMap;
-    rml:parentTermMap map:ptm_6.
-map:om_69 a rr:ObjectMap;
-    rr:constant ",\\s*";
-    rr:termType rr:Literal.
-map:om_7 a rr:ObjectMap;
     rml:reference "Name";
     rr:termType rr:Literal;
     rr:language "en".
+map:om_46 a rr:ObjectMap;
+    rr:template "{Description (characteristics})";
+    rr:termType rr:Literal;
+    rr:language "en".
+map:om_47 a rr:ObjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#InformationItem_{realization Of}";
+    rr:termType rr:IRI.
+map:om_48 a rr:ObjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#publication_{Source}";
+    rr:termType rr:IRI.
+map:om_49 a rr:ObjectMap;
+    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Activity";
+    rr:termType rr:IRI.
+map:om_5 a rr:ObjectMap;
+    rr:constant "https://w3id.org/ontoboldt/ns/engineering-vocabulary#Resource";
+    rr:termType rr:IRI.
+map:om_50 a rr:ObjectMap;
+    rml:reference "Activity name";
+    rr:termType rr:Literal;
+    rr:language "en".
+map:om_51 a rr:ObjectMap;
+    rml:reference "Definition";
+    rr:termType rr:Literal;
+    rr:language "en".
+map:om_52 a rr:ObjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#procedure_{realization Of}";
+    rr:termType rr:IRI.
+map:om_53 a rr:ObjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#publication_{Source}";
+    rr:termType rr:IRI.
+map:om_54 a rr:ObjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#activity_{Activity ID}_Plan";
+    rr:termType rr:IRI.
+map:om_55 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_roles_0;
+    rml:joinCondition map:jc_9.
+map:om_56 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_tasks_0;
+    rml:joinCondition map:jc_10.
+map:om_57 a rr:ObjectMap;
+    rr:parentTriplesMap map:map_process_plans_0;
+    rml:joinCondition map:jc_11.
+map:om_58 a rr:ObjectMap;
+    rr:constant "http://purl.org/net/p-plan#Plan";
+    rr:termType rr:IRI.
+map:om_59 a rr:ObjectMap;
+    rml:reference "Who";
+    rr:termType rr:Literal.
+map:om_6 a rr:ObjectMap;
+    rml:reference "Creation";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#date>.
+map:om_60 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_0.
+map:om_61 a rr:ObjectMap;
+    rr:constant ",\\s*";
+    rr:termType rr:Literal.
+map:om_62 a rr:ObjectMap;
+    rml:reference "Input";
+    rr:termType rr:Literal.
+map:om_63 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_1.
+map:om_64 a rr:ObjectMap;
+    rr:constant ",\\s*";
+    rr:termType rr:Literal.
+map:om_65 a rr:ObjectMap;
+    rml:reference "Output";
+    rr:termType rr:Literal.
+map:om_66 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_2.
+map:om_67 a rr:ObjectMap;
+    rr:constant ",\\s*";
+    rr:termType rr:Literal.
+map:om_68 a rr:ObjectMap;
+    rml:reference "publications";
+    rr:termType rr:Literal.
+map:om_69 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_3.
+map:om_7 a rr:ObjectMap;
+    rml:reference "Last Update date";
+    rr:termType rr:Literal;
+    rr:datatype <http://www.w3.org/2001/XMLSchema#date>.
 map:om_70 a rr:ObjectMap;
-    rml:reference "Activity ID";
+    rr:constant ",\\s*";
     rr:termType rr:Literal.
 map:om_71 a rr:ObjectMap;
-    rml:parentTermMap map:ptm_7.
+    rml:reference "resources";
+    rr:termType rr:Literal.
 map:om_72 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_4.
+map:om_73 a rr:ObjectMap;
+    rr:constant ",\\s*";
+    rr:termType rr:Literal.
+map:om_74 a rr:ObjectMap;
+    rml:reference "Task ID";
+    rr:termType rr:Literal.
+map:om_75 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_5.
+map:om_76 a rr:ObjectMap;
+    rr:constant ",\\s*";
+    rr:termType rr:Literal.
+map:om_77 a rr:ObjectMap;
+    rml:reference "Responsible";
+    rr:termType rr:Literal.
+map:om_78 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_6.
+map:om_79 a rr:ObjectMap;
     rr:constant ",\\s*";
     rr:termType rr:Literal.
 map:om_8 a rr:ObjectMap;
-    rml:reference "Description";
-    rr:termType rr:Literal;
-    rr:language "en".
+    rml:reference "Name";
+    rr:termType rr:Literal.
+map:om_80 a rr:ObjectMap;
+    rml:reference "Related activities";
+    rr:termType rr:Literal.
+map:om_81 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_7.
+map:om_82 a rr:ObjectMap;
+    rr:constant ",\\s*";
+    rr:termType rr:Literal.
+map:om_83 a rr:ObjectMap;
+    rml:reference "Responsible";
+    rr:termType rr:Literal.
+map:om_84 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_8.
+map:om_85 a rr:ObjectMap;
+    rr:constant ",\\s*";
+    rr:termType rr:Literal.
+map:om_86 a rr:ObjectMap;
+    rml:reference "Who";
+    rr:termType rr:Literal.
+map:om_87 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_9.
+map:om_88 a rr:ObjectMap;
+    rr:constant ",\\s*";
+    rr:termType rr:Literal.
+map:om_89 a rr:ObjectMap;
+    rml:reference "Related tasks";
+    rr:termType rr:Literal.
 map:om_9 a rr:ObjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#publication_{Source}";
-    rr:termType rr:IRI.
+    rml:reference "Description";
+    rr:termType rr:Literal.
+map:om_90 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_10.
+map:om_91 a rr:ObjectMap;
+    rr:constant ",\\s*";
+    rr:termType rr:Literal.
+map:om_92 a rr:ObjectMap;
+    rml:reference "Activity ID";
+    rr:termType rr:Literal.
+map:om_93 a rr:ObjectMap;
+    rml:parentTermMap map:ptm_11.
+map:om_94 a rr:ObjectMap;
+    rr:constant ",\\s*";
+    rr:termType rr:Literal.
 map:omexec_0 rr:constant "http://example.com/idlab/function/stringContainsOtherString";
     rr:termType rr:IRI.
 map:omexec_1 rr:constant "http://example.com/idlab/function/stringContainsOtherString";
+    rr:termType rr:IRI.
+map:omexec_10 rr:constant "http://example.com/idlab/function/stringContainsOtherString";
+    rr:termType rr:IRI.
+map:omexec_11 rr:constant "http://example.com/idlab/function/stringContainsOtherString";
     rr:termType rr:IRI.
 map:omexec_2 rr:constant "http://example.com/idlab/function/stringContainsOtherString";
     rr:termType rr:IRI.
@@ -326,160 +406,212 @@ map:omexec_6 rr:constant "http://example.com/idlab/function/stringContainsOtherS
     rr:termType rr:IRI.
 map:omexec_7 rr:constant "http://example.com/idlab/function/stringContainsOtherString";
     rr:termType rr:IRI.
+map:omexec_8 rr:constant "http://example.com/idlab/function/stringContainsOtherString";
+    rr:termType rr:IRI.
+map:omexec_9 rr:constant "http://example.com/idlab/function/stringContainsOtherString";
+    rr:termType rr:IRI.
 map:pm_0 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_1 a rr:PredicateMap;
     rr:constant <https://w3id.org/ontoboldt/ns/engineering-vocabulary#hasPublicationDate>.
 map:pm_10 a rr:PredicateMap;
-    rr:constant <http://example.com#who>.
+    rr:constant <https://w3id.org/ontoboldt/ns/engineering-vocabulary#hasURL>.
 map:pm_11 a rr:PredicateMap;
-    rr:constant <http://purl.org/net/p-plan#isStepOfPlan>.
-map:pm_12 a rr:PredicateMap;
     rr:constant rdf:type.
+map:pm_12 a rr:PredicateMap;
+    rr:constant <http://purl.org/vocab/frbr/core#realizationOf>.
 map:pm_13 a rr:PredicateMap;
     rr:constant rdfs:label.
 map:pm_14 a rr:PredicateMap;
     rr:constant <http://purl.org/dc/terms/description>.
 map:pm_15 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant rdfs:seeAlso.
 map:pm_16 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant <http://example.com#who>.
 map:pm_17 a rr:PredicateMap;
-    rr:constant <http://purl.org/vocab/frbr/core#realizationOf>.
+    rr:constant <http://purl.org/net/p-plan#hasInputVar>.
 map:pm_18 a rr:PredicateMap;
-    rr:constant rdfs:label.
+    rr:constant <http://purl.org/net/p-plan#hasOutputVar>.
 map:pm_19 a rr:PredicateMap;
-    rr:constant <http://purl.org/dc/terms/description>.
+    rr:constant <https://w3id.org/ontoboldt/ns/engineering-vocabulary#hasRelatedPublication>.
 map:pm_2 a rr:PredicateMap;
     rr:constant rdfs:label.
 map:pm_20 a rr:PredicateMap;
-    rr:constant rdfs:seeAlso.
+    rr:constant <https://w3id.org/ontoboldt/ns/engineering-vocabulary#hasRelatedResource>.
 map:pm_21 a rr:PredicateMap;
-    rr:constant <http://example.com#responsible>.
+    rr:constant <http://purl.org/net/p-plan#isStepOfPlan>.
 map:pm_22 a rr:PredicateMap;
-    rr:constant <http://example.com#related>.
-map:pm_23 a rr:PredicateMap;
-    rr:constant <http://purl.org/net/p-plan#decomposedAsPlan>.
-map:pm_24 a rr:PredicateMap;
     rr:constant rdf:type.
+map:pm_23 a rr:PredicateMap;
+    rr:constant rdfs:label.
+map:pm_24 a rr:PredicateMap;
+    rr:constant <http://purl.org/dc/terms/description>.
 map:pm_25 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_26 a rr:PredicateMap;
-    rr:constant rdfs:label.
+    rr:constant rdf:type.
 map:pm_27 a rr:PredicateMap;
-    rr:constant <http://purl.org/dc/terms/description>.
+    rr:constant <http://purl.org/vocab/frbr/core#realizationOf>.
 map:pm_28 a rr:PredicateMap;
-    rr:constant rdfs:seeAlso.
+    rr:constant rdfs:label.
 map:pm_29 a rr:PredicateMap;
-    rr:constant <http://example.com#responsible>.
+    rr:constant <http://purl.org/dc/terms/description>.
 map:pm_3 a rr:PredicateMap;
     rr:constant <http://purl.org/dc/terms/description>.
 map:pm_30 a rr:PredicateMap;
-    rr:constant rdf:type.
-map:pm_31 a rr:PredicateMap;
-    rr:constant rdfs:label.
-map:pm_32 a rr:PredicateMap;
-    rr:constant <http://purl.org/dc/terms/description>.
-map:pm_33 a rr:PredicateMap;
     rr:constant rdfs:seeAlso.
+map:pm_31 a rr:PredicateMap;
+    rr:constant <http://example.com#responsible>.
+map:pm_32 a rr:PredicateMap;
+    rr:constant <http://example.com#related>.
+map:pm_33 a rr:PredicateMap;
+    rr:constant <http://purl.org/net/p-plan#decomposedAsPlan>.
 map:pm_34 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_35 a rr:PredicateMap;
-    rr:constant rdfs:label.
+    rr:constant rdf:type.
 map:pm_36 a rr:PredicateMap;
-    rr:constant <http://purl.org/dc/terms/description>.
+    rr:constant rdfs:label.
 map:pm_37 a rr:PredicateMap;
-    rr:constant <http://purl.org/vocab/frbr/core#realizationOf>.
+    rr:constant <http://purl.org/dc/terms/description>.
 map:pm_38 a rr:PredicateMap;
     rr:constant rdfs:seeAlso.
 map:pm_39 a rr:PredicateMap;
-    rr:constant rdf:type.
+    rr:constant <http://example.com#responsible>.
 map:pm_4 a rr:PredicateMap;
     rr:constant <https://w3id.org/ontoboldt/ns/engineering-vocabulary#authors>.
 map:pm_40 a rr:PredicateMap;
-    rr:constant rdfs:label.
+    rr:constant rdf:type.
 map:pm_41 a rr:PredicateMap;
-    rr:constant <http://purl.org/dc/terms/description>.
+    rr:constant rdfs:label.
 map:pm_42 a rr:PredicateMap;
-    rr:constant <http://purl.org/vocab/frbr/core#realizationOf>.
+    rr:constant <http://purl.org/dc/terms/description>.
 map:pm_43 a rr:PredicateMap;
     rr:constant rdfs:seeAlso.
 map:pm_44 a rr:PredicateMap;
-    rr:constant <http://purl.org/net/p-plan#decomposedAsPlan>.
-map:pm_45 a rr:PredicateMap;
-    rr:constant <http://example.com#who>.
-map:pm_46 a rr:PredicateMap;
-    rr:constant <http://example.com#related>.
-map:pm_47 a rr:PredicateMap;
-    rr:constant <http://purl.org/net/p-plan#isStepOfPlan>.
-map:pm_48 a rr:PredicateMap;
     rr:constant rdf:type.
+map:pm_45 a rr:PredicateMap;
+    rr:constant rdfs:label.
+map:pm_46 a rr:PredicateMap;
+    rr:constant <http://purl.org/dc/terms/description>.
+map:pm_47 a rr:PredicateMap;
+    rr:constant <http://purl.org/vocab/frbr/core#realizationOf>.
+map:pm_48 a rr:PredicateMap;
+    rr:constant rdfs:seeAlso.
 map:pm_49 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/str>.
+    rr:constant rdf:type.
 map:pm_5 a rr:PredicateMap;
     rr:constant rdf:type.
 map:pm_50 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/otherStr>.
-map:pm_51 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/delimiter>.
-map:pm_52 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/otherStr>.
-map:pm_53 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/str>.
-map:pm_54 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/delimiter>.
-map:pm_55 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/str>.
-map:pm_56 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/otherStr>.
-map:pm_57 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/delimiter>.
-map:pm_58 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/str>.
-map:pm_59 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/otherStr>.
-map:pm_6 a rr:PredicateMap;
-    rr:constant <http://purl.org/vocab/frbr/core#realizationOf>.
-map:pm_60 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/delimiter>.
-map:pm_61 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/str>.
-map:pm_62 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/otherStr>.
-map:pm_63 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/delimiter>.
-map:pm_64 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/str>.
-map:pm_65 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/otherStr>.
-map:pm_66 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/delimiter>.
-map:pm_67 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/str>.
-map:pm_68 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/otherStr>.
-map:pm_69 a rr:PredicateMap;
-    rr:constant <http://example.com/idlab/function/delimiter>.
-map:pm_7 a rr:PredicateMap;
     rr:constant rdfs:label.
-map:pm_70 a rr:PredicateMap;
+map:pm_51 a rr:PredicateMap;
+    rr:constant <http://purl.org/dc/terms/description>.
+map:pm_52 a rr:PredicateMap;
+    rr:constant <http://purl.org/vocab/frbr/core#realizationOf>.
+map:pm_53 a rr:PredicateMap;
+    rr:constant rdfs:seeAlso.
+map:pm_54 a rr:PredicateMap;
+    rr:constant <http://purl.org/net/p-plan#decomposedAsPlan>.
+map:pm_55 a rr:PredicateMap;
+    rr:constant <http://example.com#who>.
+map:pm_56 a rr:PredicateMap;
+    rr:constant <http://example.com#related>.
+map:pm_57 a rr:PredicateMap;
+    rr:constant <http://purl.org/net/p-plan#isStepOfPlan>.
+map:pm_58 a rr:PredicateMap;
+    rr:constant rdf:type.
+map:pm_59 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/str>.
+map:pm_6 a rr:PredicateMap;
+    rr:constant <https://w3id.org/ontoboldt/ns/engineering-vocabulary#hasCreationDate>.
+map:pm_60 a rr:PredicateMap;
     rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_61 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/delimiter>.
+map:pm_62 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/str>.
+map:pm_63 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_64 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/delimiter>.
+map:pm_65 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/str>.
+map:pm_66 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_67 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/delimiter>.
+map:pm_68 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/str>.
+map:pm_69 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_7 a rr:PredicateMap;
+    rr:constant <https://w3id.org/ontoboldt/ns/engineering-vocabulary#hasUpdateDate>.
+map:pm_70 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/delimiter>.
 map:pm_71 a rr:PredicateMap;
     rr:constant <http://example.com/idlab/function/str>.
 map:pm_72 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_73 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/delimiter>.
+map:pm_74 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_75 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/str>.
+map:pm_76 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/delimiter>.
+map:pm_77 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/str>.
+map:pm_78 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_79 a rr:PredicateMap;
     rr:constant <http://example.com/idlab/function/delimiter>.
 map:pm_8 a rr:PredicateMap;
-    rr:constant <http://purl.org/dc/terms/description>.
+    rr:constant rdfs:label.
+map:pm_80 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/str>.
+map:pm_81 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_82 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/delimiter>.
+map:pm_83 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/str>.
+map:pm_84 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_85 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/delimiter>.
+map:pm_86 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/str>.
+map:pm_87 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_88 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/delimiter>.
+map:pm_89 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/str>.
 map:pm_9 a rr:PredicateMap;
-    rr:constant rdfs:seeAlso.
+    rr:constant <http://purl.org/dc/terms/description>.
+map:pm_90 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_91 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/delimiter>.
+map:pm_92 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/otherStr>.
+map:pm_93 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/str>.
+map:pm_94 a rr:PredicateMap;
+    rr:constant <http://example.com/idlab/function/delimiter>.
 map:pmexec_0 rr:constant <http://w3id.org/function/ontology#executes>.
 map:pmexec_1 rr:constant <http://w3id.org/function/ontology#executes>.
+map:pmexec_10 rr:constant <http://w3id.org/function/ontology#executes>.
+map:pmexec_11 rr:constant <http://w3id.org/function/ontology#executes>.
 map:pmexec_2 rr:constant <http://w3id.org/function/ontology#executes>.
 map:pmexec_3 rr:constant <http://w3id.org/function/ontology#executes>.
 map:pmexec_4 rr:constant <http://w3id.org/function/ontology#executes>.
 map:pmexec_5 rr:constant <http://w3id.org/function/ontology#executes>.
 map:pmexec_6 rr:constant <http://w3id.org/function/ontology#executes>.
 map:pmexec_7 rr:constant <http://w3id.org/function/ontology#executes>.
+map:pmexec_8 rr:constant <http://w3id.org/function/ontology#executes>.
+map:pmexec_9 rr:constant <http://w3id.org/function/ontology#executes>.
 map:pom_0 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_0;
     rr:objectMap map:om_0.
@@ -693,16 +825,86 @@ map:pom_71 a rr:PredicateObjectMap;
 map:pom_72 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_72;
     rr:objectMap map:om_72.
+map:pom_73 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_73;
+    rr:objectMap map:om_73.
+map:pom_74 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_74;
+    rr:objectMap map:om_74.
+map:pom_75 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_75;
+    rr:objectMap map:om_75.
+map:pom_76 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_76;
+    rr:objectMap map:om_76.
+map:pom_77 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_77;
+    rr:objectMap map:om_77.
+map:pom_78 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_78;
+    rr:objectMap map:om_78.
+map:pom_79 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_79;
+    rr:objectMap map:om_79.
 map:pom_8 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_8;
     rr:objectMap map:om_8.
+map:pom_80 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_80;
+    rr:objectMap map:om_80.
+map:pom_81 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_81;
+    rr:objectMap map:om_81.
+map:pom_82 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_82;
+    rr:objectMap map:om_82.
+map:pom_83 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_83;
+    rr:objectMap map:om_83.
+map:pom_84 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_84;
+    rr:objectMap map:om_84.
+map:pom_85 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_85;
+    rr:objectMap map:om_85.
+map:pom_86 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_86;
+    rr:objectMap map:om_86.
+map:pom_87 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_87;
+    rr:objectMap map:om_87.
+map:pom_88 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_88;
+    rr:objectMap map:om_88.
+map:pom_89 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_89;
+    rr:objectMap map:om_89.
 map:pom_9 a rr:PredicateObjectMap;
     rr:predicateMap map:pm_9;
     rr:objectMap map:om_9.
+map:pom_90 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_90;
+    rr:objectMap map:om_90.
+map:pom_91 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_91;
+    rr:objectMap map:om_91.
+map:pom_92 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_92;
+    rr:objectMap map:om_92.
+map:pom_93 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_93;
+    rr:objectMap map:om_93.
+map:pom_94 a rr:PredicateObjectMap;
+    rr:predicateMap map:pm_94;
+    rr:objectMap map:om_94.
 map:pomexec_0 rr:predicateMap map:pmexec_0;
     rr:objectMap map:omexec_0.
 map:pomexec_1 rr:predicateMap map:pmexec_1;
     rr:objectMap map:omexec_1.
+map:pomexec_10 rr:predicateMap map:pmexec_10;
+    rr:objectMap map:omexec_10.
+map:pomexec_11 rr:predicateMap map:pmexec_11;
+    rr:objectMap map:omexec_11.
 map:pomexec_2 rr:predicateMap map:pmexec_2;
     rr:objectMap map:omexec_2.
 map:pomexec_3 rr:predicateMap map:pmexec_3;
@@ -715,60 +917,73 @@ map:pomexec_6 rr:predicateMap map:pmexec_6;
     rr:objectMap map:omexec_6.
 map:pomexec_7 rr:predicateMap map:pmexec_7;
     rr:objectMap map:omexec_7.
+map:pomexec_8 rr:predicateMap map:pmexec_8;
+    rr:objectMap map:omexec_8.
+map:pomexec_9 rr:predicateMap map:pmexec_9;
+    rr:objectMap map:omexec_9.
 map:ptm_0 rml:reference "ID".
-map:ptm_1 rml:reference "Related tasks".
-map:ptm_2 rml:reference "ID".
-map:ptm_3 rml:reference "Activity ID".
-map:ptm_4 rml:reference "ID".
-map:ptm_5 rml:reference "ID".
-map:ptm_6 rml:reference "Task ID".
-map:ptm_7 rml:reference "Related activities".
+map:ptm_1 rml:reference "Information Item ID".
+map:ptm_10 rml:reference "Task ID".
+map:ptm_11 rml:reference "Related activities".
+map:ptm_2 rml:reference "Information Item ID".
+map:ptm_3 rml:reference "publication ID".
+map:ptm_4 rml:reference "Resource ID".
+map:ptm_5 rml:reference "Related tasks".
+map:ptm_6 rml:reference "ID".
+map:ptm_7 rml:reference "Activity ID".
+map:ptm_8 rml:reference "ID".
+map:ptm_9 rml:reference "ID".
 map:s_0 a rr:SubjectMap;
     rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#publication_{publication ID}".
 map:s_1 a rr:SubjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#task_{Task ID}".
-map:s_2 a rr:SubjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#roles_{ID}".
-map:s_3 a rr:SubjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#process_{Process ID}".
-map:s_4 a rr:SubjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#process_{Process ID}_Plan".
-map:s_5 a rr:SubjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#procedure_{Procedure ID}".
-map:s_6 a rr:SubjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#informationItem_{Information Item ID}".
-map:s_7 a rr:SubjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#informationItemsExpression_{Information Item ID}".
-map:s_8 a rr:SubjectMap;
-    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#activity_{Activity ID}".
-map:s_9 a rr:SubjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#resource_{Resource ID}".
+map:s_10 a rr:SubjectMap;
     rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#activity_{Activity ID}_Plan".
+map:s_2 a rr:SubjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#task_{Task ID}".
+map:s_3 a rr:SubjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#roles_{ID}".
+map:s_4 a rr:SubjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#process_{Process ID}".
+map:s_5 a rr:SubjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#process_{Process ID}_Plan".
+map:s_6 a rr:SubjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#procedure_{Procedure ID}".
+map:s_7 a rr:SubjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#informationItem_{Information Item ID}".
+map:s_8 a rr:SubjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#informationItemsExpression_{Information Item ID}".
+map:s_9 a rr:SubjectMap;
+    rr:template "https://w3id.org/ontoboldt/ns/ontoboldt#activity_{Activity ID}".
 map:source_0 a rml:LogicalSource;
     rml:source "Publications.csv";
     rml:referenceFormulation ql:CSV.
 map:source_1 a rml:LogicalSource;
-    rml:source "Tasks.csv";
+    rml:source "Resources.csv";
+    rml:referenceFormulation ql:CSV.
+map:source_10 a rml:LogicalSource;
+    rml:source "Activities.csv";
     rml:referenceFormulation ql:CSV.
 map:source_2 a rml:LogicalSource;
-    rml:source "Roles.csv";
+    rml:source "Tasks.csv";
     rml:referenceFormulation ql:CSV.
 map:source_3 a rml:LogicalSource;
-    rml:source "Processes.csv";
+    rml:source "Roles.csv";
     rml:referenceFormulation ql:CSV.
 map:source_4 a rml:LogicalSource;
     rml:source "Processes.csv";
     rml:referenceFormulation ql:CSV.
 map:source_5 a rml:LogicalSource;
-    rml:source "Procedures.csv";
+    rml:source "Processes.csv";
     rml:referenceFormulation ql:CSV.
 map:source_6 a rml:LogicalSource;
-    rml:source "Information%20Items.csv";
+    rml:source "Procedures.csv";
     rml:referenceFormulation ql:CSV.
 map:source_7 a rml:LogicalSource;
-    rml:source "Information%20Items%20Expression.csv";
+    rml:source "Information%20Items.csv";
     rml:referenceFormulation ql:CSV.
 map:source_8 a rml:LogicalSource;
-    rml:source "Activities.csv";
+    rml:source "Information%20Items%20Expression.csv";
     rml:referenceFormulation ql:CSV.
 map:source_9 a rml:LogicalSource;
     rml:source "Activities.csv";

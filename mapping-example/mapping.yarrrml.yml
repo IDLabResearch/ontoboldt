@@ -21,6 +21,17 @@ mappings:
       - [rdfs:label, $(name)]
       - [dc:description, $(description)]
       - [eng:authors, $(authors)]
+  resources:
+    sources:
+      - ['Resources.csv~csv']
+    s: obt:resource_$(Resource ID)
+    po:
+      - [a, eng:Resource]
+      - [eng:hasCreationDate, $(Creation), xsd:date]
+      - [eng:hasUpdateDate, $(Last Update date), xsd:date]
+      - [rdfs:label, $(Name)]
+      - [dc:description, $(Description)]
+      - [eng:hasURL, $(URL)]
   tasks:
     sources:
       - ['Tasks.csv~csv']
@@ -43,9 +54,42 @@ mappings:
                 - [idlab-fn:str, $(Who), s]
                 - [idlab-fn:otherStr, $(ID), o]
                 - [idlab-fn:delimiter, ",\s*"]
-      #- [ex:input, TODO $(Input/split(, ))]
-      #- [ex:output, TODO $(Output/split(, ))]
-      #- [ex:tools, TODO $(Tools/split(, ))]
+      - p: p-plan:hasInputVar
+        o:
+          - mapping: iie
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters: 
+                - [idlab-fn:str, $(Input), s]
+                - [idlab-fn:otherStr, $(Information Item ID), o]
+                - [idlab-fn:delimiter, ",\s*"]
+      - p: p-plan:hasOutputVar
+        o:
+          - mapping: iie
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters: 
+                - [idlab-fn:str, $(Output), s]
+                - [idlab-fn:otherStr, $(Information Item ID), o]
+                - [idlab-fn:delimiter, ",\s*"]
+      - p: eng:hasRelatedPublication
+        o:
+          - mapping: publications
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters: 
+                - [idlab-fn:str, $(publications), s]
+                - [idlab-fn:otherStr, $(publication ID), o]
+                - [idlab-fn:delimiter, ",\s*"]
+      - p: eng:hasRelatedResource
+        o:
+          - mapping: resources
+            condition:
+              function: idlab-fn:stringContainsOtherString
+              parameters: 
+                - [idlab-fn:str, $(resources), s]
+                - [idlab-fn:otherStr, $(Resource ID), o]
+                - [idlab-fn:delimiter, ",\s*"]
       - p: p-plan:isStepOfPlan
         o:
           - mapping: activity_plans

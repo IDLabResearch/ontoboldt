@@ -10,6 +10,7 @@ SHEETNAME[4]="Tasks"
 SHEETNAME[5]="Roles"
 SHEETNAME[6]="Information%20Items%20Expression"
 SHEETNAME[7]="Publications"
+SHEETNAME[8]="Resources"
 
 for i in "${SHEETNAME[@]}"
 do
